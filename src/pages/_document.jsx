@@ -49,7 +49,7 @@ export default function Document() {
           href="https://use.typekit.net/cdg8swx.css"
         ></link>
       </Head>
-      <body className="bg-white dark:bg-stone-950">
+      <body className="relative bg-white dark:bg-stone-950">
         <div className="absolute inset-0 dark:bg-red-950/20" />
 
         <Main />
