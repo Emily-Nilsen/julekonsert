@@ -10,109 +10,135 @@ import { Navigation } from '@/components/Navigation'
 import { Prose } from '@/components/Prose'
 import { Search } from '@/components/Search'
 import { ThemeSelector } from '@/components/ThemeSelector'
+import { Contact } from '@/components/Contact'
 
 export const navigation = [
   {
-    title: 'Introduction',
+    title: 'Nordic Tenors',
     links: [
-      { title: 'Welcome to Promptutor', href: '/' },
-      { title: 'Getting Started', href: '/docs/getting-started' },
-      { title: 'Prompt Categories', href: '/docs/prompt-categories' },
-      { title: 'Learn with Videos', href: '/docs/learn-with-videos' },
-      { title: 'External Resources', href: '/docs/external-resources' },
+      { title: 'Christmas with Nordic Tenors', href: '/' },
+      { title: 'Julekonserter', href: '/docs/julekonserter' },
+      // { title: 'Learn with Videos', href: '/docs/learn-with-videos' },
+      { title: 'Kontakt', href: '/docs/kontakt' },
     ],
   },
   {
-    title: 'Arts & Literature',
+    title: 'Agder',
     links: [
-      { title: 'Creative Writing', href: '/docs/creative-writing' },
-      { title: 'Literature', href: '/docs/literature' },
-      { title: 'Music', href: '/docs/music' },
-      { title: 'Visual Arts', href: '/docs/visual-arts' },
+      { title: 'Arendal', href: '/docs/arendal' },
+      { title: 'Kristiansand', href: '/docs/kristiansand' },
+      { title: 'Mandal', href: '/docs/mandal' },
     ],
   },
   {
-    title: 'Education & Learning',
+    title: 'Innlandet',
     links: [
-      { title: 'Assignment Help', href: '/docs/assignment-help' },
-      { title: 'History', href: '/docs/history' },
-      { title: 'Learning Resources', href: '/docs/learning-resources' },
-      { title: 'Science & Discovery', href: '/docs/science-and-discovery' },
-      { title: 'Study Techniques', href: '/docs/study-techniques' },
+      { title: 'Elverum', href: '/docs/elverum' },
+      { title: 'Hamar', href: '/docs/hamar' },
       {
-        title: 'Summarise Text',
-        href: '/docs/summarise-text',
+        title: 'Lillehammer',
+        href: '/docs/lillehammer',
       },
     ],
   },
   {
-    title: 'Entertainment',
+    title: 'Møre og Romsdal',
     links: [
-      { title: 'Applications', href: '/docs/applications' },
-      { title: 'Gadgets & Devices', href: '/docs/gadgets-and-devices' },
-      { title: 'Internet Trends', href: '/docs/internet-trends' },
-      { title: 'Jokes', href: '/docs/jokes' },
-      { title: 'Pickup Lines', href: '/docs/pickup-lines' },
-      { title: 'Social Media', href: '/docs/social-media' },
-      { title: 'TV/Movies', href: '/docs/tv-movies' },
-      { title: 'Video Games', href: '/docs/video-games' },
+      { title: 'Fosnavåg', href: '/docs/fosnavaag' },
+      { title: 'Ålesund', href: '/docs/aalesund' },
     ],
   },
   {
-    title: 'Health & Wellbeing',
+    title: 'Nordland',
+    links: [{ title: 'Bodø', href: '/docs/bodoe' }],
+  },
+  {
+    title: 'Oslo',
+    links: [{ title: 'Oslo', href: '/docs/oslo' }],
+  },
+  {
+    title: 'Rogaland',
     links: [
-      { title: 'Diet', href: '/docs/diet' },
-      { title: 'Sports & Fitness', href: '/docs/sports-and-fitness' },
-      { title: 'Wellbeing', href: '/docs/wellbeing' },
+      { title: 'Haugesund', href: '/docs/haugesund' },
+      {
+        title: 'Sandnes',
+        href: '/docs/sandnes',
+      },
+      { title: 'Stavanger', href: '/docs/stavanger' },
     ],
   },
   {
-    title: 'Lifestyle',
+    title: 'Troms og Finnmark',
+    links: [{ title: 'Tromsø', href: '/docs/tromsoe' }],
+  },
+  {
+    title: 'Trøndelag',
     links: [
-      {
-        title: 'Environment & Sustainability',
-        href: '/docs/environment-and-sustainability',
-      },
-      { title: 'Fashion & Beauty', href: '/docs/fashion-and-beauty' },
-      { title: 'Hobbies', href: '/docs/hobbies' },
-      {
-        title: 'Mental Health & Psychology',
-        href: '/docs/mental-health-and-psychology',
-      },
-      {
-        title: 'Spirituality & Mindfulness',
-        href: '/docs/spirituality-and-mindfulness',
-      },
-      { title: 'Travel & Places', href: '/docs/travel-and-places' },
+      { title: 'Grong', href: '/docs/grong' },
+      { title: 'Stjørdal', href: '/docs/stjoerdal' },
+      { title: 'Trondheim', href: '/docs/trondheim' },
     ],
   },
   {
-    title: 'Professional',
+    title: 'Vestfold og Telemark',
     links: [
+      { title: 'Horten', href: '/docs/horten' },
+      { title: 'Nøtterøy', href: '/docs/noetteroey' },
+      { title: 'Sandefjord', href: '/docs/sandefjord' },
+    ],
+  },
+  {
+    title: 'Vestland',
+    links: [
+      { title: 'Bergen', href: '/docs/bergen' },
       {
-        title: 'Business',
-        href: '/docs/business',
+        title: 'Nordfjordeid',
+        href: '/docs/nordfjordeid',
       },
-      { title: 'E-mails', href: '/docs/e-mails' },
+    ],
+  },
+  {
+    title: 'Viken',
+    links: [
+      { title: 'Askim', href: '/docs/askim' },
       {
-        title: 'Interviews',
-        href: '/docs/interviews',
+        title: 'Drammen',
+        href: '/docs/drammen',
       },
-      { title: 'Legal', href: '/docs/legal' },
-      { title: 'Marketing', href: '/docs/marketing' },
+      { title: 'Fredrikstad', href: '/docs/fredrikstad' },
+      {
+        title: 'Kongsberg',
+        href: '/docs/kongsberg',
+      },
+      { title: 'Lillestrøm', href: '/docs/lillestroem' },
+      {
+        title: 'Moss',
+        href: '/docs/moss',
+      },
 
-      { title: 'Professional Writing', href: '/docs/professional-writing' },
-      { title: 'Translation', href: '/docs/translation' },
+      { title: 'Ullensaker', href: '/docs/ullensaker' },
     ],
   },
-  {
-    title: 'Social & Relationships',
-    links: [
-      { title: 'Culture', href: '/docs/culture' },
-      { title: 'Parenting & Family', href: '/docs/parenting-and-family' },
-      { title: 'Relationships', href: '/docs/relationships' },
-    ],
-  },
+  // {
+  //   title: 'Professional',
+  //   links: [
+  //     { title: 'E-mails', href: '/docs/e-mails' },
+
+  //     { title: 'Legal', href: '/docs/legal' },
+  //     { title: 'Marketing', href: '/docs/marketing' },
+
+  //     { title: 'Professional Writing', href: '/docs/professional-writing' },
+  //     { title: 'Translation', href: '/docs/translation' },
+  //   ],
+  // },
+  // {
+  //   title: 'Social & Relationships',
+  //   links: [
+  //     { title: 'Culture', href: '/docs/culture' },
+  //     { title: 'Parenting & Family', href: '/docs/parenting-and-family' },
+  //     { title: 'Relationships', href: '/docs/relationships' },
+  //   ],
+  // },
 ]
 
 function GitHubIcon(props) {
@@ -159,8 +185,8 @@ function Header({ navigation }) {
       </div>
       <div className="relative flex flex-grow basis-0 items-center">
         <Link href="/" aria-label="Home page">
-          <Logomark className="h-9 w-9 lg:hidden" />
-          <Logo className="hidden h-8 w-auto fill-gray-800 dark:fill-white lg:block" />
+          <Logomark className="h-7 w-auto fill-red-900 dark:fill-white lg:hidden" />
+          <Logo className="hidden h-2.5 w-auto fill-red-900 dark:fill-white md:h-3 lg:block" />
         </Link>
       </div>
       <div className="-my-5 mr-6 sm:mr-8 md:mr-0">
@@ -225,6 +251,8 @@ function useTableOfContents(tableOfContents) {
 export function Layout({ children, title, tableOfContents }) {
   let router = useRouter()
   let isHomePage = router.pathname === '/'
+  let isContactPage = router.pathname === '/docs/kontakt'
+
   let allLinks = navigation.flatMap((section) => section.links)
   let linkIndex = allLinks.findIndex((link) => link.href === router.pathname)
   let previousPage = allLinks[linkIndex - 1]
@@ -264,7 +292,7 @@ export function Layout({ children, title, tableOfContents }) {
             {(title || section) && (
               <header className="mb-9 space-y-1">
                 {section && (
-                  <p className="font-display text-sm font-medium text-teal-500">
+                  <p className="text-base font-semibold text-red-800 dark:text-amber-300">
                     {section.title}
                   </p>
                 )}
@@ -277,11 +305,13 @@ export function Layout({ children, title, tableOfContents }) {
             )}
             <Prose>{children}</Prose>
           </article>
+          {isContactPage && <Contact />}
+
           <dl className="mt-12 flex border-t border-gray-200 pt-6 dark:border-gray-800">
             {previousPage && (
               <div>
-                <dt className="font-display text-sm font-medium text-gray-900 dark:text-white">
-                  Previous
+                <dt className="text-base font-medium text-gray-900 dark:text-white">
+                  Forrige
                 </dt>
                 <dd className="mt-1">
                   <Link
@@ -295,8 +325,8 @@ export function Layout({ children, title, tableOfContents }) {
             )}
             {nextPage && (
               <div className="ml-auto text-right">
-                <dt className="font-display text-sm font-medium text-gray-900 dark:text-white">
-                  Next
+                <dt className="text-base font-medium text-gray-900 dark:text-white">
+                  Neste
                 </dt>
                 <dd className="mt-1">
                   <Link
@@ -316,25 +346,25 @@ export function Layout({ children, title, tableOfContents }) {
               <>
                 <h2
                   id="on-this-page-title"
-                  className="font-display text-sm font-medium text-gray-900 dark:text-white"
+                  className="font-display text-base font-medium text-gray-900 dark:text-white"
                 >
-                  On this page
+                  På denne siden
                 </h2>
-                <ol role="list" className="mt-4 space-y-3 text-sm">
+                <ol role="list" className="mt-4 space-y-3 text-base">
                   {tableOfContents.map((section) => (
                     <li key={section.id}>
-                      <h3>
+                      <p>
                         <Link
                           href={`#${section.id}`}
                           className={clsx(
                             isActive(section)
-                              ? 'text-teal-500'
+                              ? 'text-red-800 dark:text-amber-300'
                               : 'font-normal text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-300'
                           )}
                         >
                           {section.title}
                         </Link>
-                      </h3>
+                      </p>
                       {section.children.length > 0 && (
                         <ol
                           role="list"
@@ -346,7 +376,7 @@ export function Layout({ children, title, tableOfContents }) {
                                 href={`#${subSection.id}`}
                                 className={
                                   isActive(subSection)
-                                    ? 'text-teal-500'
+                                    ? 'text-red-800 dark:text-amber-300'
                                     : 'hover:text-gray-600 dark:hover:text-gray-300'
                                 }
                               >

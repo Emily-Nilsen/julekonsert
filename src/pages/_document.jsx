@@ -1,4 +1,5 @@
 import { Head, Html, Main, NextScript } from 'next/document'
+import Image from 'next/image'
 
 const themeScript = `
   let isDarkMode = window.matchMedia('(prefers-color-scheme: dark)')
@@ -45,10 +46,12 @@ export default function Document() {
         <script dangerouslySetInnerHTML={{ __html: themeScript }} />
         <link
           rel="stylesheet"
-          href="https://use.typekit.net/hwk5jpr.css"
+          href="https://use.typekit.net/cdg8swx.css"
         ></link>
       </Head>
-      <body className="bg-white dark:bg-slate-900">
+      <body className="bg-white dark:bg-stone-950">
+        <div className="absolute inset-0 dark:bg-red-950/20" />
+
         <Main />
         <NextScript />
       </body>

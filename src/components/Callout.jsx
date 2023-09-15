@@ -5,9 +5,9 @@ import { useState } from 'react'
 const styles = {
   note: {
     container:
-      'bg-teal-50 dark:bg-gray-800/60 dark:ring-1 dark:ring-gray-300/10',
-    title: 'text-teal-900 dark:text-teal-400 font-medium',
-    body: 'text-teal-800 [--tw-prose-background:theme(colors.teal.50)] prose-a:text-teal-900 prose-code:text-teal-900 dark:text-gray-300 dark:prose-code:text-gray-300',
+      'bg-amber-50/70 dark:bg-gray-800/60 dark:ring-1 dark:ring-gray-300/10',
+    title: 'text-amber-800 dark:text-amber-400 font-medium',
+    body: 'text-amber-900 [--tw-prose-background:theme(colors.amber.50)] prose-a:text-amber-900 prose-code:text-amber-900 dark:text-gray-300 dark:prose-code:text-gray-300',
   },
   warning: {
     container:
@@ -33,7 +33,7 @@ function CopyIcon(props) {
 }
 
 const icons = {
-  note: (props) => <Icon icon="lightbulb" {...props} />,
+  note: (props) => <Icon icon="warning" {...props} />,
   warning: (props) => <Icon icon="formula" color="fuchsia" {...props} />,
 }
 
@@ -80,7 +80,7 @@ export function Callout({ type = 'note', title, children }) {
           </p>
           <button
             onClick={handleCopyClick}
-            className="dark:bg-t flex items-center justify-center rounded-lg bg-white/50 px-2 text-sm text-gray-500 shadow-md shadow-black/5 ring-1 ring-black/5 transition duration-150 ease-in-out hover:bg-white/80 dark:bg-gray-700 dark:text-gray-300 dark:ring-inset dark:ring-white/5 dark:hover:bg-white/10"
+            className="dark:bg-t flex items-center justify-center rounded-lg bg-white/50 px-2 text-base text-gray-500 shadow-md shadow-black/5 ring-1 ring-black/5 transition duration-150 ease-in-out hover:bg-white/80 dark:bg-gray-700 dark:text-gray-300 dark:ring-inset dark:ring-white/5 dark:hover:bg-white/10"
           >
             {copied ? (
               <span className="flex items-center gap-1 text-teal-500 dark:text-teal-300">

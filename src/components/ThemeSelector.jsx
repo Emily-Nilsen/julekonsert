@@ -85,8 +85,8 @@ export function ThemeSelector(props) {
         className="flex h-6 w-6 items-center justify-center rounded-lg shadow-md shadow-black/5 ring-1 ring-black/5 dark:bg-gray-700 dark:ring-inset dark:ring-white/5"
         aria-label={selectedTheme?.name}
       >
-        <LightIcon className="hidden h-4 w-4 fill-teal-400 [[data-theme=light]_&]:block" />
-        <DarkIcon className="hidden h-4 w-4 fill-teal-400 [[data-theme=dark]_&]:block" />
+        <LightIcon className="hidden h-4 w-4 fill-amber-500 [[data-theme=light]_&]:block" />
+        <DarkIcon className="hidden h-4 w-4 fill-amber-400 [[data-theme=dark]_&]:block" />
         <LightIcon className="hidden h-4 w-4 fill-gray-400 [:not(.dark)[data-theme=system]_&]:block" />
         <DarkIcon className="hidden h-4 w-4 fill-gray-400 [.dark[data-theme=system]_&]:block" />
       </Listbox.Button>
@@ -99,7 +99,7 @@ export function ThemeSelector(props) {
               clsx(
                 'flex cursor-pointer select-none items-center rounded-[0.625rem] p-1',
                 {
-                  'text-teal-500': selected,
+                  'text-gray-950 dark:text-amber-400': selected,
                   'text-gray-900 dark:text-white': active && !selected,
                   'text-gray-700 dark:text-gray-400': !active && !selected,
                   'bg-gray-100 dark:bg-gray-900/40': active,
@@ -114,7 +114,7 @@ export function ThemeSelector(props) {
                     className={clsx(
                       'h-4 w-4',
                       selected
-                        ? 'fill-teal-400 dark:fill-teal-400'
+                        ? 'fill-amber-500 dark:fill-amber-400'
                         : 'fill-gray-400'
                     )}
                   />

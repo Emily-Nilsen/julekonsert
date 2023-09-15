@@ -24,12 +24,13 @@ const icons = {
 }
 
 const iconStyles = {
-  teal: '[--icon-foreground:theme(colors.gray.900)] [--icon-background:theme(colors.white)]',
+  amber:
+    '[--icon-foreground:theme(colors.amber.800)] [--icon-background:theme(colors.white)]',
   fuchsia:
     '[--icon-foreground:theme(colors.gray.900)] [--icon-background:theme(colors.fuchsia.100)]',
 }
 
-export function Icon({ color = 'teal', icon, className, ...props }) {
+export function Icon({ color = 'amber', icon, className, ...props }) {
   let id = useId()
   let IconComponent = icons[icon]
 
@@ -47,10 +48,10 @@ export function Icon({ color = 'teal', icon, className, ...props }) {
 }
 
 const gradients = {
-  teal: [
-    { stopColor: '#ccfbf1' },
-    { stopColor: '#99f6e4', offset: '.527' },
-    { stopColor: '#5eead4', offset: 1 },
+  amber: [
+    { stopColor: '#fde68a' },
+    { stopColor: '#fcd34d', offset: '.527' },
+    { stopColor: '#fbbf24', offset: 1 },
   ],
   fuchsia: [
     { stopColor: '#f5d0fe', offset: '.08' },
@@ -58,7 +59,7 @@ const gradients = {
   ],
 }
 
-export function Gradient({ color = 'teal', ...props }) {
+export function Gradient({ color = 'amber', ...props }) {
   return (
     <radialGradient
       cx={0}

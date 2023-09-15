@@ -8,3 +8,17 @@
     display: none;
   }
 }
+
+.font-display {
+  text-transform: lowercase;
+}
+
+h1,
+h2,
+h3 {
+  text-transform: lowercase;
+}
+
+body {
+  outline: none;
+}

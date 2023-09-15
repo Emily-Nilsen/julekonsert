@@ -21,17 +21,28 @@ module.exports = {
       '9xl': ['8rem', { lineHeight: '1' }],
     },
     extend: {
+      animation: {
+        'pulse-slow-7': 'pulse 4s ease-in-out infinite',
+        'pulse-slow-6': 'pulse 3s ease-in-out infinite',
+        'pulse-slow-5': 'pulse 2s ease-in-out infinite',
+        'pulse-slow-4': 'pulse 1s ease-in-out infinite',
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
       },
       fontFamily: {
-        sans: ['Lato', ...defaultTheme.fontFamily.sans],
-        display: ['Lato', ...defaultTheme.fontFamily.sans],
+        sans: ['tenez', ...defaultTheme.fontFamily.sans],
+        display: ['trajan-pro-3', ...defaultTheme.fontFamily.serif],
       },
+
       maxWidth: {
         '8xl': '88rem',
       },
     },
   },
-  plugins: [require('@tailwindcss/typography')],
+  plugins: [
+    require('@tailwindcss/typography'),
+    require('@tailwindcss/forms'),
+    require('@tailwindcss/aspect-ratio'),
+  ],
 }

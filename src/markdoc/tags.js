@@ -2,6 +2,7 @@ import { Callout } from '@/components/Callout'
 import { QuickLink, QuickLinks } from '@/components/QuickLinks'
 import { Video, Videos } from '@/components/Videos'
 import { Category, Categories } from '@/components/Categories'
+import { November } from '@/components/November'
 
 const tags = {
   callout: {
@@ -67,6 +68,10 @@ const tags = {
       description: { type: String },
       href: { type: String },
     },
+  },
+  november: {
+    selfClosing: true,
+    render: November,
   },
 }
 

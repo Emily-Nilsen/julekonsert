@@ -1,7 +1,7 @@
 ---
-title: Welcome to Promptutor
-pageTitle: Maximise Productivity with Promptutor's AI Prompt Examples
-description: Save time and enhance worklflow with effective prompt examples for ChatGPT and other models.
+title: Christmas with Nordic Tenors
+pageTitle: Magiske julekonserter med Nordic Tenors
+description: Nordic Tenors gir deg en vakker julekonsert med unike stemmer, varme, humor, og tradisjonelt julerepertoar. Opplev førjulsstemning med Jan-Tore Saltnes, Nils Georg Nilsen og Espen Solsbak.
 ---
 
 Discover the ultimate resource to unlock the full potential of AI language models and boost your productivity. {% .lead %}

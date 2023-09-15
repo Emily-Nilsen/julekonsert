@@ -53,7 +53,7 @@ export default function App({ Component, pageProps }) {
 
   let pageTitle =
     pageProps.markdoc?.frontmatter.pageTitle ||
-    `${pageProps.markdoc?.frontmatter.title} - Promptutor`
+    `${pageProps.markdoc?.frontmatter.title} - Julekonsert med Nordic Tenors`
 
   let description = pageProps.markdoc?.frontmatter.description
 
@@ -68,7 +68,7 @@ export default function App({ Component, pageProps }) {
         {description && <meta name="description" content={description} />}
         <link
           rel="icon"
-          href="https://res.cloudinary.com/dt3k2apqd/image/upload/v1683608123/Promptutor/promptutor_favicon_xcvego.svg"
+          href="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/julekonsert_favicon_c1iul8.webp"
         />
       </Head>
       <Layout title={title} tableOfContents={tableOfContents}>

@@ -86,7 +86,7 @@ function LoadingIcon(props) {
 function HighlightQuery({ text, query }) {
   return (
     <Highlighter
-      highlightClassName="group-aria-selected:underline bg-transparent text-teal-600 dark:text-teal-400"
+      highlightClassName="group-aria-selected:underline bg-transparent text-red-600 dark:text-amber-400"
       searchWords={[query]}
       autoEscape={true}
       textToHighlight={text}
@@ -114,7 +114,7 @@ function SearchResult({ result, autocomplete, collection, query }) {
       <div
         id={`${id}-title`}
         aria-hidden="true"
-        className="text-sm text-gray-700 group-aria-selected:text-teal-600 dark:text-gray-300 dark:group-aria-selected:text-teal-400"
+        className="text-sm text-gray-700 group-aria-selected:text-red-600 dark:text-gray-300 dark:group-aria-selected:text-amber-400"
       >
         <HighlightQuery text={result.title} query={query} />
       </div>
@@ -184,7 +184,7 @@ const SearchInput = forwardRef(function SearchInput(
       <input
         ref={inputRef}
         className={clsx(
-          'flex-auto appearance-none bg-transparent pl-12 text-gray-900 outline-none placeholder:text-gray-400 focus:w-full focus:flex-none dark:text-white sm:text-sm [&::-webkit-search-cancel-button]:hidden [&::-webkit-search-decoration]:hidden [&::-webkit-search-results-button]:hidden [&::-webkit-search-results-decoration]:hidden',
+          'flex-auto appearance-none bg-transparent pl-12 text-gray-900 outline-none placeholder:text-gray-400 focus:w-full focus:flex-none focus:outline-none dark:text-white sm:text-sm [&::-webkit-search-cancel-button]:hidden [&::-webkit-search-decoration]:hidden [&::-webkit-search-results-button]:hidden [&::-webkit-search-results-decoration]:hidden',
           autocompleteState.status === 'stalled' ? 'pr-11' : 'pr-4'
         )}
         {...inputProps}
@@ -346,7 +346,7 @@ export function Search() {
       >
         <SearchIcon className="h-5 w-5 flex-none fill-gray-400 group-hover:fill-gray-500 dark:fill-gray-500 md:group-hover:fill-gray-400" />
         <span className="sr-only md:not-sr-only md:ml-2 md:text-gray-500 md:dark:text-gray-400">
-          Search prompts
+          Søk etter konsert
         </span>
         {modifierKey && (
           <kbd className="ml-auto hidden font-medium text-gray-400 dark:text-gray-500 md:block">

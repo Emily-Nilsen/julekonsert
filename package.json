@@ -1,5 +1,5 @@
 {
-  "name": "tailwindui-syntax",
+  "name": "julekonsert",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -12,9 +12,12 @@
   "dependencies": {
     "@algolia/autocomplete-core": "^1.9.2",
     "@headlessui/react": "^1.7.13",
+    "@heroicons/react": "^2.0.18",
     "@markdoc/markdoc": "0.1.7",
     "@markdoc/next.js": "0.1.6",
     "@sindresorhus/slugify": "^2.1.0",
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@tailwindcss/forms": "^0.5.6",
     "@tailwindcss/typography": "^0.5.7",
     "autoprefixer": "^10.4.12",
     "clsx": "^1.2.1",
