@@ -147,10 +147,10 @@ export function Hero() {
                   WebkitTextStroke: '0.5px rgba(255, 255, 255, 0.3)',
                 }}
               >
-                Julekonserter 2023
+                Julekonserter {new Date().getFullYear()}
               </p>
               <p className="absolute inset-0 inline bg-gradient-to-r from-white via-amber-300 to-white bg-clip-text font-display text-5xl font-medium tracking-tight text-transparent sm:text-7xl">
-                Julekonserter 2023
+                Julekonserter {new Date().getFullYear()}
               </p>
               <p className="mt-3 text-2xl tracking-tight text-white">
                 Nordic Tenors gir deg en vakker julekonsert med unike stemmer,
@@ -160,14 +160,14 @@ export function Hero() {
               </p>
               <div className="mt-8 flex gap-4 md:justify-center lg:justify-start">
                 <Button className="relative z-20" href="/docs/julekonserter">
-                  Julekonserter
+                  Julekonserter {new Date().getFullYear()}
                 </Button>
                 <Button
                   className="relative z-20"
                   href="/docs/kontakt"
                   variant="secondary"
                 >
-                  Kontakt
+                  Kontakt oss
                 </Button>
               </div>
             </div>

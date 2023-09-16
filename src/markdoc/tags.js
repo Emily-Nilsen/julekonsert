@@ -3,6 +3,8 @@ import { QuickLink, QuickLinks } from '@/components/QuickLinks'
 import { Video, Videos } from '@/components/Videos'
 import { Category, Categories } from '@/components/Categories'
 import { November } from '@/components/November'
+import CurrentYear from '@/components/CurrentYear'
+import { Contact } from '@/components/Contact'
 
 const tags = {
   callout: {
@@ -57,6 +59,10 @@ const tags = {
       href: { type: String },
     },
   },
+  contact: {
+    selfClosing: true,
+    render: Contact,
+  },
   videos: {
     render: Videos,
   },
@@ -72,6 +78,10 @@ const tags = {
   november: {
     selfClosing: true,
     render: November,
+  },
+  'current-year': {
+    selfClosing: true,
+    render: CurrentYear,
   },
 }
 

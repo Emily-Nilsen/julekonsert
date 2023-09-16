@@ -4,7 +4,7 @@ pageTitle: Magiske julekonserter med Nordic Tenors
 description: Nordic Tenors gir deg en vakker julekonsert med unike stemmer, varme, humor, og tradisjonelt julerepertoar. Opplev førjulsstemning med Jan-Tore Saltnes, Nils Georg Nilsen og Espen Solsbak.
 ---
 
-Discover the ultimate resource to unlock the full potential of AI language models and boost your productivity. {% .lead %}
+Velkommen skal du være til julekonserten med Nordic Tenors i 2023! {% .lead %}
 
 {% quick-links %}
 
@@ -22,78 +22,52 @@ Possimus saepe veritatis sint nobis et quam eos. Architecto consequatur odit per
 
 ---
 
-## Sit commodi iste
+## Nordic Tenors sine julekonserter
 
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur.
+Nordic Tenors gir deg en vakker og underholdende julekonsert som garantert vil sette deg i den gode julestemningen. Med sine unike stemmer, skaper de tre tenorene en førjulsstund utenom det vanlige.
 
-### Sit commodi iste
+Sammen med sin eminente pianist Torgeir Koppang, byr Nordic Tenors på en opplevelse fylt med varme og humor, og et julerepertoar bygget på høytid og tradisjon.
 
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.
+### Magisk julestemning
 
-Possimus saepe veritatis sint nobis et quam eos. Architecto consequatur odit perferendis fuga eveniet possimus rerum cumque. Ea deleniti voluptatum deserunt voluptatibus ut non iste. Provident nam asperiores vel laboriosam omnis ducimus enim nesciunt quaerat. Minus tempora cupiditate est quod.
+Når nettene blir lange og vinterfrosten legger et rimet slør over mørkelandet, er det lite som varmer som tonene fra de tre høyt elskede tenorene i Nordic Tenors og deres virtuose pianist Torgeir Koppang.
 
-{% callout type="warning" title="Prompt formulas" %}
-This is where you'll find the specific prompt formula.
-{% /callout %}
+For attende året skaper tenortrioen en førjulsstund fylt med varme og humor, med et variert julerepertoar bygget på høytid og tradisjon, en julekonsert som garantert vil sette deg i den gode julestemningen.
 
-### Sit commodi iste
+Forestillingen er ikke bare en fryd for øret, men også for øyet, da de har med seg Andreas Ohldieck, en av de gryende stjernene på den stadig voksende himmelen av norske videokunstnere.
 
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.
+### Utmerkede tenorer
 
-Possimus saepe veritatis sint nobis et quam eos. Architecto consequatur odit perferendis fuga eveniet possimus rerum cumque. Ea deleniti voluptatum deserunt voluptatibus ut non iste. Provident nam asperiores vel laboriosam omnis ducimus enim nesciunt quaerat. Minus tempora cupiditate est quod.
+Nordic Tenors består av tenorene Jan-Tore Saltnes, Nils Georg Nilsen og Espen Solsbak. Gruppen har tidligere vunnet Komiprisen, vært kongelige toastmastere, åpnet den nye operaen i Oslo og har vunnet publikums hjerter over hele landet.
 
-{% callout title="Prompt examples" %}
-This is where you'll find example prompts using the prompt formula.
-{% /callout %}
+Les mer om Nordic Tenors på [www.nordictenors.no](https://www.nordictenors.no/).
 
----
+### Informasjon om billetter
 
-## Sit commodi iste
+Alle konsert og bestillingsmuligheter er satt opp av arrangøren. Arrangør er selv ansvarlig for gjennomføringen og betalingstransaksjonene og billettbestillingene. Ved feil eller mangler i forbindelse med leverandørene som vi promoterer setter vi pris på at du i tillegg til å informere de også informerer oss slik at dette kan rettes.
 
-Praesentium laudantium magni. Consequatur reiciendis aliquid nihil iusto ut in et. Quisquam ut et aliquid occaecati. Culpa veniam aut et voluptates amet perspiciatis. Qui exercitationem in qui. Vel qui dignissimos sit quae distinctio.
-
-### Sit commodi iste
-
-Minima vel non iste debitis. Consequatur repudiandae et quod accusamus sit molestias consequatur aperiam. Et sequi ipsa eum voluptatibus ipsam. Et quisquam ut.
-
-Qui quae esse aspernatur fugit possimus. Quam sed molestiae temporibus. Eum perferendis dignissimos provident ea et. Et repudiandae quasi accusamus consequatur dolore nobis. Quia reiciendis necessitatibus a blanditiis iste quia. Ut quis et amet praesentium sapiente.
-
-Atque eos laudantium. Optio odit aspernatur consequuntur corporis soluta quidem sunt aut doloribus. Laudantium assumenda commodi.
-
-### Sit commodi iste
-
-Vel aut velit sit dolor aut suscipit at veritatis voluptas. Laudantium tempore praesentium. Qui ut voluptatem.
-
-Ea est autem fugiat velit esse a alias earum. Dolore non amet soluta eos libero est. Consequatur qui aliquam qui odit eligendi ut impedit illo dignissimos.
-
-Ut dolore qui aut nam. Natus temporibus nisi voluptatum labore est ex error vel officia. Vero repellendus ut. Suscipit voluptate et placeat. Eius quo corporis ab et consequatur quisquam. Nihil officia facere dolorem occaecati alias deleniti deleniti in.
-
-### Sit commodi iste
-
-Officia nobis tempora maiores id iusto magni reprehenderit velit. Quae dolores inventore molestiae perspiciatis aut. Quis sequi officia quasi rem officiis officiis. Nesciunt ut cupiditate. Sunt aliquid explicabo enim ipsa eum recusandae. Vitae sunt eligendi et non beatae minima aut.
-
-Harum perferendis aut qui quibusdam tempore laboriosam voluptatum qui sed. Amet error amet totam exercitationem aut corporis accusantium dolorum. Perspiciatis aut animi et. Sed unde error ut aut rerum.
-
-Ut quo libero aperiam mollitia est repudiandae quaerat corrupti explicabo. Voluptas accusantium sed et doloribus voluptatem fugiat a mollitia. Numquam est magnam dolorem asperiores fugiat. Soluta et fuga amet alias temporibus quasi velit. Laudantium voluptatum perspiciatis doloribus quasi facere. Eveniet deleniti veniam et quia veritatis minus veniam perspiciatis.
+**Ha en gledelig og fredelig jul!**
 
 ---
 
-## Sit commodi iste
+## Nordic Tenors
 
-Consequuntur et aut quisquam et qui consequatur eligendi. Necessitatibus dolorem sit. Excepturi cumque quibusdam soluta ullam rerum voluptatibus. Porro illo sequi consequatur nisi numquam nisi autem. Ut necessitatibus aut. Veniam ipsa voluptatem sed.
+Nordic Tenors kombinerer utsøkt kunstnerisk kvalitet med humor, dans og musikalske overraskelser. I 2005 hadde de première på sitt første show Nordic Tenors & Sjur Hjeltnes/Bella Notte. Året etter fikk de komiprisen som “årets nykommer”.
 
-### Sit commodi iste
+Etter dette har de vært kongelige toastmaster for HMK Harald i 2007, de åpnet den nye operaen i Bjørvika i 2008, og i 2009 hadde de premiere på Nytt Show i Bergen og utgav sin første CD “Live at Logen”. 2010 ble de nominert til Komiprisen for “Årets nummer”.
 
-Inventore et aut minus ut voluptatem nihil commodi doloribus consequatur. Facilis perferendis nihil sit aut aspernatur iure ut dolores et. Aspernatur odit dignissimos. Aut qui est sint sint.
+2013 reiser de rundt med det nye showet “An evening with Nordic Tenors” og jubileumsforestillingen “Ten years with Nordic Tenors”. De er og på juleturné med det svenske ensemblet Neumann Strings.
 
-Facere aliquam qui. Dolorem officia ipsam adipisci qui molestiae. Error voluptatem reprehenderit ex.
+Deres julekonserter har etablert seg som en av Norges mest besøkte juleturnéer.
 
-Consequatur enim quia maiores aperiam et ipsum dicta. Quam ut sit facere sit quae. Eligendi veritatis aut ut veritatis iste ut adipisci illo.
+### Espen Solsbak
 
-### Sit commodi iste
+Espen har mer stemme enn hår og er Nordic Tenors' eneste tatoverte medlem. Han er fra Stavanger, men har bosatt seg på Tomter. Med studier i opera i Stavanger, Roma og Oslo, har han også omfattende erfaring innen musikaler og populærmusikk.
 
-Praesentium facilis iste aliquid quo quia a excepturi. Fuga reprehenderit illo sequi voluptatem voluptatem omnis. Id quia consequatur rerum consectetur eligendi et omnis. Voluptates iusto labore possimus provident praesentium id vel harum quisquam. Voluptatem provident corrupti.
+### Jan-Tore Saltnes
 
-Eum et ut. Qui facilis est ipsa. Non facere quia sequi commodi autem. Dicta autem sit sequi omnis impedit. Eligendi amet dolorum magnam repudiandae in a.
+Jan-Tore, stolt av sin Holmestrand-bakgrunn, er utdannet ved Norges Musikkhøgskole i Oslo og har en mangfoldig musikkarriere som inkluderer boyband, danseband og heavy metal. Han har gitt stemme til over 30 utgivelser, inkludert 4 soloalbum, men hadde opprinnelig en drøm om å bli tegneserietegner.
 
-Molestiae iusto ut exercitationem dolorem unde iusto tempora atque nihil. Voluptatem velit facere laboriosam nobis ea. Consequatur rerum velit ipsum ipsam. Et qui saepe consequatur minima laborum tempore voluptatum et. Quia eveniet eaque sequi consequatur nihil eos.
+### Nils Georg Nilsen
+
+Nils, oppvokst på Jar i Bærum, deler sin lidenskap mellom fotball og musikk. Han er utdannet ved Norges Musikkhøgskole i Oslo og har en Mastergrad fra Manhattan School of Music i New York. Fra 2013 har han vært frilanser, opptreden på konserter og festivaler både nasjonalt og internasjonalt.

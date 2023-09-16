@@ -22,7 +22,7 @@ function useAutocomplete() {
   let [autocomplete] = useState(() =>
     createAutocomplete({
       id,
-      placeholder: 'Find something...',
+      placeholder: 'Søk etter julekonsert...',
       defaultActiveItemId: 0,
       onStateChange({ state }) {
         setAutocompleteState(state)
@@ -148,7 +148,7 @@ function SearchResults({ autocomplete, query, collection }) {
   if (collection.items.length === 0) {
     return (
       <p className="px-4 py-8 text-center text-sm text-gray-700 dark:text-gray-400">
-        No results for &ldquo;
+        Ingen resultater for &ldquo;
         <span className="break-words text-gray-900 dark:text-white">
           {query}
         </span>
@@ -184,7 +184,7 @@ const SearchInput = forwardRef(function SearchInput(
       <input
         ref={inputRef}
         className={clsx(
-          'flex-auto appearance-none bg-transparent pl-12 text-gray-900 outline-none placeholder:text-gray-400 focus:w-full focus:flex-none focus:outline-none dark:text-white sm:text-sm [&::-webkit-search-cancel-button]:hidden [&::-webkit-search-decoration]:hidden [&::-webkit-search-results-button]:hidden [&::-webkit-search-results-decoration]:hidden',
+          'flex-auto appearance-none bg-transparent pl-12 text-gray-900 outline-none placeholder:text-gray-400 focus:w-full focus:flex-none focus:border-red-600 focus:outline-none dark:text-white sm:text-sm [&::-webkit-search-cancel-button]:hidden [&::-webkit-search-decoration]:hidden [&::-webkit-search-results-button]:hidden [&::-webkit-search-results-decoration]:hidden',
           autocompleteState.status === 'stalled' ? 'pr-11' : 'pr-4'
         )}
         {...inputProps}

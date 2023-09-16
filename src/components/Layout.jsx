@@ -10,16 +10,18 @@ import { Navigation } from '@/components/Navigation'
 import { Prose } from '@/components/Prose'
 import { Search } from '@/components/Search'
 import { ThemeSelector } from '@/components/ThemeSelector'
-import { Contact } from '@/components/Contact'
 
 export const navigation = [
   {
     title: 'Nordic Tenors',
     links: [
       { title: 'Christmas with Nordic Tenors', href: '/' },
-      { title: 'Julekonserter', href: '/docs/julekonserter' },
+      {
+        title: `Julekonserter ${new Date().getFullYear()}`,
+        href: '/docs/julekonserter',
+      },
       // { title: 'Learn with Videos', href: '/docs/learn-with-videos' },
-      { title: 'Kontakt', href: '/docs/kontakt' },
+      { title: 'Kontakt oss', href: '/docs/kontakt' },
     ],
   },
   {
@@ -251,7 +253,6 @@ function useTableOfContents(tableOfContents) {
 export function Layout({ children, title, tableOfContents }) {
   let router = useRouter()
   let isHomePage = router.pathname === '/'
-  let isContactPage = router.pathname === '/docs/kontakt'
 
   let allLinks = navigation.flatMap((section) => section.links)
   let linkIndex = allLinks.findIndex((link) => link.href === router.pathname)
@@ -305,7 +306,6 @@ export function Layout({ children, title, tableOfContents }) {
             )}
             <Prose>{children}</Prose>
           </article>
-          {isContactPage && <Contact />}
 
           <dl className="mt-12 flex border-t border-gray-200 pt-6 dark:border-gray-800">
             {previousPage && (

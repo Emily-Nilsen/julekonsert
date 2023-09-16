@@ -30,6 +30,11 @@ module.exports = {
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
       },
+      colors: {
+        red: {
+          600: '#DC2626', // Customize this color as needed
+        },
+      },
       fontFamily: {
         sans: ['tenez', ...defaultTheme.fontFamily.sans],
         display: ['trajan-pro-3', ...defaultTheme.fontFamily.serif],

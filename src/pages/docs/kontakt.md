@@ -1,12 +1,16 @@
 ---
 title: Kontakt oss
-description: Quidem magni aut exercitationem maxime rerum eos.
+description: Har spørsmål om våre julekonserter? Kontakt oss enkelt her!
 ---
 
-Quasi sapiente voluptates aut minima non doloribus similique quisquam. In quo expedita ipsum nostrum corrupti incidunt. Et aut eligendi ea perferendis.
+Har du spørsmål om Nordic Tenors sine kommende julekonserter, spør oss gjerne ved å fylle ut skjemaet under.
+
+## Kontaktskjema
+
+{% contact /%}
 
 ---
 
-## Ta kontakt
+## Billettsalg og spørsmål
 
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur.
+For billettkjøp, besøk våre [julekonserter {% current-year /%}](/docs/julekonserter) for lenker til billettsalg, eller ta direkte kontakt med konsertstedet.

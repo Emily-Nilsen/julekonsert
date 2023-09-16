@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export function Contact() {
   return (
-    <div className="relative isolate bg-white pb-24 sm:pb-32 ">
+    <div className="relative isolate bg-white">
       <div className="mx-auto max-w-xl lg:max-w-4xl">
         <div className="mt-16 flex flex-col gap-16 sm:gap-y-20">
           <form action="#" method="POST" className="lg:flex-auto">
@@ -99,20 +99,15 @@ export function Contact() {
                 Send inn
               </button>
             </div>
-            <p className="mt-4 text-sm leading-6 text-gray-500">
+            <p className="mt-4 leading-6 text-gray-500">
               Ved å sende inn dette skjemaet godtar jeg{' '}
-              <Link href="#" className="font-semibold text-red-800">
+              <Link href="#" className="font-semibold text-gray-900">
                 personvernreglene
               </Link>
               .
             </p>
           </form>
           <div className="">
-            {/* <img
-              className="w-auto h-12"
-              src="https://tailwindui.com/img/logos/workcation-logo-red-800.svg"
-              alt=""
-            /> */}
             <figure className="mt-10">
               <blockquote className="text-lg font-semibold italic leading-8 text-gray-900">
                 <p>
@@ -122,11 +117,6 @@ export function Contact() {
                 </p>
               </blockquote>
               <figcaption className="mt-10 flex gap-x-6">
-                {/* <img
-                  src="https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=96&h=96&q=80"
-                  alt=""
-                  className="flex-none w-12 h-12 rounded-full bg-gray-50"
-                /> */}
                 <div>
                   <div className="text-base font-semibold text-gray-900">
                     Brenna Goyette

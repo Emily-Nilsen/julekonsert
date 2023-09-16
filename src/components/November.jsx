@@ -107,7 +107,7 @@ function classNames(...classes) {
 export function November() {
   return (
     <div>
-      <div className="rounded-lg bg-amber-50/60 px-6 pb-6 dark:bg-amber-600/5">
+      <div className="rounded-lg bg-amber-50/60 px-6 pb-6 dark:bg-amber-50/90">
         <div className="flex items-center"></div>
         <div className="mt-10 grid grid-cols-7 text-center text-xs leading-6 text-gray-500">
           <div>M</div>
@@ -161,26 +161,27 @@ export function November() {
         </div>
       </div>
       <section className="mt-12">
-        <h2 className="text-base font-semibold leading-6 text-gray-900">
-          Julekonserter i <time dateTime="2022-01-21">november 2023</time>
+        <h2 className="text-base font-semibold leading-6 text-gray-900 dark:text-white">
+          Julekonserter i{' '}
+          <time dateTime="2022-01-21">november {new Date().getFullYear()}</time>
         </h2>
         <ol className="mt-4 space-y-1 text-sm leading-6 text-gray-500">
           {concerts.map((concert) => (
             <Link key={concert.id} href={concert.pageUrl}>
-              <li className="group flex items-center space-x-4 rounded-xl px-4 py-2 transition duration-300 ease-in-out focus-within:bg-gray-50 hover:bg-gray-50">
+              <li className="group flex items-center space-x-4 rounded-xl px-4 py-2 transition duration-300 ease-in-out focus-within:bg-gray-50 hover:bg-gray-50 dark:hover:bg-white/5">
                 <Image
                   src={concert.imageUrl}
                   alt={concert.name}
                   width={50}
                   height={50}
-                  className="h-12 w-12 flex-none rounded-full"
+                  className="h-14 w-14 flex-none rounded-full border-4 border-amber-200"
                 />
                 <div className="flex-auto font-normal">
-                  <p className="text-lg font-medium text-gray-900">
+                  <p className="text-lg font-medium text-gray-900 dark:text-white">
                     {concert.name}
                   </p>
                   <p className="-mt-5 flex gap-x-3">
-                    <span className="font-bold text-gray-900">
+                    <span className="font-bold text-gray-900 dark:text-white">
                       {concert.date}
                     </span>
                     {'|'}
@@ -195,7 +196,7 @@ export function November() {
                 </div>
 
                 <div>
-                  <div className="-m-2 flex items-center rounded-full p-1.5 text-gray-500 hover:text-gray-600">
+                  <div className="-m-2 flex items-center rounded-full p-1.5 text-gray-500 hover:text-gray-600 dark:text-red-500">
                     <EllipsisVerticalIcon
                       className="h-6 w-6"
                       aria-hidden="true"
