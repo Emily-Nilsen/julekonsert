@@ -22,10 +22,10 @@ module.exports = {
     },
     extend: {
       animation: {
-        'pulse-slow-7': 'pulse 4s ease-in-out infinite',
-        'pulse-slow-6': 'pulse 3s ease-in-out infinite',
-        'pulse-slow-5': 'pulse 2.5s ease-in-out infinite',
-        'pulse-slow-4': 'pulse 2s ease-in-out infinite',
+        'pulse-slow-5': 'pulse 4s ease-in-out infinite',
+        'pulse-slow-4': 'pulse 3s ease-in-out infinite',
+        'pulse-slow-3': 'pulse 2s ease-in-out infinite',
+        'pulse-slow-2': 'pulse 1.5s ease-in-out infinite',
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',

@@ -47,7 +47,7 @@ export function Hero() {
       </div>
       <div className="inset-0 hidden bg-black/20 mix-blend-multiply lg:absolute lg:block" />
       <div className="inset-0 hidden bg-gradient-to-tr from-black/50 mix-blend-multiply lg:absolute lg:block" />
-      <div className="absolute inset-0 opacity-10 ">
+      <div className="absolute inset-0 opacity-25 ">
         <Image
           alt="Nordic Tenors"
           src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Christmas_lights_bottom_and_throughout_knmify.webp"
@@ -55,10 +55,10 @@ export function Hero() {
           height={1000}
           unoptimized
           priority
-          className="mx-auto hidden h-full animate-pulse-slow-6 object-cover object-center lg:block"
+          className="mx-auto hidden h-full animate-pulse-slow-4 object-cover object-center lg:block"
         />
       </div>
-      <div className="absolute inset-0 opacity-20 ">
+      <div className="absolute inset-0 opacity-30">
         <Image
           alt="Nordic Tenors"
           src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1694808075/Julekonsert/Christmas_lights_bottom_vwnegi.webp"
@@ -66,10 +66,10 @@ export function Hero() {
           height={1000}
           unoptimized
           priority
-          className="mx-auto hidden h-full animate-pulse-slow-7 object-cover object-center lg:block"
+          className="mx-auto hidden h-full animate-pulse-slow-5 object-cover object-center lg:block"
         />
       </div>
-      <div className="absolute inset-0 opacity-20 ">
+      <div className="absolute inset-0 opacity-25">
         <Image
           alt="Nordic Tenors"
           src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Christmas_lights_throughout_2_r4nst0.webp"
@@ -77,35 +77,13 @@ export function Hero() {
           height={1000}
           unoptimized
           priority
-          className="mx-auto hidden h-full animate-pulse-slow-5 object-cover object-center lg:block"
+          className="mx-auto hidden h-full animate-pulse-slow-3 object-cover object-center lg:block"
         />
       </div>
-      <div className="absolute inset-0 opacity-10 ">
+      <div className="absolute inset-0 opacity-25">
         <Image
           alt="Nordic Tenors"
           src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Christmas_lights_throughout_1_zrbwfq.webp"
-          width={3000}
-          height={1000}
-          unoptimized
-          priority
-          className="mx-auto hidden h-full animate-pulse-slow-6 object-cover object-center lg:block"
-        />
-      </div>
-      <div className="absolute inset-0 rotate-180 opacity-10">
-        <Image
-          alt="Nordic Tenors"
-          src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Christmas_lights_throughout_1_zrbwfq.webp"
-          width={3000}
-          height={1000}
-          unoptimized
-          priority
-          className="mx-auto hidden h-full animate-pulse-slow-7 object-cover object-center lg:block"
-        />
-      </div>
-      <div className="absolute inset-0 opacity-20">
-        <Image
-          alt="Nordic Tenors"
-          src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1694816228/Julekonsert/gold_glitter_du346u.webp"
           width={3000}
           height={1000}
           unoptimized
@@ -113,7 +91,18 @@ export function Hero() {
           className="mx-auto hidden h-full animate-pulse-slow-4 object-cover object-center lg:block"
         />
       </div>
-      <div className="absolute inset-0 rotate-180 opacity-10">
+      <div className="absolute inset-0 rotate-180 opacity-30">
+        <Image
+          alt="Nordic Tenors"
+          src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Christmas_lights_throughout_1_zrbwfq.webp"
+          width={3000}
+          height={1000}
+          unoptimized
+          priority
+          className="mx-auto hidden h-full animate-pulse-slow-5 object-cover object-center lg:block"
+        />
+      </div>
+      <div className="absolute inset-0 opacity-25">
         <Image
           alt="Nordic Tenors"
           src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1694816228/Julekonsert/gold_glitter_du346u.webp"
@@ -121,7 +110,18 @@ export function Hero() {
           height={1000}
           unoptimized
           priority
-          className="mx-auto hidden h-full animate-pulse-slow-5 object-cover object-center lg:block"
+          className="mx-auto hidden h-full animate-pulse-slow-2 object-cover object-center lg:block"
+        />
+      </div>
+      <div className="absolute inset-0 rotate-180 opacity-25">
+        <Image
+          alt="Nordic Tenors"
+          src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1694816228/Julekonsert/gold_glitter_du346u.webp"
+          width={3000}
+          height={1000}
+          unoptimized
+          priority
+          className="mx-auto hidden h-full animate-pulse-slow-3 object-cover object-center lg:block"
         />
       </div>
       <div className="absolute bottom-0 right-0 w-3/5 opacity-100 ">
