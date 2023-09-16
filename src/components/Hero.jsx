@@ -1,40 +1,31 @@
-import { Fragment, useRef, useEffect } from 'react' // Import useRef
+import { Fragment, useRef, useEffect, useLayoutEffect } from 'react' // Import useRef
 import Image from 'next/image'
 import clsx from 'clsx'
 import Highlight, { defaultProps } from 'prism-react-renderer'
 
 import { Button } from '@/components/Button'
-import { HeroBackground } from '@/components/HeroBackground'
 import { GlitterLights } from '@/components/GlitterLights'
-import mobileHeroBanner from '@/images/mobile-hero.webp'
 
 export function Hero() {
-  const audioPlayer = useRef(null) // Create a ref for the audio element
+  const audioPlayer = useRef(null)
 
-  useEffect(() => {
-    // Function to play the audio
+  useLayoutEffect(() => {
     function playAudio() {
       if (audioPlayer.current) {
-        audioPlayer.current.play()
+        audioPlayer.current.play().catch((error) => {
+          // Handle any errors, such as browsers preventing autoplay
+          console.error('Error playing audio:', error)
+        })
       }
     }
 
     // Automatically play the audio when the component mounts
     playAudio()
-  }, []) // Empty dependency array ensures this runs once on mount
+  }, [])
 
   return (
     <div className="relative overflow-hidden">
       <div className="absolute inset-0 bg-red-950">
-        {/* <Image
-          alt="Nordic Tenors"
-          src={mobileHeroBanner}
-          width={1456}
-          height={816}
-          unoptimized
-          priority
-          className="object-cover object-center h-full mx-auto sm:h-full lg:hidden"
-        /> */}
         <Image
           alt="Nordic Tenors"
           src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1694807320/Julekonsert/hero_background_desktop_vetfn3.webp"
@@ -104,6 +95,7 @@ export function Hero() {
       <audio
         ref={audioPlayer}
         src="https://res.cloudinary.com/dt3k2apqd/video/upload/v1694768012/Julekonsert/Magic_Wind_Chimes__01_ffurrr.wav"
+        autoPlay // Add the autoPlay attribute
       ></audio>
     </div>
   )

@@ -4,6 +4,7 @@ import { Fragment } from 'react'
 import { ChevronLeftIcon, ChevronRightIcon } from '@heroicons/react/20/solid'
 import { Menu, Transition } from '@headlessui/react'
 import { EllipsisVerticalIcon } from '@heroicons/react/24/outline'
+import { GoBackButton } from './GoBackButton'
 
 const days = [
   { date: '2023-10-30' },
@@ -208,6 +209,7 @@ export function November() {
           ))}
         </ol>
       </section>
+      <GoBackButton />
     </div>
   )
 }

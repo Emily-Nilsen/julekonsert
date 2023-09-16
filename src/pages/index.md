@@ -6,19 +6,13 @@ description: Nordic Tenors gir deg en vakker julekonsert med unike stemmer, varm
 
 Velkommen skal du være til julekonserten med Nordic Tenors i 2023! {% .lead %}
 
-{% quick-links %}
+{% videos %}
 
-{% quick-link title="AI model setups" icon="installation" href="/" description="Step-by-step guides to creating various AI model accounts." /%}
+{% video title="How to Create Characters" href="https://res.cloudinary.com/dt3k2apqd/video/upload/v1694428484/S%C3%B8strene%20Hals/Tosca_Act_1-5_with_music_and_logo_iqw8tz.mp4" posterImg="https://res.cloudinary.com/dt3k2apqd/image/upload/v1682161119/Susanne%20Hals/Revoluciones_poster_colour_corrected_z3yxy4.webp" description="Learn how to use AI to develop ideas for your fictional characters." /%}
 
-{% quick-link title="Prompt categories" icon="theming" href="/" description="Explore a wide range of prompt categories, formulas and examples." /%}
+{% /videos %}
 
-{% quick-link title="Videos" icon="tv" href="/docs/learn-with-videos" description="Watch short videos showcasing examples of prompt formulas and responses." /%}
-
-{% quick-link title="External resources" icon="presets" href="/" description="Discover additional helpful resources to further your AI understanding." /%}
-
-{% /quick-links %}
-
-Possimus saepe veritatis sint nobis et quam eos. Architecto consequatur odit perferendis fuga eveniet possimus rerum cumque. Ea deleniti voluptatum deserunt voluptatibus ut non iste.
+{% audio-sample title="O Helga Natt" audioUrl="https://res.cloudinary.com/dt3k2apqd/video/upload/v1694884469/Julekonsert/OHelgaNatt_gblyjh.mp3" description="Learn how to use AI to develop ideas for your fictional characters." /%}
 
 ---
 

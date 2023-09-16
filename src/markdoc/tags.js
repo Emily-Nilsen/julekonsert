@@ -5,6 +5,9 @@ import { Category, Categories } from '@/components/Categories'
 import { November } from '@/components/November'
 import CurrentYear from '@/components/CurrentYear'
 import { Contact } from '@/components/Contact'
+import { AudioSample } from '@/components/AudioSample'
+import { GoBackButton } from '@/components/GoBackButton'
+import { Map } from '@/components/Map'
 
 const tags = {
   callout: {
@@ -73,6 +76,7 @@ const tags = {
       title: { type: String },
       description: { type: String },
       href: { type: String },
+      posterImg: { type: String },
     },
   },
   november: {
@@ -82,6 +86,26 @@ const tags = {
   'current-year': {
     selfClosing: true,
     render: CurrentYear,
+  },
+  'go-back-button': {
+    selfClosing: true,
+    render: GoBackButton,
+  },
+  'audio-sample': {
+    selfClosing: true,
+    render: AudioSample,
+    attributes: {
+      title: { type: String },
+      description: { type: String },
+      audioUrl: { type: String },
+    },
+  },
+  map: {
+    selfClosing: true,
+    render: Map,
+    attributes: {
+      src: { type: String },
+    },
   },
 }
 
