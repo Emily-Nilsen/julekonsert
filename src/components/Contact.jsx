@@ -101,7 +101,10 @@ export function Contact() {
             </div>
             <p className="mt-4 leading-6 text-gray-500">
               Ved å sende inn dette skjemaet godtar jeg{' '}
-              <Link href="#" className="font-semibold text-gray-900">
+              <Link
+                href="/docs/personvernregler"
+                className="font-semibold text-gray-900"
+              >
                 personvernreglene
               </Link>
               .

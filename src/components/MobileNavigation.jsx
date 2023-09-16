@@ -72,7 +72,7 @@ export function MobileNavigation({ navigation }) {
         className="fixed inset-0 z-50 flex items-start overflow-y-auto bg-gray-900/50 pr-10 backdrop-blur lg:hidden"
         aria-label="Navigation"
       >
-        <Dialog.Panel className="min-h-full w-full max-w-xs bg-white px-4 pb-12 pt-5 dark:bg-gray-900 sm:px-6">
+        <Dialog.Panel className="min-h-full w-full max-w-xs bg-white px-4 pb-12 pt-5 dark:bg-stone-950 sm:px-6">
           <div className="flex items-center">
             <button
               type="button"
@@ -82,7 +82,7 @@ export function MobileNavigation({ navigation }) {
               <CloseIcon className="h-6 w-6 stroke-gray-500" />
             </button>
             <Link href="/" className="ml-6" aria-label="Home page">
-              <Logomark className="h-9 w-9" />
+              <Logomark className="h-6 w-auto fill-red-800 dark:fill-red-600" />
             </Link>
           </div>
           <Navigation navigation={navigation} className="mt-5 px-1" />

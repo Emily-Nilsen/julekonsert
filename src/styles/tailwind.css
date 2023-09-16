@@ -22,3 +22,8 @@ h3 {
 body {
   outline: none;
 }
+
+/* Add this CSS to your stylesheets */
+.first-paragraph-white p {
+  color: white; /* Set the color to white */
+}

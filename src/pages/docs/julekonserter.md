@@ -1,13 +1,14 @@
 ---
 title: Julekonserter
+subtitle: Subtitle goes here?
 description: Quidem magni aut exercitationem maxime rerum eos.
 ---
 
-Quasi sapiente voluptates aut minima non doloribus similique quisquam. In quo expedita ipsum nostrum corrupti incidunt. Et aut eligendi ea perferendis.
+Given that I purchased a faulty product that caused injury, what legal action could I take against the manufacturer?
 
 ---
 
-## Christmas with Nordic Tenors turnekalender
+## Nordic Tenors ‘julekalender’
 
 Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur.
 

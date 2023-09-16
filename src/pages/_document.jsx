@@ -1,5 +1,6 @@
 import { Head, Html, Main, NextScript } from 'next/document'
 import Image from 'next/image'
+import { GlitterLights } from '@/components/GlitterLights'
 
 const themeScript = `
   let isDarkMode = window.matchMedia('(prefers-color-scheme: dark)')
