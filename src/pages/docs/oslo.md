@@ -1,74 +1,30 @@
 ---
 title: Oslo
-description: Quidem magni aut exercitationem maxime rerum eos.
+description: Christmas with Nordic Tenors | Oslo Konserthus
 ---
 
-Quasi sapiente voluptates aut minima non doloribus similique quisquam. In quo expedita ipsum nostrum corrupti incidunt. Et aut eligendi ea perferendis.
-
----
-
-## Cross-Domain Fundamentals
-
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur.
-
-### Leveraging prior knowledge
-
-Guide yourself through the basics of a different subject by utilizing your existing understanding, allowing for a seamless knowledge transfer and empowering yourself to grasp new concepts effortlessly.
-
-{% callout type="warning" title="Prompt formula" %}
-I know a lot about [topic you know well]. Teach me the fundamentals of [new topic], using terminology and concepts from the previous topic I know much about.
-{% /callout %}
-
-{% callout title="Example 1" %}
-I know a lot about astronomy. Teach me the fundamentals of quantum mechanics, using terminology and concepts from astronomy.
-{% /callout %}
-
-{% callout title="Example 2" %}
-I know a lot about soccer. Teach me the fundamentals of basketball, using terminology and concepts from the world of soccer.
-{% /callout %}
-
-{% callout title="Example 3" %}
-I know a lot about gardening. Teach me the fundamentals of photography, using terminology and concepts from gardening.
-{% /callout %}
-
-### Natus aspernatur iste
-
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.
-
-Voluptas beatae omnis omnis voluptas. Cum architecto ab sit ad eaque quas quia distinctio. Molestiae aperiam qui quis deleniti soluta quia qui. Dolores nostrum blanditiis libero optio id. Mollitia ad et asperiores quas saepe alias.
+{% concert-header day="søndag" date="26" month="november" time="19:00" /%}
 
 ---
 
-## Quos porro ut molestiae
+## Oslo Konserthus
 
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur.
+{% concert-introduction location="Oslo Konserthus" day="søndag" date="26" month="november" /%}
 
-### Voluptatem quas possimus
+{% categories %}
+{% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Oslo_Konserthus_bw940p.webp" title="Oslo Konserthus" /%}
+{% /categories %}
 
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.
+### Billetter
 
-Possimus saepe veritatis sint nobis et quam eos. Architecto consequatur odit perferendis fuga eveniet possimus rerum cumque. Ea deleniti voluptatum deserunt voluptatibus ut non iste. Provident nam asperiores vel laboriosam omnis ducimus enim nesciunt quaerat. Minus tempora cupiditate est quod.
+{% billetter concert="" outlet="tix.no" ticketUrl="https://tix.no/nb/oslok/buyingflow/tickets/20487/40755/#tixsp" /%}
 
-### Id vitae minima
+### Konsertdetaljer
 
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.
+{% concert-details concert="Oslo Konserthus" date="26" month="november" day="søndag" time="19:00 – 20:20" location="Oslo Konserthus" /%}
 
-Voluptas beatae omnis omnis voluptas. Cum architecto ab sit ad eaque quas quia distinctio. Molestiae aperiam qui quis deleniti soluta quia qui. Dolores nostrum blanditiis libero optio id. Mollitia ad et asperiores quas saepe alias.
+### Adresse
 
----
+{% map src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2000.1315508849066!2d10.726545913517697!3d59.91336407479778!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46416e80995967c3%3A0x116329671f15ed86!2sOslo%20Concert%20Hall!5e0!3m2!1sen!2sno!4v1694973434433!5m2!1sen!2sno" /%}
 
-## Vitae laborum maiores
-
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur.
-
-### Corporis exercitationem
-
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.
-
-Possimus saepe veritatis sint nobis et quam eos. Architecto consequatur odit perferendis fuga eveniet possimus rerum cumque. Ea deleniti voluptatum deserunt voluptatibus ut non iste. Provident nam asperiores vel laboriosam omnis ducimus enim nesciunt quaerat. Minus tempora cupiditate est quod.
-
-### Reprehenderit magni
-
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.
-
-Voluptas beatae omnis omnis voluptas. Cum architecto ab sit ad eaque quas quia distinctio. Molestiae aperiam qui quis deleniti soluta quia qui. Dolores nostrum blanditiis libero optio id. Mollitia ad et asperiores quas saepe alias.
+{%go-back-button/%}

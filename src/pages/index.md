@@ -4,25 +4,17 @@ pageTitle: Magiske julekonserter med Nordic Tenors
 description: Nordic Tenors gir deg en vakker julekonsert med unike stemmer, varme, humor, og tradisjonelt julerepertoar. Opplev førjulsstemning med Jan-Tore Saltnes, Nils Georg Nilsen og Espen Solsbak.
 ---
 
-Velkommen skal du være til julekonserten med Nordic Tenors i 2023! {% .lead %}
+Velkommen skal du være til julekonsert med Nordic Tenors i 2023! {% .lead %}
 
 {% videos %}
 
-{% video title="How to Create Characters" href="https://res.cloudinary.com/dt3k2apqd/video/upload/v1694428484/S%C3%B8strene%20Hals/Tosca_Act_1-5_with_music_and_logo_iqw8tz.mp4" posterImg="https://res.cloudinary.com/dt3k2apqd/image/upload/v1682161119/Susanne%20Hals/Revoluciones_poster_colour_corrected_z3yxy4.webp" description="Learn how to use AI to develop ideas for your fictional characters." /%}
+{% video title="O Helga Natt" href="https://res.cloudinary.com/dt3k2apqd/video/upload/v1694939017/Julekonsert/NT-O_Helga_Natt_V3_-_HD_1080p_hnzqpe.mov" posterImg="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/O_Helga_Natt_temp_poster_vtbef9.webp" description="Her er en smakebit på hva du kan se frem til på årets julekonsert." /%}
 
 {% /videos %}
-
-{% audio-sample title="O Helga Natt" audioUrl="https://res.cloudinary.com/dt3k2apqd/video/upload/v1694884469/Julekonsert/OHelgaNatt_gblyjh.mp3" description="Learn how to use AI to develop ideas for your fictional characters." /%}
 
 ---
 
 ## Nordic Tenors sine julekonserter
-
-Nordic Tenors gir deg en vakker og underholdende julekonsert som garantert vil sette deg i den gode julestemningen. Med sine unike stemmer, skaper de tre tenorene en førjulsstund utenom det vanlige.
-
-Sammen med sin eminente pianist Torgeir Koppang, byr Nordic Tenors på en opplevelse fylt med varme og humor, og et julerepertoar bygget på høytid og tradisjon.
-
-### Magisk julestemning
 
 Når nettene blir lange og vinterfrosten legger et rimet slør over mørkelandet, er det lite som varmer som tonene fra de tre høyt elskede tenorene i Nordic Tenors og deres virtuose pianist Torgeir Koppang.
 
@@ -64,4 +56,4 @@ Jan-Tore, stolt av sin Holmestrand-bakgrunn, er utdannet ved Norges Musikkhøgsk
 
 ### Nils Georg Nilsen
 
-Nils, oppvokst på Jar i Bærum, deler sin lidenskap mellom fotball og musikk. Han er utdannet ved Norges Musikkhøgskole i Oslo og har en Mastergrad fra Manhattan School of Music i New York. Fra 2013 har han vært frilanser, opptreden på konserter og festivaler både nasjonalt og internasjonalt.
+Nils, oppvokst på Jar i Bærum, deler sin lidenskap mellom fotball og musikk. Han er utdannet ved Norges Musikkhøgskole i Oslo og har en Mastergrad fra Manhattan School of Music i New York. Fra 2013 har han vært solist på konserter og festivaler både nasjonalt og internasjonalt.

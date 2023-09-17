@@ -1,76 +1,30 @@
 ---
 title: Kongsberg
-description: Quidem magni aut exercitationem maxime rerum eos.
+description: Christmas with Nordic Tenors | Kongsberg Musikkteater
 ---
 
-Quasi sapiente voluptates aut minima non doloribus similique quisquam. In quo expedita ipsum nostrum corrupti incidunt. Et aut eligendi ea perferendis.
-
----
-
-## Kongsberg
-
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur.
-
-### Et pariatur ab quas
-
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.
-
-{% callout type="warning" title="Prompt formula" %}
-Given that [event], what legal action could I take?
-{% /callout %}
-
-Possimus saepe veritatis sint nobis et quam eos. Architecto consequatur odit perferendis fuga eveniet possimus rerum cumque. Ea deleniti voluptatum deserunt voluptatibus ut non iste. Provident nam asperiores vel laboriosam omnis ducimus enim nesciunt quaerat. Minus tempora cupiditate est quod.
-
-{% callout title="Example 1: Neighbour's Tree Encroachment" %}
-Given that my neighbour's tree branches constantly encroach on my property, what legal action could I take?
-{% /callout %}
-
-{% callout title="Example 2: Faulty Product Injury" %}
-Given that I purchased a faulty product that caused injury, what legal action could I take against the manufacturer?
-{% /callout %}
-
-{% callout title="Example 3: Tenant Rights Enforcement" %}
-Given that my landlord consistently fails to address serious maintenance issues in my rental unit, what legal action could I take to enforce my tenant rights?
-{% /callout %}
-
-### Natus aspernatur iste
-
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.
-
-Voluptas beatae omnis omnis voluptas. Cum architecto ab sit ad eaque quas quia distinctio. Molestiae aperiam qui quis deleniti soluta quia qui. Dolores nostrum blanditiis libero optio id. Mollitia ad et asperiores quas saepe alias.
+{% concert-header day="tirsdag" date="28" month="november" time="18:00" /%}
 
 ---
 
-## Quos porro ut molestiae
+## Kongsberg Musikkteater
 
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur.
+{% concert-introduction location="Kongsberg Musikkteater" day="tirsdag" date="28" month="november" /%}
 
-### Voluptatem quas possimus
+{% categories %}
+{% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Kongsberg_Musikkteater_vmxx7a.webp" title="Kongsberg Musikkteater" /%}
+{% /categories %}
 
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.
+### Billetter
 
-Possimus saepe veritatis sint nobis et quam eos. Architecto consequatur odit perferendis fuga eveniet possimus rerum cumque. Ea deleniti voluptatum deserunt voluptatibus ut non iste. Provident nam asperiores vel laboriosam omnis ducimus enim nesciunt quaerat. Minus tempora cupiditate est quod.
+{% billetter concert="" outlet="tix.no" ticketUrl="https://tix.no/nb/kongsberg/buyingflow/tickets/20822/41303" /%}
 
-### Id vitae minima
+### Konsertdetaljer
 
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.
+{% concert-details concert="Kongsberg Musikkteater" date="28" month="november" day="tirsdag" time="18:00 – 19:20" location="Kongsberg Musikkteater" /%}
 
-Voluptas beatae omnis omnis voluptas. Cum architecto ab sit ad eaque quas quia distinctio. Molestiae aperiam qui quis deleniti soluta quia qui. Dolores nostrum blanditiis libero optio id. Mollitia ad et asperiores quas saepe alias.
+### Adresse
 
----
+{% map src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2015.0848722081287!2d9.641055913507135!3d59.664877074673356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4640d07c70830893%3A0xbeef32d9fc2fe7b1!2sKongsberg%20Musikkteater!5e0!3m2!1sen!2sno!4v1694974112861!5m2!1sen!2sno" /%}
 
-## Vitae laborum maiores
-
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur.
-
-### Corporis exercitationem
-
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.
-
-Possimus saepe veritatis sint nobis et quam eos. Architecto consequatur odit perferendis fuga eveniet possimus rerum cumque. Ea deleniti voluptatum deserunt voluptatibus ut non iste. Provident nam asperiores vel laboriosam omnis ducimus enim nesciunt quaerat. Minus tempora cupiditate est quod.
-
-### Reprehenderit magni
-
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.
-
-Voluptas beatae omnis omnis voluptas. Cum architecto ab sit ad eaque quas quia distinctio. Molestiae aperiam qui quis deleniti soluta quia qui. Dolores nostrum blanditiis libero optio id. Mollitia ad et asperiores quas saepe alias.
+{%go-back-button/%}

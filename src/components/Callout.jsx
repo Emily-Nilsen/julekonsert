@@ -17,17 +17,10 @@ const styles = {
   },
 }
 
-function CopyIcon(props) {
+function TicketIcon(props) {
   return (
-    <svg aria-hidden="true" viewBox="0 0 16 16" {...props}>
-      <path
-        fillRule="evenodd"
-        clipRule="evenodd"
-        d="M12.22,10.86h-4.4c-0.81,0-1.47-0.66-1.47-1.47V3.52c0-0.81,0.66-1.47,1.47-1.47h3.21c0.29,0,0.57,0.12,0.78,0.32
-        l1.56,1.56c0.21,0.21,0.32,0.49,0.32,0.78v4.68C13.68,10.2,13.03,10.86,12.22,10.86z M3.41,4.99h2.2v1.1h-2.2
-        c-0.2,0-0.37,0.17-0.37,0.37v5.87c0,0.2,0.17,0.37,0.37,0.37h4.4c0.2,0,0.37-0.17,0.37-0.37V11.6h1.1v0.73
-        c0,0.81-0.66,1.47-1.47,1.47h-4.4c-0.81,0-1.47-0.66-1.47-1.47V6.46C1.94,5.65,2.6,4.99,3.41,4.99z"
-      />
+    <svg {...props} viewBox="0 0 576 512">
+      <path d="M64 64C28.7 64 0 92.7 0 128v64c0 8.8 7.4 15.7 15.7 18.6C34.5 217.1 48 235 48 256s-13.5 38.9-32.3 45.4C7.4 304.3 0 311.2 0 320v64c0 35.3 28.7 64 64 64H512c35.3 0 64-28.7 64-64V320c0-8.8-7.4-15.7-15.7-18.6C541.5 294.9 528 277 528 256s13.5-38.9 32.3-45.4c8.3-2.9 15.7-9.8 15.7-18.6V128c0-35.3-28.7-64-64-64H64zm64 112l0 160c0 8.8 7.2 16 16 16H432c8.8 0 16-7.2 16-16V176c0-8.8-7.2-16-16-16H144c-8.8 0-16 7.2-16 16zM96 160c0-17.7 14.3-32 32-32H448c17.7 0 32 14.3 32 32V352c0 17.7-14.3 32-32 32H128c-17.7 0-32-14.3-32-32V160z" />
     </svg>
   )
 }
@@ -72,7 +65,7 @@ export function Callout({ type = 'note', title, children }) {
 
   return (
     <div className={clsx('my-8 flex rounded-3xl p-6', styles[type].container)}>
-      <IconComponent className="h-8 w-8 flex-none" />
+      {/* <IconComponent className="flex-none w-8 h-8" /> */}
       <div className="ml-4 flex-auto">
         <div className="flex justify-between">
           <p className={clsx('m-0 font-display text-xl', styles[type].title)}>
@@ -84,17 +77,17 @@ export function Callout({ type = 'note', title, children }) {
           >
             {copied ? (
               <span className="flex items-center gap-1 text-teal-500 dark:text-teal-300">
-                <CopyIcon className="h-4 w-4 fill-teal-400 dark:fill-teal-300" />
+                <TicketIcon className="h-4 w-4 fill-teal-400 dark:fill-teal-300" />
                 Copied!
               </span>
             ) : (
               <>
                 <span className="flex items-center gap-1 sm:hidden">
-                  <CopyIcon className="h-4 w-4 fill-gray-400 dark:fill-gray-300" />
+                  <TicketIcon className="h-4 w-4 fill-gray-400 dark:fill-gray-300" />
                   Copy
                 </span>
                 <span className="hidden items-center gap-1 sm:flex">
-                  <CopyIcon className="h-4 w-4 fill-gray-400 dark:fill-gray-300" />
+                  <TicketIcon className="h-4 w-4 fill-gray-400 dark:fill-gray-300" />
                   Copy prompt
                 </span>
               </>

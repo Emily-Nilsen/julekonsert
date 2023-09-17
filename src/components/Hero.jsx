@@ -69,10 +69,10 @@ export function Hero() {
               </p>
               <p className="mt-3 hidden max-w-xl text-2xl tracking-tight text-white xl:block">
                 Nordic Tenors gir deg en vakker julekonsert med unike stemmer,
-                varme, humor, og tradisjonelt julerepertoar.
+                varme, humor, og et tradisjonelt julerepertoar.
               </p>
               <div className="h-12 sm:h-44 xl:hidden" />
-              <div className="-mb-20 mt-32 flex justify-center gap-4 sm:-mb-20 sm:mt-20 sm:gap-10 lg:-mb-0 lg:mt-8 lg:justify-start">
+              <div className="-mb-20 mt-32 flex justify-center gap-8 sm:-mb-20 sm:mt-20 sm:gap-10 lg:-mb-0 lg:mt-8 lg:justify-start">
                 <Button className="relative z-20" href="/docs/julekonserter">
                   Julekonserter {new Date().getFullYear()}
                 </Button>

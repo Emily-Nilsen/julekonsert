@@ -45,7 +45,10 @@ function SystemIcon(props) {
 }
 
 export function ThemeSelector(props) {
-  let [selectedTheme, setSelectedTheme] = useState(null)
+  // Initialize the selectedTheme state with the dark theme as the default
+  let [selectedTheme, setSelectedTheme] = useState(
+    themes.find((theme) => theme.value === 'dark')
+  )
 
   useEffect(() => {
     if (selectedTheme) {

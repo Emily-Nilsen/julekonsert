@@ -12,11 +12,11 @@ export function Categories({ children }) {
 export function Category({ title, imageUrl }) {
   return (
     <div className="group relative rounded-xl border border-gray-200 dark:border-gray-800">
-      <div className="absolute -inset-px rounded-xl border-2 border-transparent opacity-0 [background:linear-gradient(var(--quick-links-hover-bg,theme(colors.teal.50)),var(--quick-links-hover-bg,theme(colors.teal.50)))_padding-box,linear-gradient(to_top,theme(colors.teal.300),theme(colors.teal.300),theme(colors.teal.500))_border-box] group-hover:opacity-100 dark:[--quick-links-hover-bg:theme(colors.gray.800)]" />
+      <div className="absolute -inset-px rounded-xl border-2 border-transparent opacity-0 transition-all duration-200 ease-in-out [background:linear-gradient(var(--quick-links-hover-bg,theme(colors.amber.50)),var(--quick-links-hover-bg,theme(colors.amber.50)))_padding-box,linear-gradient(to_top,theme(colors.amber.300),theme(colors.amber.300),theme(colors.amber.500))_border-box] group-hover:opacity-100 dark:[--quick-links-hover-bg:theme(colors.gray.800)]" />
       <div className="relative aspect-[16/9] overflow-hidden rounded-xl">
         <Image
           src={imageUrl}
-          alt=""
+          alt={title}
           width={1456}
           height={816}
           className="object-cover"

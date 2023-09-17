@@ -341,7 +341,7 @@ export function Search() {
     <>
       <button
         type="button"
-        className="group flex h-6 w-6 items-center justify-center sm:justify-start md:h-auto md:w-80 md:flex-none md:rounded-lg md:py-2.5 md:pl-4 md:pr-3.5 md:text-sm md:ring-1 md:ring-gray-200 md:hover:ring-gray-300 dark:md:bg-gray-800/75 dark:md:ring-inset dark:md:ring-white/5 dark:md:hover:bg-gray-700/40 dark:md:hover:ring-gray-500 lg:w-96"
+        className="group flex h-6 w-6 items-center justify-center transition-all duration-200 ease-in-out sm:justify-start md:h-auto md:w-80 md:flex-none md:rounded-lg md:py-2.5 md:pl-4 md:pr-3.5 md:text-sm md:ring-1 md:ring-gray-200 md:hover:ring-gray-300 dark:md:bg-gray-800/75 dark:md:ring-inset dark:md:ring-white/5 dark:md:hover:bg-gray-700/40 dark:md:hover:ring-gray-500 lg:w-96"
         {...buttonProps}
       >
         <SearchIcon className="h-5 w-5 flex-none fill-gray-400 group-hover:fill-gray-500 dark:fill-gray-500 md:group-hover:fill-gray-400" />

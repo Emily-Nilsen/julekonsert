@@ -8,6 +8,10 @@ import { Contact } from '@/components/Contact'
 import { AudioSample } from '@/components/AudioSample'
 import { GoBackButton } from '@/components/GoBackButton'
 import { Map } from '@/components/Map'
+import { Billetter } from '@/components/Billetter'
+import { ConcertDetails } from '@/components/ConcertDetails'
+import { ConcertHeader } from '@/components/ConcertHeader'
+import { ConcertIntroduction } from '@/components/ConcertIntroduction'
 
 const tags = {
   callout: {
@@ -48,6 +52,47 @@ const tags = {
       description: { type: String },
       icon: { type: String },
       href: { type: String },
+    },
+  },
+  billetter: {
+    selfClosing: true,
+    render: Billetter,
+    attributes: {
+      concert: { type: String },
+      outlet: { type: String },
+      ticketUrl: { type: String },
+    },
+  },
+  'concert-details': {
+    selfClosing: true,
+    render: ConcertDetails,
+    attributes: {
+      concert: { type: String },
+      day: { type: String },
+      date: { type: String },
+      month: { type: String },
+      location: { type: String },
+      time: { type: String },
+    },
+  },
+  'concert-header': {
+    selfClosing: true,
+    render: ConcertHeader,
+    attributes: {
+      day: { type: String },
+      date: { type: String },
+      month: { type: String },
+      time: { type: String },
+    },
+  },
+  'concert-introduction': {
+    selfClosing: true,
+    render: ConcertIntroduction,
+    attributes: {
+      day: { type: String },
+      location: { type: String },
+      date: { type: String },
+      month: { type: String },
     },
   },
   categories: {

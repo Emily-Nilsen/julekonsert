@@ -4,12 +4,13 @@ import { useRouter } from 'next/router'
 import clsx from 'clsx'
 
 import { Hero } from '@/components/Hero'
-import { Logo, Logomark } from '@/components/Logo'
+import { Logo, Logomark, SpotifyIcon } from '@/components/Logo'
 import { MobileNavigation } from '@/components/MobileNavigation'
 import { Navigation } from '@/components/Navigation'
 import { Prose } from '@/components/Prose'
 import { Search } from '@/components/Search'
 import { ThemeSelector } from '@/components/ThemeSelector'
+import { Footer } from '@/components/Footer'
 
 export const navigation = [
   {
@@ -122,22 +123,6 @@ export const navigation = [
   },
 ]
 
-function GitHubIcon(props) {
-  return (
-    <svg aria-hidden="true" viewBox="0 0 16 16" {...props}>
-      <path d="M8 0C3.58 0 0 3.58 0 8C0 11.54 2.29 14.53 5.47 15.59C5.87 15.66 6.02 15.42 6.02 15.21C6.02 15.02 6.01 14.39 6.01 13.72C4 14.09 3.48 13.23 3.32 12.78C3.23 12.55 2.84 11.84 2.5 11.65C2.22 11.5 1.82 11.13 2.49 11.12C3.12 11.11 3.57 11.7 3.72 11.94C4.44 13.15 5.59 12.81 6.05 12.6C6.12 12.08 6.33 11.73 6.56 11.53C4.78 11.33 2.92 10.64 2.92 7.58C2.92 6.71 3.23 5.99 3.74 5.43C3.66 5.23 3.38 4.41 3.82 3.31C3.82 3.31 4.49 3.1 6.02 4.13C6.66 3.95 7.34 3.86 8.02 3.86C8.7 3.86 9.38 3.95 10.02 4.13C11.55 3.09 12.22 3.31 12.22 3.31C12.66 4.41 12.38 5.23 12.3 5.43C12.81 5.99 13.12 6.7 13.12 7.58C13.12 10.65 11.25 11.33 9.47 11.53C9.76 11.78 10.01 12.26 10.01 13.01C10.01 14.08 10 14.94 10 15.21C10 15.42 10.15 15.67 10.55 15.59C13.71 14.53 16 11.53 16 8C16 3.58 12.42 0 8 0Z" />
-    </svg>
-  )
-}
-
-function LoginIcon(props) {
-  return (
-    <svg {...props} aria-hidden="true" viewBox="0 0 512 512">
-      <path d="M319.2 257.8c.5-.5 .8-1.1 .8-1.8s-.3-1.4-.8-1.8L187.3 129.8c-1.2-1.2-2.9-1.8-4.6-1.8c-3.7 0-6.7 3-6.7 6.7l0 57.3c0 8.8-7.2 16-16 16L40 208c-4.4 0-8 3.6-8 8l0 80c0 4.4 3.6 8 8 8l120 0c8.8 0 16 7.2 16 16l0 57.3c0 3.7 3 6.7 6.7 6.7c1.7 0 3.3-.6 4.6-1.8L319.2 257.8zM352 256c0 9.5-3.9 18.6-10.8 25.1L209.2 405.5c-7.2 6.8-16.7 10.5-26.5 10.5c-21.4 0-38.7-17.3-38.7-38.7l0-41.3L40 336c-22.1 0-40-17.9-40-40l0-80c0-22.1 17.9-40 40-40l104 0 0-41.3c0-21.4 17.3-38.7 38.7-38.7c9.9 0 19.3 3.8 26.5 10.5L341.2 230.9c6.9 6.5 10.8 15.6 10.8 25.1zM336 448l96 0c26.5 0 48-21.5 48-48l0-288c0-26.5-21.5-48-48-48l-96 0c-8.8 0-16-7.2-16-16s7.2-16 16-16l96 0c44.2 0 80 35.8 80 80l0 288c0 44.2-35.8 80-80 80l-96 0c-8.8 0-16-7.2-16-16s7.2-16 16-16z" />
-    </svg>
-  )
-}
-
 function Header({ navigation }) {
   let [isScrolled, setIsScrolled] = useState(false)
 
@@ -175,11 +160,14 @@ function Header({ navigation }) {
       </div>
       <div className="relative flex basis-0 justify-end gap-6 sm:gap-8 md:flex-grow">
         <ThemeSelector className="relative z-10" />
-        <Link href="/" className="group" aria-label="GitHub">
-          <p className="hidden text-sm font-semibold leading-6 text-gray-500 transition-all duration-150 ease-in-out hover:text-gray-950 lg:block">
-            Login <span aria-hidden="true">&rarr;</span>
-          </p>
-          <GitHubIcon className="h-6 w-6 fill-slate-400 group-hover:fill-slate-500 dark:group-hover:fill-slate-300 lg:hidden" />
+        <Link
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://open.spotify.com/artist/2oYkhGSHICR2on9Vm91zV4?si=L9ARZcKlRXuJNMaM52RBRg&nd=1"
+          className="group"
+          aria-label="Spotify"
+        >
+          <SpotifyIcon className="h-6 w-6 fill-red-800 transition-all duration-150 ease-in-out group-hover:fill-red-900 dark:fill-white dark:group-hover:fill-amber-300" />
         </Link>
       </div>
     </header>
@@ -373,6 +361,9 @@ export function Layout({ children, title, tableOfContents }) {
           </nav>
         </div>
       </div>
+      <footer>
+        <Footer />
+      </footer>
     </>
   )
 }
