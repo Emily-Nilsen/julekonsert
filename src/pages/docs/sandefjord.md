@@ -1,98 +1,30 @@
 ---
 title: Sandefjord
-description: Quidem magni aut exercitationem maxime rerum eos.
+description: Christmas with Nordic Tenors | Hjertnes Kulturhus, Sandefjord
 ---
 
-Quasi sapiente voluptates aut minima non doloribus similique quisquam. In quo expedita ipsum nostrum corrupti incidunt. Et aut eligendi ea perferendis.
-
----
-
-## Healthy Eating
-
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur.
-
-### Optimize health habits
-
-Discover evidence-based strategies and practical tips for enhancing well-being through personalized dietary improvements. Achieve health goals with sustainable guidance and informative suggestions tailored to your preferences and restrictions, empowering a healthier lifestyle.
-
-{% callout type="warning" title="Prompt formula" %}
-Exploring dietary enhancements for optimizing my [health aspect] while adhering to [restriction/preference]:
-
-(1) Share valuable insights, practical tips, and evidence-based approaches to improve my well-being through dietary modifications.
-
-(2) Focus on strategies that align with my specific [restriction/preference] and offer guidance on making sustainable and effective changes to achieve the desired health goals.
-
-(3) Provide informative and well-explained suggestions to empower me toward a healthier lifestyle.
-{% /callout %}
-
-{% callout title="Example 1" %}
-Exploring dietary enhancements for optimizing my digestive health while adhering to a low FODMAP preference:
-
-(1) Share valuable insights, practical tips, and evidence-based approaches to improve my well-being through dietary modifications.
-
-(2) Focus on strategies that align with my low FODMAP preference and offer guidance on making sustainable and effective changes to achieve the desired health goals.
-
-(3) Provide informative and well-explained suggestions to empower me toward a healthier lifestyle.
-{% /callout %}
-
-{% callout title="Example 2" %}
-Exploring dietary enhancements for optimizing my immune health while adhering to a dairy-free restriction:
-
-(1) Share valuable insights, practical tips, and evidence-based approaches to improve my well-being through dietary modifications.
-
-(2) Focus on strategies that align with my dairy-free restriction and offer guidance on making sustainable and effective changes to achieve the desired health goals.
-
-(3) Provide informative and well-explained suggestions to empower me toward a healthier lifestyle.
-{% /callout %}
-
-{% callout title="Example 3" %}
-Exploring dietary enhancements for optimizing my bone health while adhering to a vegan preference:
-
-(1) Share valuable insights, practical tips, and evidence-based approaches to improve my well-being through dietary modifications.
-
-(2) Focus on strategies that align with my vegan preference and offer guidance on making sustainable and effective changes to achieve the desired health goals.
-
-(3) Provide informative and well-explained suggestions to empower me toward a healthier lifestyle.
-{% /callout %}
-
-### Natus aspernatur iste
-
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.
-
-Voluptas beatae omnis omnis voluptas. Cum architecto ab sit ad eaque quas quia distinctio. Molestiae aperiam qui quis deleniti soluta quia qui. Dolores nostrum blanditiis libero optio id. Mollitia ad et asperiores quas saepe alias.
+{% concert-header day="torsdag" date="30" month="november" time="18:00" /%}
 
 ---
 
-## Quos porro ut molestiae
+## Hjertnes Kulturhus, Sandefjord
 
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur.
+{% concert-introduction location="Hjertnes Kulturhus, Sandefjord" day="torsdag" date="30" month="november" /%}
 
-### Voluptatem quas possimus
+{% categories %}
+{% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Hjertness_Kulturhus_grv4mz.webp" title="Hjertnes Kulturhus, Sandefjord" /%}
+{% /categories %}
 
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.
+### Billetter
 
-Possimus saepe veritatis sint nobis et quam eos. Architecto consequatur odit perferendis fuga eveniet possimus rerum cumque. Ea deleniti voluptatum deserunt voluptatibus ut non iste. Provident nam asperiores vel laboriosam omnis ducimus enim nesciunt quaerat. Minus tempora cupiditate est quod.
+{% billetter concert="" outlet="eBillett" ticketUrl="https://checkout.ebillett.no/262/events/108247/purchase/setup" /%}
 
-### Id vitae minima
+### Konsertdetaljer
 
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.
+{% concert-details concert="Hjertnes Kulturhus, Sandefjord" date="30" month="november" day="torsdag" time="18:00 – 19:20" location="Hjertnes Kulturhus, Sandefjord" /%}
 
-Voluptas beatae omnis omnis voluptas. Cum architecto ab sit ad eaque quas quia distinctio. Molestiae aperiam qui quis deleniti soluta quia qui. Dolores nostrum blanditiis libero optio id. Mollitia ad et asperiores quas saepe alias.
+### Adresse
 
----
+{% map src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2047.2146860121893!2d10.218509213484472!3d59.12880837441149!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4646c091ceb0f38d%3A0xe574449e687d4257!2sHjertnes%20Civic%20and%20Theater%20Center!5e0!3m2!1sen!2sno!4v1694977639888!5m2!1sen!2sno" /%}
 
-## Vitae laborum maiores
-
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur.
-
-### Corporis exercitationem
-
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.
-
-Possimus saepe veritatis sint nobis et quam eos. Architecto consequatur odit perferendis fuga eveniet possimus rerum cumque. Ea deleniti voluptatum deserunt voluptatibus ut non iste. Provident nam asperiores vel laboriosam omnis ducimus enim nesciunt quaerat. Minus tempora cupiditate est quod.
-
-### Reprehenderit magni
-
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.
-
-Voluptas beatae omnis omnis voluptas. Cum architecto ab sit ad eaque quas quia distinctio. Molestiae aperiam qui quis deleniti soluta quia qui. Dolores nostrum blanditiis libero optio id. Mollitia ad et asperiores quas saepe alias.
+{%go-back-button/%}
