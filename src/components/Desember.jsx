@@ -62,65 +62,65 @@ const concerts = [
     id: 7,
     name: 'Kimen Kulturhus, Stjørdal',
     imageUrl:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1694971527/Julekonsert/Bakkenteigen_Kulturhus_Horten_ist5xq.webp',
+      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1695036048/Julekonsert/Kimen_hld2po.webp',
     date: '7. desember',
-    pageUrl: '/docs/horten',
+    pageUrl: '/docs/stjoerdal',
   },
   {
     id: 8,
     name: 'Kuben Kulturhus, Grong',
     imageUrl:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1694971527/Julekonsert/Bakkenteigen_Kulturhus_Horten_ist5xq.webp',
+      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1695037233/Julekonsert/Kuben_Kulturhus_p9wfis.webp',
     date: '8. desember',
-    pageUrl: '/docs/horten',
+    pageUrl: '/docs/grong',
   },
   {
     id: 9,
     name: 'Fosnavåg Konserthus',
     imageUrl:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1694971527/Julekonsert/Bakkenteigen_Kulturhus_Horten_ist5xq.webp',
+      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1695039530/Julekonsert/Fosnava%CC%8Ag_konserthus_k9xqkr.webp',
     date: '9. desember',
-    pageUrl: '/docs/horten',
+    pageUrl: '/docs/fosnavaag',
   },
   {
     id: 10,
     name: 'Operahuset, Nordfjord',
     imageUrl:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1694971527/Julekonsert/Bakkenteigen_Kulturhus_Horten_ist5xq.webp',
+      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1695040386/Julekonsert/Operahuset_Nordfjord_oseuny.webp',
     date: '10. desember',
-    pageUrl: '/docs/horten',
+    pageUrl: '/docs/nordfjord',
   },
   {
     id: 11,
     name: 'Parken Kulturhus, Ålesund',
     imageUrl:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1694971527/Julekonsert/Bakkenteigen_Kulturhus_Horten_ist5xq.webp',
+      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1695041133/Julekonsert/Parken_kulturhus_gsdtf4.webp',
     date: '11. desember',
-    pageUrl: '/docs/horten',
+    pageUrl: '/docs/aalesund',
   },
   {
     id: 12,
     name: 'Ullensaker Kulturhus',
     imageUrl:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1694971527/Julekonsert/Bakkenteigen_Kulturhus_Horten_ist5xq.webp',
+      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1695042423/Julekonsert/Ullensaker_kulturhus_b62zpr.webp',
     date: '12. desember',
-    pageUrl: '/docs/horten',
+    pageUrl: '/docs/ullensaker',
   },
   {
     id: 13,
     name: 'Arendal Kulturhus',
     imageUrl:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1694971527/Julekonsert/Bakkenteigen_Kulturhus_Horten_ist5xq.webp',
+      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1695043591/Julekonsert/Arendal_kulturhus_xydymn.webp',
     date: '13. desember',
-    pageUrl: '/docs/horten',
+    pageUrl: '/docs/arendal',
   },
   {
     id: 14,
     name: 'Kilden, Kristiansand',
     imageUrl:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1694971527/Julekonsert/Bakkenteigen_Kulturhus_Horten_ist5xq.webp',
+      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1695044421/Julekonsert/Kilden_kulturhus_ux1ewk.webp',
     date: '14. desember',
-    pageUrl: '/docs/horten',
+    pageUrl: '/docs/kristiansand',
   },
   {
     id: 15,

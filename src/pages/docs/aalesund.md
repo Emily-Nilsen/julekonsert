@@ -1,76 +1,30 @@
 ---
 title: Ålesund
-description: Quidem magni aut exercitationem maxime rerum eos.
+description: Christmas with Nordic Tenors | Parken Kulturhus, Ålesund
 ---
 
-Quasi sapiente voluptates aut minima non doloribus similique quisquam. In quo expedita ipsum nostrum corrupti incidunt. Et aut eligendi ea perferendis.
-
----
-
-## Ålesund
-
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur.
-
-### Et pariatur ab quas
-
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.
-
-{% callout type="warning" title="Prompt formula" %}
-Given that [event], what legal action could I take?
-{% /callout %}
-
-Possimus saepe veritatis sint nobis et quam eos. Architecto consequatur odit perferendis fuga eveniet possimus rerum cumque. Ea deleniti voluptatum deserunt voluptatibus ut non iste. Provident nam asperiores vel laboriosam omnis ducimus enim nesciunt quaerat. Minus tempora cupiditate est quod.
-
-{% callout title="Example 1: Neighbour's Tree Encroachment" %}
-Given that my neighbour's tree branches constantly encroach on my property, what legal action could I take?
-{% /callout %}
-
-{% callout title="Example 2: Faulty Product Injury" %}
-Given that I purchased a faulty product that caused injury, what legal action could I take against the manufacturer?
-{% /callout %}
-
-{% callout title="Example 3: Tenant Rights Enforcement" %}
-Given that my landlord consistently fails to address serious maintenance issues in my rental unit, what legal action could I take to enforce my tenant rights?
-{% /callout %}
-
-### Natus aspernatur iste
-
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.
-
-Voluptas beatae omnis omnis voluptas. Cum architecto ab sit ad eaque quas quia distinctio. Molestiae aperiam qui quis deleniti soluta quia qui. Dolores nostrum blanditiis libero optio id. Mollitia ad et asperiores quas saepe alias.
+{% concert-header day="mandag" date="11" month="desember" time="18:00" /%}
 
 ---
 
-## Quos porro ut molestiae
+## Parken Kulturhus, Ålesund
 
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur.
+{% concert-introduction location="Parken Kulturhus, Ålesund" day="mandag" date="11" month="desember" /%}
 
-### Voluptatem quas possimus
+{% categories %}
+{% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Parken_kulturhus_gsdtf4.webp" title="Parken Kulturhus, Ålesund" /%}
+{% /categories %}
 
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.
+### Billetter
 
-Possimus saepe veritatis sint nobis et quam eos. Architecto consequatur odit perferendis fuga eveniet possimus rerum cumque. Ea deleniti voluptatum deserunt voluptatibus ut non iste. Provident nam asperiores vel laboriosam omnis ducimus enim nesciunt quaerat. Minus tempora cupiditate est quod.
+{% billetter concert="" outlet="eBillett" ticketUrl="https://checkout.ebillett.no/217/events/54973/purchase/setup" /%}
 
-### Id vitae minima
+### Konsertdetaljer
 
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.
+{% concert-details concert="Parken Kulturhus, Ålesund" date="11" month="desember" day="mandag" time="18:00 – 19:20" location="Parken Kulturhus, Hovedsal, Ålesund" /%}
 
-Voluptas beatae omnis omnis voluptas. Cum architecto ab sit ad eaque quas quia distinctio. Molestiae aperiam qui quis deleniti soluta quia qui. Dolores nostrum blanditiis libero optio id. Mollitia ad et asperiores quas saepe alias.
+### Adresse
 
----
+{% map src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2833.1748179867877!2d6.157783742480129!3d62.472933776385105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4616da46ca845251%3A0xc187ee98b30d1081!2sParken%20kulturhus!5e1!3m2!1sen!2sno!4v1695040733122!5m2!1sen!2sno" /%}
 
-## Vitae laborum maiores
-
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur.
-
-### Corporis exercitationem
-
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.
-
-Possimus saepe veritatis sint nobis et quam eos. Architecto consequatur odit perferendis fuga eveniet possimus rerum cumque. Ea deleniti voluptatum deserunt voluptatibus ut non iste. Provident nam asperiores vel laboriosam omnis ducimus enim nesciunt quaerat. Minus tempora cupiditate est quod.
-
-### Reprehenderit magni
-
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.
-
-Voluptas beatae omnis omnis voluptas. Cum architecto ab sit ad eaque quas quia distinctio. Molestiae aperiam qui quis deleniti soluta quia qui. Dolores nostrum blanditiis libero optio id. Mollitia ad et asperiores quas saepe alias.
+{%go-back-button/%}

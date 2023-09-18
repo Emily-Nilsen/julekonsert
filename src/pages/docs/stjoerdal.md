@@ -1,74 +1,30 @@
 ---
 title: Stjørdal
-description: Quidem magni aut exercitationem maxime rerum eos.
+description: Christmas with Nordic Tenors | Kimen Kulturhus, Stjørdal
 ---
 
-Quasi sapiente voluptates aut minima non doloribus similique quisquam. In quo expedita ipsum nostrum corrupti incidunt. Et aut eligendi ea perferendis.
-
----
-
-## Flirts: AI-style
-
-Are you trying to capture the heart of someone special? Can you create charming and witty AI-generated pickup lines to impress your person of interest? Unfortunately, no. Can you use the following formulas to craft cheesy, cringe-worthy pickup lines? Absolutely, yes!
-
-### Unusual pickups
-
-Generate quirky and distinctive pickup lines fitting unusual styles and situations for fun.
-
-{% callout type="warning" title="Prompt formula" %}
-Can you create pickup lines as if you were a [uncommon style and situation]?
-{% /callout %}
-
-{% callout title="Example 1" %}
-Can you create pickup lines as if you were a time-travelling scientist from the 21st century attempting to woo someone from the 15th century?
-{% /callout %}
-
-{% callout title="Example 2" %}
-Can you create pickup lines as if you were a quirky space explorer trying to win the heart of an alien life form?
-{% /callout %}
-
-{% callout title="Example 3" %}
-Can you create pickup lines as if you were a cybernetic android trying to connect with a human in a futuristic techno-club?
-{% /callout %}
-
-### Natus aspernatur iste
-
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.
-
-Voluptas beatae omnis omnis voluptas. Cum architecto ab sit ad eaque quas quia distinctio. Molestiae aperiam qui quis deleniti soluta quia qui. Dolores nostrum blanditiis libero optio id. Mollitia ad et asperiores quas saepe alias.
+{% concert-header day="torsdag" date="7" month="desember" time="18:00" /%}
 
 ---
 
-## Quos porro ut molestiae
+## Kimen Kulturhus, Stjørdal
 
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur.
+{% concert-introduction location="Kimen Kulturhus, Stjørdal" day="torsdag" date="7" month="desember" /%}
 
-### Voluptatem quas possimus
+{% categories %}
+{% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Kimen_hld2po.webp" title="Kimen Kulturhus, Stjørdal" /%}
+{% /categories %}
 
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.
+### Billetter
 
-Possimus saepe veritatis sint nobis et quam eos. Architecto consequatur odit perferendis fuga eveniet possimus rerum cumque. Ea deleniti voluptatum deserunt voluptatibus ut non iste. Provident nam asperiores vel laboriosam omnis ducimus enim nesciunt quaerat. Minus tempora cupiditate est quod.
+{% billetter concert="" outlet="Kimen Kulturhus" ticketUrl="https://billett.kimenkulturhus.no/webshop/webticket/seatmap?eventId=376" /%}
 
-### Id vitae minima
+### Konsertdetaljer
 
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.
+{% concert-details concert="Kimen Kulturhus, Stjørdal" date="7" month="desember" day="torsdag" time="18:00 – 19:20" location="Kimen Kulturhus, Storsalen, Stjørdal" /%}
 
-Voluptas beatae omnis omnis voluptas. Cum architecto ab sit ad eaque quas quia distinctio. Molestiae aperiam qui quis deleniti soluta quia qui. Dolores nostrum blanditiis libero optio id. Mollitia ad et asperiores quas saepe alias.
+### Adresse
 
----
+{% map src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1782.1406061992968!2d10.925275942523331!3d63.469629776973484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x466d15ed449fd5f5%3A0x74b9e512cacf31d2!2sKimen%20kulturhus!5e0!3m2!1sen!2sno!4v1695034958837!5m2!1sen!2sno" /%}
 
-## Vitae laborum maiores
-
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur.
-
-### Corporis exercitationem
-
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.
-
-Possimus saepe veritatis sint nobis et quam eos. Architecto consequatur odit perferendis fuga eveniet possimus rerum cumque. Ea deleniti voluptatum deserunt voluptatibus ut non iste. Provident nam asperiores vel laboriosam omnis ducimus enim nesciunt quaerat. Minus tempora cupiditate est quod.
-
-### Reprehenderit magni
-
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.
-
-Voluptas beatae omnis omnis voluptas. Cum architecto ab sit ad eaque quas quia distinctio. Molestiae aperiam qui quis deleniti soluta quia qui. Dolores nostrum blanditiis libero optio id. Mollitia ad et asperiores quas saepe alias.
+{%go-back-button/%}

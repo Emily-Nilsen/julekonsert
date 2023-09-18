@@ -1,102 +1,30 @@
 ---
 title: Grong
-description: Quidem magni aut exercitationem maxime rerum eos.
+description: Christmas with Nordic Tenors | Kuben Kulturhus, Grong
 ---
 
-Quasi sapiente voluptates aut minima non doloribus similique quisquam. In quo expedita ipsum nostrum corrupti incidunt. Et aut eligendi ea perferendis.
-
----
-
-## Jokes and Puns
-
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur.
-
-### Subjective AI humour
-
-We're still determining how witty AI-generated jokes are. Still, you can create jokes about various subjects and hope someone finds them funny.
-
-{% callout type="warning" title="Prompt formula" %}
-Write a joke about a [subject]?
-{% /callout %}
-
-{% callout title="Example 1" %}
-Write a joke about a hyper-intelligent squirrel.
-{% /callout %}
-
-{% callout title="Example 2" %}
-Write a joke about a time-traveling toaster.
-{% /callout %}
-
-{% callout title="Example 3" %}
-Write a joke about a singing bathroom mirror.
-{% /callout %}
-
-### Id vitae minima
-
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.
-
-Voluptas beatae omnis omnis voluptas. Cum architecto ab sit ad eaque quas quia distinctio. Molestiae aperiam qui quis deleniti soluta quia qui. Dolores nostrum blanditiis libero optio id. Mollitia ad et asperiores quas saepe alias.
+{% concert-header day="fredag" date="8" month="desember" time="19:00" /%}
 
 ---
 
-## Nicknames
+## Kuben Kulturhus, Grong
 
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur.
+{% concert-introduction location="Kuben Kulturhus, Grong" day="fredag" date="8" month="desember" /%}
 
-### Creative nicknames
+{% categories %}
+{% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Kuben_Kulturhus_p9wfis.webp" title="Kuben Kulturhus, Grong" /%}
+{% /categories %}
 
-Generate unique and creative nicknames in various styles for any subject with specific characteristics using this prompt formula.
+### Billetter
 
-{% callout type="warning" title="Prompt formula" %}
-Can you create [style] nicknames for a [subject] with the following characteristics: [list]?
-{% /callout %}
+{% billetter concert="" outlet="kulturhusetkuben.no" ticketUrl="https://kulturhusetkuben.no/christmas-with-nordic-tenors-a3l6hn/" /%}
 
-{% callout title="Example 1" %}
-Can you create whimsical nicknames for a mischievous cat with the following characteristics: playful, agile, and cunning?
-{% /callout %}
+### Konsertdetaljer
 
-{% callout title="Example 2" %}
-Can you create futuristic nicknames for a tech-savvy teenager with the following characteristics: innovative, tech-loving, and visionary?
-{% /callout %}
+{% concert-details concert="Kuben Kulturhus, Grong" date="8" month="desember" day="fredag" time="19:00 – 20:20" location="Kuben Kulturhus, Grong" /%}
 
-{% callout title="Example 3" %}
-Can you create sporty nicknames for an energetic and athletic dog with the following characteristics: fast, enthusiastic, and loyal?
-{% /callout %}
+### Adresse
 
-### Wordplay nicknames
+{% map src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1719.880842764679!2d12.306904742566731!3d64.46467717758864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4672514ac2e19103%3A0xa0f9ab232f208640!2sKuben%20Kulturhus!5e0!3m2!1sen!2sno!4v1695036701890!5m2!1sen!2sno" /%}
 
-Design funny nicknames using wordplay for a particular subject or person.
-
-{% callout type="warning" title="Prompt formula" %}
-Can you incorporate wordplay to create [number] funny nicknames for a [person or subject]?
-{% /callout %}
-
-{% callout title="Example 1" %}
-Can you incorporate wordplay to create 7 funny nicknames for a clumsy dancer?
-{% /callout %}
-
-{% callout title="Example 2" %}
-Can you incorporate wordplay to create 5 funny nicknames for a tech-savvy grandma?
-{% /callout %}
-
-{% callout title="Example 3" %}
-Can you incorporate wordplay to create 10 funny nicknames for a fitness-obsessed couch potato?
-{% /callout %}
-
----
-
-## Vitae laborum maiores
-
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur.
-
-### Corporis exercitationem
-
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.
-
-Possimus saepe veritatis sint nobis et quam eos. Architecto consequatur odit perferendis fuga eveniet possimus rerum cumque. Ea deleniti voluptatum deserunt voluptatibus ut non iste. Provident nam asperiores vel laboriosam omnis ducimus enim nesciunt quaerat. Minus tempora cupiditate est quod.
-
-### Reprehenderit magni
-
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.
-
-Voluptas beatae omnis omnis voluptas. Cum architecto ab sit ad eaque quas quia distinctio. Molestiae aperiam qui quis deleniti soluta quia qui. Dolores nostrum blanditiis libero optio id. Mollitia ad et asperiores quas saepe alias.
+{%go-back-button/%}

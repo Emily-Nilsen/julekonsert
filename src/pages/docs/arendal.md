@@ -1,94 +1,30 @@
 ---
 title: Arendal
-description: Quidem magni aut exercitationem maxime rerum eos.
+description: Christmas with Nordic Tenors | Arendal Kulturhus
 ---
 
-Quasi sapiente voluptates aut minima non doloribus similique quisquam. In quo expedita ipsum nostrum corrupti incidunt. Et aut eligendi ea perferendis.
-
----
-
-## Storytelling
-
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur.
-
-### Improve writing skills
-
-Design a writing exercise tailored to the skill level of writers. Incorporating a specific task and emphasizing the refinement of a particular aspect of writing helps writers enhance their abilities in a targeted manner.
-
-{% callout type="warning" title="Prompt formula" %}
-Create an enriching [writing technique] exercise tailored for [skill level] writers, incorporating [specific task] to enhance their abilities. The exercise should emphasise refining [aspect of writing] to foster noticeable improvements in their craft.
-{% /callout %}
-
-{% callout title="Example 1" %}
-Create an enriching character development exercise tailored for intermediate writers, incorporating a dialogue-writing task to enhance their abilities. The exercise should emphasise refining emotional expression to foster noticeable improvements in their craft.
-{% /callout %}
-
-{% callout title="Example 2" %}
-Design an enriching descriptive language exercise tailored for advanced writers, incorporating a setting visualisation task to enhance their abilities. The exercise should emphasise refining sensory imagery to foster noticeable improvements in their craft.
-{% /callout %}
-
-{% callout title="Example 3" %}
-Develop an enriching plot-building exercise tailored for beginner writers, incorporating a conflict-creation task to enhance their abilities. The exercise should emphasise refining story structure to foster noticeable improvements in their craft.
-{% /callout %}
-
-### Bedtime hero
-
-Craft an enchanting bedtime tale with your named person at the heart of thrilling escapades in a land of wonders and magic.
-
-{% callout type="warning" title="Prompt formula" %}
-Compose an entertaining bedtime tale starring [insert name of the chosen person] as the protagonist.
-{% /callout %}
-
-{% callout title="Example" %}
-Compose an entertaining bedtime tale starring "Astronaut Alex" as the protagonist.
-{% /callout %}
+{% concert-header day="onsdag" date="13" month="desember" time="19:00" /%}
 
 ---
 
-## Articles
+## Arendal Kulturhus
 
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur.
+{% concert-introduction location="Arendal Kulturhus" day="onsdag" date="13" month="desember" /%}
 
-### Perspective-driven article
+{% categories %}
+{% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Arendal_kulturhus_xydymn.webp" title="Arendal Kulturhus" /%}
+{% /categories %}
 
-Guides users in crafting an article centred on a selected topic while considering various viewpoints and moulding it with a desired tone to promote inclusiveness and appeal to a broader readership.
+### Billetter
 
-{% callout type="warning" title="Prompt formula" %}
-Write an article about [topic]. Consider diverse perspectives and write it in a [preferred tone] tone.
-{% /callout %}
+{% billetter concert="" outlet="arendalkulturhus.no" ticketUrl="https://www.arendalkulturhus.no/program/christmas-with-nordic-tenors/" /%}
 
-{% callout title="Example 1" %}
-Write an article about the ethical implications of genetic engineering in humans. Consider diverse perspectives and write it in a thought-provoking tone.
-{% /callout %}
+### Konsertdetaljer
 
-{% callout title="Example 2" %}
-Write an article about the cultural significance of traditional festivals around the world. Consider diverse perspectives and write it in a celebratory tone.
-{% /callout %}
+{% concert-details concert="Arendal Kulturhus" date="13" month="desember" day="onsdag" time="19:00 – 20:20" location="Arendal Kulturhus" /%}
 
-{% callout title="Example 3" %}
-Write an article about the challenges and benefits of space exploration. Consider diverse perspectives and write it in an awe-inspiring tone.
-{% /callout %}
+### Adresse
 
-### Id vitae minima
+{% map src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3206.635412506854!2d8.762401777883536!3d58.460307174205184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46479567646216d7%3A0x7575770ef55d539!2sArendal%20Kulturhus!5e1!3m2!1sen!2sno!4v1695042862678!5m2!1sen!2sno" /%}
 
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.
-
-Voluptas beatae omnis omnis voluptas. Cum architecto ab sit ad eaque quas quia distinctio. Molestiae aperiam qui quis deleniti soluta quia qui. Dolores nostrum blanditiis libero optio id. Mollitia ad et asperiores quas saepe alias.
-
----
-
-## Vitae laborum maiores
-
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur.
-
-### Corporis exercitationem
-
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.
-
-Possimus saepe veritatis sint nobis et quam eos. Architecto consequatur odit perferendis fuga eveniet possimus rerum cumque. Ea deleniti voluptatum deserunt voluptatibus ut non iste. Provident nam asperiores vel laboriosam omnis ducimus enim nesciunt quaerat. Minus tempora cupiditate est quod.
-
-### Reprehenderit magni
-
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.
-
-Voluptas beatae omnis omnis voluptas. Cum architecto ab sit ad eaque quas quia distinctio. Molestiae aperiam qui quis deleniti soluta quia qui. Dolores nostrum blanditiis libero optio id. Mollitia ad et asperiores quas saepe alias.
+{%go-back-button/%}
