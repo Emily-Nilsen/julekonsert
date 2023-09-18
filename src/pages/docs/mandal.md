@@ -1,74 +1,30 @@
 ---
-title: Music
-description: Quidem magni aut exercitationem maxime rerum eos.
+title: Mandal
+description: Christmas with Nordic Tenors | Buen Kulturhus, Mandal
 ---
 
-Quasi sapiente voluptates aut minima non doloribus similique quisquam. In quo expedita ipsum nostrum corrupti incidunt. Et aut eligendi ea perferendis.
-
----
-
-## Writing Songs
-
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur.
-
-### Subject-driven lyrical enhancement
-
-Craft a powerful song by starting with a specific subject and adding extra details to enhance the lyrical content, using this formula for maximum impact.
-
-{% callout type="warning" title="Prompt formula" %}
-Can you create an engaging [type of song] centred around [subject], incorporating [additional details] to enrich the lyrical content?
-{% /callout %}
-
-{% callout title="Example 1" %}
-Can you create an engaging hip-hop track centered around social justice issues, incorporating thought-provoking statistics and impactful storytelling to enrich the lyrical content?
-{% /callout %}
-
-{% callout title="Example 2" %}
-Can you create an engaging country song centered around small-town life, incorporating tales of hard work on the farm and tight-knit community bonds to enrich the lyrical content?
-{% /callout %}
-
-{% callout title="Example 3" %}
-Can you create an engaging electronic dance track centered around a futuristic dystopian world, incorporating elements of technological chaos and human survival to enrich the lyrical content?
-{% /callout %}
-
-### Natus aspernatur iste
-
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.
-
-Voluptas beatae omnis omnis voluptas. Cum architecto ab sit ad eaque quas quia distinctio. Molestiae aperiam qui quis deleniti soluta quia qui. Dolores nostrum blanditiis libero optio id. Mollitia ad et asperiores quas saepe alias.
+{% concert-header day="fredag" date="15" month="desember" time="18:00" /%}
 
 ---
 
-## Quos porro ut molestiae
+## Buen Kulturhus, Mandal
 
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur.
+{% concert-introduction location="Buen Kulturhus, Mandal" day="fredag" date="15" month="desember" /%}
 
-### Voluptatem quas possimus
+{% categories %}
+{% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Mandal_kulturhus_ou9mgi.webp" title="Buen Kulturhus, Mandal" /%}
+{% /categories %}
 
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.
+### Billetter
 
-Possimus saepe veritatis sint nobis et quam eos. Architecto consequatur odit perferendis fuga eveniet possimus rerum cumque. Ea deleniti voluptatum deserunt voluptatibus ut non iste. Provident nam asperiores vel laboriosam omnis ducimus enim nesciunt quaerat. Minus tempora cupiditate est quod.
+{% billetter concert="" outlet="eBillett" ticketUrl="https://checkout.ebillett.no/202/events/80881/purchase/setup" /%}
 
-### Id vitae minima
+### Konsertdetaljer
 
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.
+{% concert-details concert="Buen Kulturhus, Mandal" date="15" month="desember" day="fredag" time="18:00 – 19:20" location="Buen Kulturhus, Storsal, Mandal" /%}
 
-Voluptas beatae omnis omnis voluptas. Cum architecto ab sit ad eaque quas quia distinctio. Molestiae aperiam qui quis deleniti soluta quia qui. Dolores nostrum blanditiis libero optio id. Mollitia ad et asperiores quas saepe alias.
+### Adresse
 
----
+{% map src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3246.1978964745995!2d7.453504077865427!3d58.02542867400935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46378e8e58581b95%3A0x7802eca3f0f4ba23!2sBuen%20kulturhus!5e1!3m2!1sen!2sno!4v1695045851563!5m2!1sen!2sno" /%}
 
-## Vitae laborum maiores
-
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur.
-
-### Corporis exercitationem
-
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.
-
-Possimus saepe veritatis sint nobis et quam eos. Architecto consequatur odit perferendis fuga eveniet possimus rerum cumque. Ea deleniti voluptatum deserunt voluptatibus ut non iste. Provident nam asperiores vel laboriosam omnis ducimus enim nesciunt quaerat. Minus tempora cupiditate est quod.
-
-### Reprehenderit magni
-
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.
-
-Voluptas beatae omnis omnis voluptas. Cum architecto ab sit ad eaque quas quia distinctio. Molestiae aperiam qui quis deleniti soluta quia qui. Dolores nostrum blanditiis libero optio id. Mollitia ad et asperiores quas saepe alias.
+{%go-back-button/%}

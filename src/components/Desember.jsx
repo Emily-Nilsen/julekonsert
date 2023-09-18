@@ -124,43 +124,43 @@ const concerts = [
   },
   {
     id: 15,
-    name: 'Buen Kulturhus',
+    name: 'Buen Kulturhus, Mandal',
     imageUrl:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1694971527/Julekonsert/Bakkenteigen_Kulturhus_Horten_ist5xq.webp',
+      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1695046278/Julekonsert/Mandal_kulturhus_ou9mgi.webp',
     date: '15. desember',
-    pageUrl: '/docs/horten',
+    pageUrl: '/docs/mandal',
   },
   {
     id: 16,
     name: 'Sandnes Kulturhus',
     imageUrl:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1694971527/Julekonsert/Bakkenteigen_Kulturhus_Horten_ist5xq.webp',
+      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1695048267/Julekonsert/Sandnes_kulturhus_qdnush.webp',
     date: '16. desember',
-    pageUrl: '/docs/horten',
+    pageUrl: '/docs/sandnes',
   },
   {
     id: 17,
     name: 'Stavanger Konserthus',
     imageUrl:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1694971527/Julekonsert/Bakkenteigen_Kulturhus_Horten_ist5xq.webp',
+      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1695049327/Julekonsert/Stavanger_konserthus_xfqt2s.webp',
     date: '17. desember',
-    pageUrl: '/docs/horten',
+    pageUrl: '/docs/stavanger',
   },
   {
     id: 18,
     name: 'Festiviteten, Haugesund',
     imageUrl:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1694971527/Julekonsert/Bakkenteigen_Kulturhus_Horten_ist5xq.webp',
+      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1695051392/Julekonsert/Festiviteten_Haugesund_nkllsw.webp',
     date: '18. desember',
-    pageUrl: '/docs/horten',
+    pageUrl: '/docs/haugesund',
   },
   {
     id: 19,
     name: 'Kulturhuset i Tromsø',
     imageUrl:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1694971527/Julekonsert/Bakkenteigen_Kulturhus_Horten_ist5xq.webp',
+      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1695062936/Julekonsert/Kulturhuset_troms%C3%B8_tp5q3k.webp',
     date: '19. desember',
-    pageUrl: '/docs/horten',
+    pageUrl: '/docs/tromsoe',
   },
   {
     id: 20,

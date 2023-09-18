@@ -1,74 +1,30 @@
 ---
 title: Stavanger
-description: Quidem magni aut exercitationem maxime rerum eos.
+description: Christmas with Nordic Tenors | Stavanger Konserthus
 ---
 
-Quasi sapiente voluptates aut minima non doloribus similique quisquam. In quo expedita ipsum nostrum corrupti incidunt. Et aut eligendi ea perferendis.
-
----
-
-## Video Scripts
-
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur.
-
-### Persuasive topic exploration
-
-Use this formula to develop a captivating video script that focuses on a thought-provoking subject, aiming to achieve a specific goal while considering the relevant context.
-
-{% callout type="warning" title="Prompt formula" %}
-Craft a compelling video script with the aim of [goal], delving into the intriguing topic of [subject] while considering [additional context].
-{% /callout %}
-
-{% callout title="Example 1" %}
-Craft a compelling video script with the aim of educating viewers about sustainable gardening practices, delving into the intriguing topic of permaculture while considering its impact on biodiversity and soil health.
-{% /callout %}
-
-{% callout title="Example 2" %}
-Craft a compelling video script with the aim of inspiring creativity, delving into the intriguing topic of street art while considering its historical significance and evolving role in contemporary urban culture.
-{% /callout %}
-
-{% callout title="Example 3" %}
-Craft a compelling video script with the aim of entertaining and engaging audiences, delving into the intriguing topic of urban legends and folklore while considering their cultural significance and enduring popularity.
-{% /callout %}
-
-### Natus aspernatur iste
-
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.
-
-Voluptas beatae omnis omnis voluptas. Cum architecto ab sit ad eaque quas quia distinctio. Molestiae aperiam qui quis deleniti soluta quia qui. Dolores nostrum blanditiis libero optio id. Mollitia ad et asperiores quas saepe alias.
+{% concert-header day="søndag" date="17" month="desember" time="18:00" /%}
 
 ---
 
-## Quos porro ut molestiae
+## Stavanger Konserthus
 
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur.
+{% concert-introduction location="Stavanger Konserthus" day="søndag" date="17" month="desember" /%}
 
-### Voluptatem quas possimus
+{% categories %}
+{% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Stavanger_konserthus_xfqt2s.webp" title="Stavanger Konserthus" /%}
+{% /categories %}
 
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.
+### Billetter
 
-Possimus saepe veritatis sint nobis et quam eos. Architecto consequatur odit perferendis fuga eveniet possimus rerum cumque. Ea deleniti voluptatum deserunt voluptatibus ut non iste. Provident nam asperiores vel laboriosam omnis ducimus enim nesciunt quaerat. Minus tempora cupiditate est quod.
+{% billetter concert="" outlet="tix.no" ticketUrl="https://tix.no/nb/stavanger/buyingflow/tickets/20832/41316/?_ga=2.44577517.811834603.1678814790-1890436003.1678814790&_gl=1*j0rtgz*_ga*MTg5MDQzNjAwMy4xNjc4ODE0Nzkw*_ga_DEB4HCM8L4*MTY3ODgxNDc4OS4xLjAuMTY3ODgxNDc4OS4wLjAuMA.." /%}
 
-### Id vitae minima
+### Konsertdetaljer
 
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.
+{% concert-details concert="Stavanger Konserthus" date="17" month="desember" day="søndag" time="18:00 – 19:20" location="Stavanger Konserthus" /%}
 
-Voluptas beatae omnis omnis voluptas. Cum architecto ab sit ad eaque quas quia distinctio. Molestiae aperiam qui quis deleniti soluta quia qui. Dolores nostrum blanditiis libero optio id. Mollitia ad et asperiores quas saepe alias.
+### Adresse
 
----
+{% map src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3159.5488877135385!2d5.721037277905012!3d58.9752674744448!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x463a354d16cdc0ed%3A0x5ceeb3ec9e78ac45!2sStavanger%20Konserthus!5e1!3m2!1sen!2sno!4v1695048802270!5m2!1sen!2sno" /%}
 
-## Vitae laborum maiores
-
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur.
-
-### Corporis exercitationem
-
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.
-
-Possimus saepe veritatis sint nobis et quam eos. Architecto consequatur odit perferendis fuga eveniet possimus rerum cumque. Ea deleniti voluptatum deserunt voluptatibus ut non iste. Provident nam asperiores vel laboriosam omnis ducimus enim nesciunt quaerat. Minus tempora cupiditate est quod.
-
-### Reprehenderit magni
-
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.
-
-Voluptas beatae omnis omnis voluptas. Cum architecto ab sit ad eaque quas quia distinctio. Molestiae aperiam qui quis deleniti soluta quia qui. Dolores nostrum blanditiis libero optio id. Mollitia ad et asperiores quas saepe alias.
+{%go-back-button/%}

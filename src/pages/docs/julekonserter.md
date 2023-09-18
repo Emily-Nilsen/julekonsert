@@ -10,7 +10,7 @@ En fullstendig liste over alle julekonsertene med Nordic Tenors i 2023 finner du
 
 ## Nordic Tenors ‘julekalender’
 
-For mer informasjon om hver konsert, klikk på datoen i kalenderen (ved å sveve over datoen ser du hvilken konsert som holdes den dagen), eller klikk på konserten i listen.
+For mer informasjon om hver konsert, klikk på datoen i kalenderen (ved å holde musepekeren over datoen ser du hvilken konsert som holdes den dagen), eller klikk på konserten i listen.
 
 ### November 2023
 

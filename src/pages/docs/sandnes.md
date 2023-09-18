@@ -1,88 +1,30 @@
 ---
 title: Sandnes
-description: Quidem magni aut exercitationem maxime rerum eos.
+description: Christmas with Nordic Tenors | Sandnes Kulturhus
 ---
 
-Quasi sapiente voluptates aut minima non doloribus similique quisquam. In quo expedita ipsum nostrum corrupti incidunt. Et aut eligendi ea perferendis.
-
----
-
-## Sandnes
-
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur.
-
-### Quick audience insight
-
-Generate succinct summaries that encompass the main ideas while considering the interests of a specific target audience, all within a limited word count.
-
-{% callout type="warning" title="Prompt formula" %}
-Could you deliver a concise summary of [title] in [number] words, taking into account the interests of [target audience]?
-{% /callout %}
-
-{% callout title="Example 1" %}
-Could you deliver a concise summary of "The Power of Mindfulness: Achieving Inner Peace and Mental Clarity" in 100 words, taking into account the interests of individuals seeking stress-relief and personal growth?
-{% /callout %}
-
-{% callout title="Example 2" %}
-Could you deliver a concise summary of "Investing in Cryptocurrencies: Understanding the Risks and Rewards" in 180 words, taking into account the interests of finance-savvy millennials and potential crypto investors?
-{% /callout %}
-
-{% callout title="Example 3" %}
-Could you deliver a concise summary of "The History of Ancient Civilizations: Unraveling the Secrets of the Past" in 250 words, taking into account the interests of history buffs and archaeology enthusiasts?
-{% /callout %}
-
-### Natus aspernatur iste
-
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.
-
-Voluptas beatae omnis omnis voluptas. Cum architecto ab sit ad eaque quas quia distinctio. Molestiae aperiam qui quis deleniti soluta quia qui. Dolores nostrum blanditiis libero optio id. Mollitia ad et asperiores quas saepe alias.
+{% concert-header day="lørdag" date="16" month="desember" time="18:00" /%}
 
 ---
 
-## Latest News
+## Sandnes Kulturhus
 
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur.
+{% concert-introduction location="Sandnes Kulturhus" day="lørdag" date="16" month="desember" /%}
 
-### Stay updated effortlessly
+{% categories %}
+{% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Sandnes_kulturhus_qdnush.webp" title="Sandnes Kulturhus" /%}
+{% /categories %}
 
-Asking for an update using the following formula is a quick and efficient way to stay in the loop. It allows you to get the latest information on a topic without searching for it yourself. Plus, it ensures you're up-to-date on the most recent developments in your area of interest.
+### Billetter
 
-{% callout type="warning" title="Prompt formula" %}
-Can you provide me with an update on [topic] over the past [timeframe]?
-{% /callout %}
+{% billetter concert="" outlet="sandnes-kulturhus.no" ticketUrl="https://www.sandnes-kulturhus.no/program/christmas-with-nordic-tenors-2/" /%}
 
-{% callout title="Example 1" %}
-Can you provide me with an update on the advancements in medical research over the past five years?
-{% /callout %}
+### Konsertdetaljer
 
-{% callout title="Example 2" %}
-Can you provide me with an update on the political situation in Hawaii over the past two years?
-{% /callout %}
+{% concert-details concert="Sandnes Kulturhus, Storsal" date="16" month="desember" day="lørdag" time="18:00 – 19:20" location="Sandnes Kulturhus" /%}
 
-{% callout title="Example 3" %}
-Can you provide me with an update on the latest developments in artificial intelligence over the past six months?
-{% /callout %}
+### Adresse
 
-### Id vitae minima
+{% map src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3170.864176211762!2d5.737648577899871!3d58.85177417438654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x463a36586d52dde9%3A0x9aafec1085a7bf1f!2sSandnes%20kulturhus!5e1!3m2!1sen!2sno!4v1695046661892!5m2!1sen!2sno" /%}
 
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.
-
-Voluptas beatae omnis omnis voluptas. Cum architecto ab sit ad eaque quas quia distinctio. Molestiae aperiam qui quis deleniti soluta quia qui. Dolores nostrum blanditiis libero optio id. Mollitia ad et asperiores quas saepe alias.
-
----
-
-## Vitae laborum maiores
-
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur.
-
-### Corporis exercitationem
-
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.
-
-Possimus saepe veritatis sint nobis et quam eos. Architecto consequatur odit perferendis fuga eveniet possimus rerum cumque. Ea deleniti voluptatum deserunt voluptatibus ut non iste. Provident nam asperiores vel laboriosam omnis ducimus enim nesciunt quaerat. Minus tempora cupiditate est quod.
-
-### Reprehenderit magni
-
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.
-
-Voluptas beatae omnis omnis voluptas. Cum architecto ab sit ad eaque quas quia distinctio. Molestiae aperiam qui quis deleniti soluta quia qui. Dolores nostrum blanditiis libero optio id. Mollitia ad et asperiores quas saepe alias.
+{%go-back-button/%}

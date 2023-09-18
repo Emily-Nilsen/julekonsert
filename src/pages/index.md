@@ -1,7 +1,7 @@
 ---
 title: Christmas with Nordic Tenors
 pageTitle: Magiske julekonserter med Nordic Tenors
-description: Nordic Tenors gir deg en vakker julekonsert med unike stemmer, varme, humor, og tradisjonelt julerepertoar. Opplev førjulsstemning med Jan-Tore Saltnes, Nils Georg Nilsen og Espen Solsbak.
+description: Nordic Tenors gir deg en vakker julekonsert med unike stemmer, varme, humor, og et tradisjonelt julerepertoar. Opplev førjulsstemning med Jan-Tore Saltnes, Nils Georg Nilsen og Espen Solsbak.
 ---
 
 Velkommen skal du være til julekonsert med Nordic Tenors i 2023! {% .lead %}
@@ -40,9 +40,9 @@ Alle konsert og bestillingsmuligheter er satt opp av arrangøren. Arrangør er s
 
 Nordic Tenors kombinerer utsøkt kunstnerisk kvalitet med humor, dans og musikalske overraskelser. I 2005 hadde de première på sitt første show Nordic Tenors & Sjur Hjeltnes/Bella Notte. Året etter fikk de komiprisen som “årets nykommer”.
 
-Etter dette har de vært kongelige toastmaster for HMK Harald i 2007, de åpnet den nye operaen i Bjørvika i 2008, og i 2009 hadde de premiere på Nytt Show i Bergen og utgav sin første CD “Live at Logen”. 2010 ble de nominert til Komiprisen for “Årets nummer”.
+Etter dette har de vært kongelige toastmastere for HMK Harald i 2007, de åpnet den nye operaen i Bjørvika i 2008, og i 2009 hadde de premiere på Nytt Show i Bergen og utgav sin første CD “Live at Logen”. I 2010 ble de nominert til Komiprisen for “Årets nummer”.
 
-2013 reiser de rundt med det nye showet “An evening with Nordic Tenors” og jubileumsforestillingen “Ten years with Nordic Tenors”. De er og på juleturné med det svenske ensemblet Neumann Strings.
+I 2013 reiste de rundt med showet “An evening with Nordic Tenors” og jubileumsforestillingen “Ten years with Nordic Tenors”. De var også på juleturné med det svenske ensemblet Neumann Strings. Siden har de regelmessig gitt ut nye album og turnert i det ganske land.
 
 Deres julekonserter har etablert seg som en av Norges mest besøkte juleturnéer.
 
