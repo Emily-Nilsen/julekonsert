@@ -1,69 +1,154 @@
+import Image from 'next/image'
+import Link from 'next/link'
 import { Fragment } from 'react'
-import {
-  CalendarIcon,
-  ChevronLeftIcon,
-  ChevronRightIcon,
-  EllipsisHorizontalIcon,
-  MapPinIcon,
-} from '@heroicons/react/20/solid'
+import { ChevronLeftIcon, ChevronRightIcon } from '@heroicons/react/20/solid'
 import { Menu, Transition } from '@headlessui/react'
+import { EllipsisVerticalIcon } from '@heroicons/react/24/outline'
+import { GoBackButton } from './GoBackButton'
 
-const meetings = [
+const days = [
+  { date: '2023-10-30' },
+  { date: '2023-10-31' },
+  { date: '2023-11-01', isCurrentMonth: true },
+  { date: '2023-11-02', isCurrentMonth: true },
+  { date: '2023-11-03', isCurrentMonth: true },
+  { date: '2023-11-04', isCurrentMonth: true },
+  { date: '2023-11-05', isCurrentMonth: true },
+  { date: '2023-11-06', isCurrentMonth: true },
+  { date: '2023-11-07', isCurrentMonth: true },
+  { date: '2023-11-08', isCurrentMonth: true },
+  { date: '2023-11-09', isCurrentMonth: true },
+  { date: '2023-11-10', isCurrentMonth: true },
+  { date: '2023-11-11', isCurrentMonth: true },
+  { date: '2023-11-12', isCurrentMonth: true },
+  { date: '2023-11-13', isCurrentMonth: true },
+  { date: '2023-11-14', isCurrentMonth: true },
+  { date: '2023-11-15', isCurrentMonth: true },
+  { date: '2023-11-16', isCurrentMonth: true },
+  { date: '2023-11-17', isCurrentMonth: true },
+  { date: '2023-11-18', isCurrentMonth: true },
+  { date: '2023-11-19', isCurrentMonth: true },
+  { date: '2023-11-20', isCurrentMonth: true },
+  { date: '2023-11-21', isCurrentMonth: true },
+  { date: '2023-11-22', isCurrentMonth: true },
+  {
+    date: '2023-11-23',
+    isCurrentMonth: true,
+    isSelected: true,
+    href: '/docs/horten',
+    tooltip: 'Bakkenteigen Kulturhus, Horten',
+  },
+  {
+    date: '2023-11-24',
+    isCurrentMonth: true,
+    isSelected: true,
+    href: '/docs/askim',
+    tooltip: 'Askim Kulturhus',
+  },
+  {
+    date: '2023-11-25',
+    isCurrentMonth: true,
+    isSelected: true,
+    href: '/docs/hamar',
+    tooltip: 'Hamar Kulturhus',
+  },
+  {
+    date: '2023-11-26',
+    isCurrentMonth: true,
+    isSelected: true,
+    href: '/docs/oslo',
+    tooltip: 'Oslo Konserthus',
+  },
+  { date: '2023-11-27', isCurrentMonth: true },
+  {
+    date: '2023-11-28',
+    isCurrentMonth: true,
+    isSelected: true,
+    href: '/docs/kongsberg',
+    tooltip: 'Kongsberg Musikkteater',
+  },
+  {
+    date: '2023-11-29',
+    isCurrentMonth: true,
+    isSelected: true,
+    href: '/docs/noetteroey',
+    tooltip: 'Nøtterøy Kulturhus',
+  },
+  {
+    date: '2023-11-30',
+    isCurrentMonth: true,
+    isSelected: true,
+    href: '/docs/sandefjord',
+    tooltip: 'Hjertnes Kulturhus, Sandefjord',
+  },
+  { date: '2023-12-01' },
+  { date: '2023-12-02' },
+  { date: '2023-12-03' },
+  { date: '2023-12-04' },
+  { date: '2023-12-05' },
+  { date: '2023-12-06' },
+  { date: '2023-12-07' },
+  { date: '2023-12-08' },
+  { date: '2023-12-09' },
+  { date: '2023-12-10' },
+]
+const concerts = [
   {
     id: 1,
-    date: 'January 10th, 2022',
-    time: '5:00 PM',
-    datetime: '2022-01-10T17:00',
-    name: 'Leslie Alexander',
+    name: 'Bakkenteigen Kulturhus, Horten',
     imageUrl:
-      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-    location: 'Starbucks',
+      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1694971527/Julekonsert/Bakkenteigen_Kulturhus_Horten_ist5xq.webp',
+    date: '23. november',
+    pageUrl: '/docs/horten',
   },
-  // More meetings...
-]
-const days = [
-  { date: '2021-12-27' },
-  { date: '2021-12-28' },
-  { date: '2021-12-29' },
-  { date: '2021-12-30' },
-  { date: '2021-12-31' },
-  { date: '2022-01-01', isCurrentMonth: true },
-  { date: '2022-01-02', isCurrentMonth: true },
-  { date: '2022-01-03', isCurrentMonth: true },
-  { date: '2022-01-04', isCurrentMonth: true },
-  { date: '2022-01-05', isCurrentMonth: true },
-  { date: '2022-01-06', isCurrentMonth: true },
-  { date: '2022-01-07', isCurrentMonth: true },
-  { date: '2022-01-08', isCurrentMonth: true },
-  { date: '2022-01-09', isCurrentMonth: true },
-  { date: '2022-01-10', isCurrentMonth: true },
-  { date: '2022-01-11', isCurrentMonth: true },
-  { date: '2022-01-12', isCurrentMonth: true, isToday: true },
-  { date: '2022-01-13', isCurrentMonth: true },
-  { date: '2022-01-14', isCurrentMonth: true },
-  { date: '2022-01-15', isCurrentMonth: true },
-  { date: '2022-01-16', isCurrentMonth: true },
-  { date: '2022-01-17', isCurrentMonth: true },
-  { date: '2022-01-18', isCurrentMonth: true },
-  { date: '2022-01-19', isCurrentMonth: true },
-  { date: '2022-01-20', isCurrentMonth: true },
-  { date: '2022-01-21', isCurrentMonth: true },
-  { date: '2022-01-22', isCurrentMonth: true, isSelected: true },
-  { date: '2022-01-23', isCurrentMonth: true },
-  { date: '2022-01-24', isCurrentMonth: true },
-  { date: '2022-01-25', isCurrentMonth: true },
-  { date: '2022-01-26', isCurrentMonth: true },
-  { date: '2022-01-27', isCurrentMonth: true },
-  { date: '2022-01-28', isCurrentMonth: true },
-  { date: '2022-01-29', isCurrentMonth: true },
-  { date: '2022-01-30', isCurrentMonth: true },
-  { date: '2022-01-31', isCurrentMonth: true },
-  { date: '2022-02-01' },
-  { date: '2022-02-02' },
-  { date: '2022-02-03' },
-  { date: '2022-02-04' },
-  { date: '2022-02-05' },
-  { date: '2022-02-06' },
+  {
+    id: 2,
+    name: 'Askim Kulturhus',
+    imageUrl:
+      'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Askim_Kulturhus_night_thumbnail_zhltnr.webp',
+    date: '24. november',
+    pageUrl: '/docs/askim',
+  },
+  {
+    id: 3,
+    name: 'Hamar Kulturhus',
+    imageUrl:
+      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1694972398/Julekonsert/Hamar_Kulturhus_evhynw.webp',
+    date: '25. november',
+    pageUrl: '/docs/hamar',
+  },
+  {
+    id: 4,
+    name: 'Oslo Konserthus',
+    imageUrl:
+      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1694973738/Julekonsert/Oslo_Konserthus_bw940p.webp',
+    date: '26. november',
+    pageUrl: '/docs/oslo',
+  },
+  {
+    id: 5,
+    name: 'Kongsberg Musikkteater',
+    imageUrl:
+      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1694974538/Julekonsert/Kongsberg_Musikkteater_vmxx7a.webp',
+    date: '28. november',
+    pageUrl: '/docs/kongsberg',
+  },
+  {
+    id: 6,
+    name: 'Nøtterøy Kulturhus',
+    imageUrl:
+      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1694977171/Julekonsert/n%C3%B8tter%C3%B8y_kulturhus_mxugdj.webp',
+    date: '29. november',
+    pageUrl: '/docs/noetteroey',
+  },
+  {
+    id: 7,
+    name: 'Hjertnes Kulturhus, Sandefjord',
+    imageUrl:
+      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1694979941/Julekonsert/Hjertness_Kulturhus_grv4mz.webp',
+    date: '30. november',
+    pageUrl: '/docs/sandefjord',
+  },
 ]
 
 function classNames(...classes) {
@@ -72,187 +157,105 @@ function classNames(...classes) {
 
 export function November() {
   return (
-    <div className="bg-green-100">
-      <h2 className="text-base font-semibold leading-6 text-gray-900">
-        Upcoming meetings
-      </h2>
-      <div className="lg:grid lg:grid-cols-12 lg:gap-x-16">
-        <div className="mt-10 text-center lg:col-start-8 lg:col-end-13 lg:row-start-1 lg:mt-9 xl:col-start-9">
-          <div className="flex items-center text-gray-900">
-            <button
-              type="button"
-              className="-m-1.5 flex flex-none items-center justify-center p-1.5 text-gray-400 hover:text-gray-500"
-            >
-              <span className="sr-only">Previous month</span>
-              <ChevronLeftIcon className="h-5 w-5" aria-hidden="true" />
-            </button>
-            <div className="flex-auto text-sm font-semibold">november 2023</div>
-            <button
-              type="button"
-              className="-m-1.5 flex flex-none items-center justify-center p-1.5 text-gray-400 hover:text-gray-500"
-            >
-              <span className="sr-only">Next month</span>
-              <ChevronRightIcon className="h-5 w-5" aria-hidden="true" />
-            </button>
-          </div>
-          <div className="mt-6 grid grid-cols-7 text-xs leading-6 text-gray-500">
-            <div>M</div>
-            <div>T</div>
-            <div>W</div>
-            <div>T</div>
-            <div>F</div>
-            <div>S</div>
-            <div>S</div>
-          </div>
-          <div className="isolate mt-2 grid grid-cols-7 gap-px rounded-lg bg-gray-200 text-sm shadow ring-1 ring-gray-200">
-            {days.map((day, dayIdx) => (
-              <button
-                key={day.date}
-                type="button"
-                className={classNames(
-                  'py-1.5 hover:bg-gray-100 focus:z-10',
-                  day.isCurrentMonth ? 'bg-white' : 'bg-gray-50',
-                  (day.isSelected || day.isToday) && 'font-semibold',
-                  day.isSelected && 'text-white',
-                  !day.isSelected &&
-                    day.isCurrentMonth &&
-                    !day.isToday &&
-                    'text-gray-900',
-                  !day.isSelected &&
-                    !day.isCurrentMonth &&
-                    !day.isToday &&
-                    'text-gray-400',
-                  day.isToday && !day.isSelected && 'text-indigo-600',
-                  dayIdx === 0 && 'rounded-tl-lg',
-                  dayIdx === 6 && 'rounded-tr-lg',
-                  dayIdx === days.length - 7 && 'rounded-bl-lg',
-                  dayIdx === days.length - 1 && 'rounded-br-lg'
-                )}
-              >
-                <time
-                  dateTime={day.date}
-                  className={classNames(
-                    'mx-auto flex h-7 w-7 items-center justify-center rounded-full',
-                    day.isSelected && day.isToday && 'bg-indigo-600',
-                    day.isSelected && !day.isToday && 'bg-gray-900'
-                  )}
-                >
-                  {day.date.split('-').pop().replace(/^0/, '')}
-                </time>
-              </button>
-            ))}
-          </div>
-          <button
-            type="button"
-            className="mt-8 w-full rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-          >
-            Se desember
-          </button>
+    <div>
+      <div className="rounded-lg bg-amber-50/70 px-6 pb-6 ring-1 ring-amber-800/10 dark:bg-gray-800/60 dark:ring-1 dark:ring-gray-300/10">
+        <div className="flex items-center"></div>
+        <div className="mt-10 grid grid-cols-7 text-center text-xs leading-6 text-gray-500">
+          <div>M</div>
+          <div>T</div>
+          <div>O</div>
+          <div>T</div>
+          <div>F</div>
+          <div>L</div>
+          <div>S</div>
         </div>
-        <ol className="mt-4 divide-y divide-gray-100 bg-red-100 text-sm leading-6 lg:col-span-7 xl:col-span-8">
-          {meetings.map((meeting) => (
-            <li
-              key={meeting.id}
-              className="relative flex space-x-6 py-6 xl:static"
+        {/* Tooltip start */}
+        <div className="mt-2 grid grid-cols-7 text-sm">
+          {days.map((day, dayIdx) => (
+            <div
+              key={day.date}
+              className={classNames(
+                dayIdx > 6 && 'border-t border-gray-200',
+                'py-2'
+              )}
             >
-              {/* <img
-                src={meeting.imageUrl}
-                alt=""
-                className="flex-none rounded-full h-14 w-14"
-              /> */}
-              <div className="flex-auto">
-                <h3 className="pr-10 font-semibold text-gray-900 xl:pr-0">
-                  {meeting.name}
-                </h3>
-                <dl className="mt-2 flex flex-col text-gray-500 xl:flex-row">
-                  <div className="flex items-start space-x-3">
-                    <dt className="mt-0.5">
-                      <span className="sr-only">Date</span>
-                      <CalendarIcon
-                        className="h-5 w-5 text-gray-400"
-                        aria-hidden="true"
-                      />
-                    </dt>
-                    <dd>
-                      <time dateTime={meeting.datetime}>
-                        {meeting.date} at {meeting.time}
-                      </time>
-                    </dd>
+              <div className="group relative">
+                {/* Wrap the button with Link */}
+                <Link href={day.href || ''}>
+                  <button
+                    type="button"
+                    className={classNames(
+                      day.isSelected && 'text-white',
+                      !day.isSelected &&
+                        day.isCurrentMonth &&
+                        'text-amber-900 dark:text-white',
+                      !day.isSelected && !day.isCurrentMonth && 'text-gray-400',
+                      day.isSelected &&
+                        'bg-amber-900 transition-all duration-300 ease-in-out hover:bg-amber-800 dark:border dark:border-amber-400/100 dark:bg-amber-50 dark:text-gray-900 dark:hover:bg-amber-300 dark:hover:text-gray-900',
+                      (day.isSelected || day.isCurrentMonth) && 'font-semibold',
+                      'mx-auto flex h-8 w-8 items-center justify-center rounded-full'
+                    )}
+                    title="" // Remove the title attribute
+                  >
+                    <time dateTime={day.date}>
+                      {day.date.split('-').pop().replace(/^0/, '')}
+                    </time>
+                  </button>
+                </Link>
+
+                {/* The tooltip content */}
+                {day.tooltip && (
+                  <div className="pointer-events-none absolute z-50 -mt-8 rounded-lg border border-amber-400/50 bg-white px-3 py-2 text-sm text-amber-900 opacity-0 transition-opacity duration-300 group-hover:opacity-100 dark:bg-gray-700 dark:text-white">
+                    {day.tooltip}
                   </div>
-                  <div className="mt-2 flex items-start space-x-3 xl:ml-3.5 xl:mt-0 xl:border-l xl:border-gray-400 xl:border-opacity-50 xl:pl-3.5">
-                    <dt className="mt-0.5">
-                      <span className="sr-only">Location</span>
-                      <MapPinIcon
-                        className="h-5 w-5 text-gray-400"
-                        aria-hidden="true"
-                      />
-                    </dt>
-                    <dd>{meeting.location}</dd>
-                  </div>
-                </dl>
+                )}
               </div>
-              <Menu
-                as="div"
-                className="absolute right-0 top-6 xl:relative xl:right-auto xl:top-auto xl:self-center"
-              >
-                <div>
-                  <Menu.Button className="-m-2 flex items-center rounded-full p-2 text-gray-500 hover:text-gray-600">
-                    <span className="sr-only">Open options</span>
-                    <EllipsisHorizontalIcon
-                      className="h-5 w-5"
-                      aria-hidden="true"
-                    />
-                  </Menu.Button>
+            </div>
+          ))}
+        </div>
+        {/* Tooltip end */}
+      </div>
+      <section className="mt-12">
+        <h2 className="text-base font-semibold leading-6 text-gray-900 dark:text-white">
+          Julekonserter i november {new Date().getFullYear()}
+        </h2>
+        <ol className="mt-4 space-y-1 text-sm leading-6 text-gray-500">
+          {concerts.map((concert) => (
+            <Link key={concert.id} href={concert.pageUrl}>
+              <li className="group flex items-center space-x-4 rounded-xl border border-transparent px-4 py-0 transition duration-300 ease-in-out focus-within:bg-gray-50 hover:border hover:border-amber-400/5 hover:bg-gray-50 dark:hover:bg-gray-800/60">
+                <Image
+                  src={concert.imageUrl}
+                  alt={concert.name}
+                  width={50}
+                  height={50}
+                  className="h-14 w-14 flex-none rounded-full border border-amber-400/50"
+                />
+                <div className="flex-auto font-normal">
+                  <p className="text-lg font-medium text-gray-900 dark:text-white">
+                    {concert.name}
+                  </p>
+                  <p className="-mt-5 flex gap-x-3">
+                    <span className="font-bold text-gray-900 dark:text-white">
+                      {concert.date}
+                    </span>
+                  </p>
                 </div>
 
-                <Transition
-                  as={Fragment}
-                  enter="transition ease-out duration-100"
-                  enterFrom="transform opacity-0 scale-95"
-                  enterTo="transform opacity-100 scale-100"
-                  leave="transition ease-in duration-75"
-                  leaveFrom="transform opacity-100 scale-100"
-                  leaveTo="transform opacity-0 scale-95"
-                >
-                  <Menu.Items className="absolute right-0 z-10 mt-2 w-36 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
-                    <div className="py-1">
-                      <Menu.Item>
-                        {({ active }) => (
-                          <a
-                            href="#"
-                            className={classNames(
-                              active
-                                ? 'bg-gray-100 text-gray-900'
-                                : 'text-gray-700',
-                              'block px-4 py-2 text-sm'
-                            )}
-                          >
-                            Edit
-                          </a>
-                        )}
-                      </Menu.Item>
-                      <Menu.Item>
-                        {({ active }) => (
-                          <a
-                            href="#"
-                            className={classNames(
-                              active
-                                ? 'bg-gray-100 text-gray-900'
-                                : 'text-gray-700',
-                              'block px-4 py-2 text-sm'
-                            )}
-                          >
-                            Cancel
-                          </a>
-                        )}
-                      </Menu.Item>
-                    </div>
-                  </Menu.Items>
-                </Transition>
-              </Menu>
-            </li>
+                <div>
+                  <div className="-m-2 flex items-center rounded-full p-1.5 text-gray-500 hover:text-gray-600 dark:text-amber-400">
+                    <EllipsisVerticalIcon
+                      className="h-6 w-6"
+                      aria-hidden="true"
+                    />
+                  </div>
+                </div>
+              </li>
+            </Link>
           ))}
         </ol>
+      </section>
+      <div className="my-12">
+        <GoBackButton />
       </div>
     </div>
   )
