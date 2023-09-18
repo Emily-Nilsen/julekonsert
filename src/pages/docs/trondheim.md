@@ -1,110 +1,30 @@
 ---
 title: Trondheim
-description: Quidem magni aut exercitationem maxime rerum eos.
+description: Christmas with Nordic Tenors | Olavshallen, Trondheim
 ---
 
-Quasi sapiente voluptates aut minima non doloribus similique quisquam. In quo expedita ipsum nostrum corrupti incidunt. Et aut eligendi ea perferendis.
-
----
-
-## Profiles
-
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur.
-
-### Strategically captivating profile
-
-Craft a captivating profile with appealing language and tone, drawing the curiosity of potential followers on social media.
-
-{% callout type="warning" title="Prompt formula" %}
-Compose a captivating [type of profile] showcasing [subject]'s unique [interests/personality], strategically designed to allure your desired [audience]. Employ the appropriate language and tone to create an appealing and relatable social media profile that piques the curiosity of potential followers.
-{% /callout %}
-
-{% callout title="Example 1" %}
-Given that my neighbour's tree branches constantly encroach on my property, what legal action could I take?
-{% /callout %}
-
-{% callout title="Example 2" %}
-Given that I purchased a faulty product that caused injury, what legal action could I take against the manufacturer?
-{% /callout %}
-
-{% callout title="Example 3" %}
-Given that my landlord consistently fails to address serious maintenance issues in my rental unit, what legal action could I take to enforce my tenant rights?
-{% /callout %}
-
-### Natus aspernatur iste
-
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.
-
-Voluptas beatae omnis omnis voluptas. Cum architecto ab sit ad eaque quas quia distinctio. Molestiae aperiam qui quis deleniti soluta quia qui. Dolores nostrum blanditiis libero optio id. Mollitia ad et asperiores quas saepe alias.
+{% concert-header day="onsdag" date="6" month="desember" time="19:00" /%}
 
 ---
 
-## Captions
+## Olavshallen, Trondheim
 
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur.
+{% concert-introduction location="Olavshallen, Trondheim" day="onsdag" date="6" month="desember" /%}
 
-### Impactful subject captions
+{% categories %}
+{% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Olavshallen_dzwrff.webp" title="Olavshallen, Trondheim" /%}
+{% /categories %}
 
-Develop empowering captions that resonate with your target audience for this media featuring your subject, igniting interest and interaction.
+### Billetter
 
-{% callout type="warning" title="Prompt formula" %}
-Could you devise [adjective] captions suitable for [target audience] to accompany this [media] featuring [subject]?
-{% /callout %}
+{% billetter concert="" outlet="Olavshallen" ticketUrl="https://www.olavshallen.no/forestillinger/2023-02-17-christmas-with-nordic-tenors" /%}
 
-{% callout title="Example 1" %}
-Could you devise humorous captions suitable for teenagers to accompany this TikTok featuring adorable puppies?
-{% /callout %}
+### Konsertdetaljer
 
-{% callout title="Example 2" %}
-Could you devise inspirational captions suitable for fitness enthusiasts to accompany this Instagram post featuring a powerful workout routine?
-{% /callout %}
+{% concert-details concert="Olavshallen, Trondheim" date="6" month="desember" day="onsdag" time="19:00 – 20:20" location="Olavshallen, Store sal, Trondheim" /%}
 
-{% callout title="Example 3" %}
-Could you devise engaging captions suitable for foodies to accompany this blog post featuring mouthwatering recipes.
-{% /callout %}
+### Adresse
 
-### Id vitae minima
+{% map src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1784.3787478074858!2d10.400708742521669!3d63.433700476951756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x466d319eb0e473f9%3A0x76ef1721517cc50f!2sOlavshallen%20Concert%20Hall!5e0!3m2!1sen!2sno!4v1695032815147!5m2!1sen!2sno" /%}
 
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.
-
-Voluptas beatae omnis omnis voluptas. Cum architecto ab sit ad eaque quas quia distinctio. Molestiae aperiam qui quis deleniti soluta quia qui. Dolores nostrum blanditiis libero optio id. Mollitia ad et asperiores quas saepe alias.
-
----
-
-## Content Creation
-
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur.
-
-### 7-Day interactive campaign
-
-Plan a week-long interactive social media campaign, crafting content that captivates your target audience, sparks their interest, and encourages active participation.
-
-{% callout type="warning" title="Prompt formula" %}
-Create social media content for 7 days that is focused on [topic] and will engage [target audience].
-
-Instructions: Create social media content appropriate for the chosen topic and target audience. The range should be varied. Content should also include calls to action encouraging users to engage with the content, such as likes, shares, and comments.
-{% /callout %}
-
-{% callout title="Example 1" %}
-Create social media content for 7 days that is focused on DIY home improvement and will engage homeowners.
-
-Instructions: Create social media content appropriate for the chosen topic and target audience. The range should be varied. Content should also include calls to action encouraging users to engage with the content, such as likes, shares, and comments.
-{% /callout %}
-
-{% callout title="Example 2" %}
-Create social media content for 7 days that is focused on personal finance and will engage young professionals.
-
-Instructions: Create social media content appropriate for the chosen topic and target audience. The range should be varied. Content should also include calls to action encouraging users to engage with the content, such as likes, shares, and comments.
-{% /callout %}
-
-{% callout title="Example 3" %}
-Create social media content for 7 days that is focused on mindfulness and will engage individuals seeking stress relief.
-
-Instructions: Create social media content appropriate for the chosen topic and target audience. The range should be varied. Content should also include calls to action encouraging users to engage with the content, such as likes, shares, and comments.
-{% /callout %}
-
-### Reprehenderit magni
-
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.
-
-Voluptas beatae omnis omnis voluptas. Cum architecto ab sit ad eaque quas quia distinctio. Molestiae aperiam qui quis deleniti soluta quia qui. Dolores nostrum blanditiis libero optio id. Mollitia ad et asperiores quas saepe alias.
+{%go-back-button/%}

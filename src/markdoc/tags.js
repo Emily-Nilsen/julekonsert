@@ -3,6 +3,7 @@ import { QuickLink, QuickLinks } from '@/components/QuickLinks'
 import { Video, Videos } from '@/components/Videos'
 import { Category, Categories } from '@/components/Categories'
 import { November } from '@/components/November'
+import { Desember } from '@/components/Desember'
 import CurrentYear from '@/components/CurrentYear'
 import { Contact } from '@/components/Contact'
 import { AudioSample } from '@/components/AudioSample'
@@ -127,6 +128,10 @@ const tags = {
   november: {
     selfClosing: true,
     render: November,
+  },
+  desember: {
+    selfClosing: true,
+    render: Desember,
   },
   'current-year': {
     selfClosing: true,

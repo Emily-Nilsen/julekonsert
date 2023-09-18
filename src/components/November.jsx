@@ -84,13 +84,6 @@ const days = [
   { date: '2023-12-01' },
   { date: '2023-12-02' },
   { date: '2023-12-03' },
-  { date: '2023-12-04' },
-  { date: '2023-12-05' },
-  { date: '2023-12-06' },
-  { date: '2023-12-07' },
-  { date: '2023-12-08' },
-  { date: '2023-12-09' },
-  { date: '2023-12-10' },
 ]
 const concerts = [
   {
@@ -185,13 +178,13 @@ export function November() {
                   <button
                     type="button"
                     className={classNames(
-                      day.isSelected && 'text-white',
+                      day.isSelected && 'text-amber-950',
                       !day.isSelected &&
                         day.isCurrentMonth &&
                         'text-amber-900 dark:text-white',
                       !day.isSelected && !day.isCurrentMonth && 'text-gray-400',
                       day.isSelected &&
-                        'bg-amber-900 transition-all duration-300 ease-in-out hover:bg-amber-800 dark:border dark:border-amber-400/100 dark:bg-amber-50 dark:text-gray-900 dark:hover:bg-amber-300 dark:hover:text-gray-900',
+                        'border border-amber-400/50 bg-amber-200 transition-all duration-300 ease-in-out hover:bg-amber-800 dark:border dark:border-amber-400/100 dark:bg-amber-50 dark:text-gray-900 dark:hover:bg-amber-300 dark:hover:text-gray-900',
                       (day.isSelected || day.isCurrentMonth) && 'font-semibold',
                       'mx-auto flex h-8 w-8 items-center justify-center rounded-full'
                     )}
@@ -254,9 +247,7 @@ export function November() {
           ))}
         </ol>
       </section>
-      <div className="my-12">
-        <GoBackButton />
-      </div>
+      <div className="h-10 w-full border-b border-gray-300/30 dark:border-gray-300/10" />
     </div>
   )
 }

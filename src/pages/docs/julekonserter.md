@@ -15,3 +15,7 @@ For mer informasjon om hver konsert, klikk på datoen i kalenderen (ved å sveve
 ### November 2023
 
 {% november /%}
+
+### Desember 2023
+
+{% desember /%}
