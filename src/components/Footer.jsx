@@ -1,8 +1,22 @@
 import Link from 'next/link'
 import Image from 'next/image'
+
 import { GlitterLights } from '@/components/GlitterLights'
 
 const navigation = [
+  // {
+  //   name: 'Spotify',
+  //   href: 'https://www.facebook.com/nordictenors',
+  //   icon: (props) => (
+  //     <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
+  //       <path
+  //         fillRule="evenodd"
+  //         d="M12 1.33c-5.31 0-9.79 1.98-13.38 5.22C-1.64 9.86-.59 16.3 2.44 21.7c1.26 2.1 2.82 3.96 4.54 5.48a.75.75 0 0 0 1.02 0c1.72-1.52 3.28-3.38 4.54-5.48 3.03-5.4 4.08-11.84 3.94-15.16C21.79 3.31 17.31 1.33 12 1.33zm3.41 16.39c-.66 1.14-2.03 1.84-3.41 1.84s-2.75-.7-3.41-1.84a.75.75 0 0 0-1.32.75c.98 1.68 2.86 2.74 4.83 2.74s3.86-1.06 4.83-2.74a.75.75 0 0 0-1.32-.75zM18.9 7.97c-.57-.98-1.62-1.6-2.78-1.6s-2.21.62-2.78 1.6a.75.75 0 1 0 1.38.58c.42-.73 1.22-1.18 2.1-1.18s1.68.45 2.1 1.18a.75.75 0 1 0 1.38-.58z"
+  //         clipRule="evenodd"
+  //       />
+  //     </svg>
+  //   ),
+  // },
   {
     name: 'Facebook',
     href: 'https://www.facebook.com/nordictenors',
