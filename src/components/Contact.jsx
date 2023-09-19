@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
 // import { Switch } from '@headlessui/react'
 
@@ -8,7 +8,15 @@ function classNames(...classes) {
 }
 
 export function Contact() {
-  // const [agreed, setAgreed] = useState(false)
+  useEffect(() => {
+    // Use useEffect to play audio on component mount
+    const audioPlayer = new Audio(
+      'https://res.cloudinary.com/dt3k2apqd/video/upload/v1695115437/Julekonsert/MA_PashaStriker_ChristmasHandbell_3_btorlx.wav'
+    )
+    audioPlayer.play().catch((error) => {
+      console.error('Error playing audio:', error)
+    })
+  }, [])
 
   return (
     <div className="isolate rounded-3xl bg-white px-6 pb-24 pt-6 shadow-md shadow-black/5 ring-1 ring-gray-800/10 dark:bg-gray-800/60 dark:ring-1 dark:ring-gray-300/10 sm:pb-32 lg:px-8">
@@ -31,6 +39,11 @@ export function Contact() {
         <input
           type="hidden"
           name="form-name"
+          value="Spørsmål om Christmas with Nordic Tenors"
+        />
+        <input
+          type="hidden"
+          name="subject"
           value="Spørsmål om Christmas with Nordic Tenors"
         />
         <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
