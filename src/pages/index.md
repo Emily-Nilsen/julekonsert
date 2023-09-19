@@ -26,7 +26,7 @@ Forestillingen er ikke bare en fryd for øret, men også for øyet, da de har me
 
 Nordic Tenors består av tenorene Jan-Tore Saltnes, Nils Georg Nilsen og Espen Solsbak. Gruppen har tidligere vunnet Komiprisen, vært kongelige toastmastere, åpnet den nye operaen i Oslo og har vunnet publikums hjerter over hele landet.
 
-Les mer om Nordic Tenors på <a href="https://www.nordictenors.no/" target="_blank">www.nordictenors.no</a>.
+Les mer om Nordic Tenors på {% external-link href="https://www.nordictenors.no/" children="www.nordictenors.no" /%}.
 
 ### Informasjon om billetter
 

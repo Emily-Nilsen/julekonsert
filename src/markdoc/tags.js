@@ -13,6 +13,7 @@ import { Billetter } from '@/components/Billetter'
 import { ConcertDetails } from '@/components/ConcertDetails'
 import { ConcertHeader } from '@/components/ConcertHeader'
 import { ConcertIntroduction } from '@/components/ConcertIntroduction'
+import { ExternalLink } from '@/components/ExternalLink'
 
 const tags = {
   callout: {
@@ -155,6 +156,14 @@ const tags = {
     render: Map,
     attributes: {
       src: { type: String },
+    },
+  },
+  'external-link': {
+    selfClosing: true,
+    render: ExternalLink,
+    attributes: {
+      href: { type: String },
+      children: { type: String },
     },
   },
 }
