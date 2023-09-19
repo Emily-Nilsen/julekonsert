@@ -14,6 +14,7 @@ import { ConcertDetails } from '@/components/ConcertDetails'
 import { ConcertHeader } from '@/components/ConcertHeader'
 import { ConcertIntroduction } from '@/components/ConcertIntroduction'
 import { ExternalLink } from '@/components/ExternalLink'
+import { Reviews } from '@/components/Reviews'
 
 const tags = {
   callout: {
@@ -112,6 +113,10 @@ const tags = {
   contact: {
     selfClosing: true,
     render: Contact,
+  },
+  reviews: {
+    selfClosing: true,
+    render: Reviews,
   },
   videos: {
     render: Videos,

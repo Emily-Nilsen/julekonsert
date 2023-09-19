@@ -22,6 +22,8 @@ For attende året skaper tenortrioen en førjulsstund fylt med varme og humor, m
 
 Forestillingen er ikke bare en fryd for øret, men også for øyet, da de har med seg Andreas Ohldieck, en av de gryende stjernene på den stadig voksende himmelen av norske videokunstnere.
 
+{% reviews /%}
+
 ### Utmerkede tenorer
 
 Nordic Tenors består av tenorene Jan-Tore Saltnes, Nils Georg Nilsen og Espen Solsbak. Gruppen har tidligere vunnet Komiprisen, vært kongelige toastmastere, åpnet den nye operaen i Oslo og har vunnet publikums hjerter over hele landet.
