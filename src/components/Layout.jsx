@@ -94,8 +94,8 @@ export const navigation = [
     links: [
       { title: 'Bergen', href: '/docs/bergen' },
       {
-        title: 'Nordfjordeid',
-        href: '/docs/nordfjordeid',
+        title: 'Nordfjord',
+        href: '/docs/nordfjord',
       },
     ],
   },

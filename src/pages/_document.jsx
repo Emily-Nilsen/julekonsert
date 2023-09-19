@@ -52,9 +52,7 @@ export default function Document() {
       </Head>
       <body className="relative bg-white dark:bg-red-950">
         <div className="absolute inset-0 dark:bg-zinc-950/80" />
-        {/* <div className="absolute inset-0 opacity-50 dark:opacity-30">
-          <GlitterLights />
-        </div> */}
+
         <Main />
         <NextScript />
       </body>

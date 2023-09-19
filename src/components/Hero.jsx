@@ -2,7 +2,7 @@ import { Fragment, useRef, useEffect, useLayoutEffect } from 'react' // Import u
 import Image from 'next/image'
 import clsx from 'clsx'
 import Highlight, { defaultProps } from 'prism-react-renderer'
-
+import { motion } from 'framer-motion'
 import { Button } from '@/components/Button'
 import { GlitterLights } from '@/components/GlitterLights'
 
@@ -39,7 +39,16 @@ export function Hero() {
       <div className="inset-0 hidden bg-black/20 mix-blend-multiply lg:absolute lg:block" />
       <div className="inset-0 hidden bg-gradient-to-tr from-black/50 mix-blend-multiply lg:absolute lg:block" />
       <GlitterLights />
-      <div className="absolute bottom-0 right-0 h-80 w-full opacity-100 lg:w-4/5 xl:w-3/5 ">
+      <motion.div
+        whileInView={{ opacity: 1 }}
+        initial={{ opacity: 0 }}
+        transition={{
+          delay: 0.1,
+          duration: 1,
+          type: 'fade',
+        }}
+        className="absolute bottom-0 right-0 h-80 w-full opacity-100 lg:w-4/5 xl:w-3/5 "
+      >
         <Image
           alt="Nordic Tenors"
           src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/nordic_tenors_cutouts_sioupl.webp"
@@ -49,7 +58,7 @@ export function Hero() {
           priority
           className="mx-auto h-full object-cover object-center xl:max-w-4xl"
         />
-      </div>
+      </motion.div>
 
       <div className="py-16 sm:px-2 lg:relative lg:px-0 lg:py-20">
         <div className="mx-auto grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-16 px-4 lg:max-w-8xl lg:grid-cols-2 lg:px-8 xl:gap-x-16 xl:px-12">

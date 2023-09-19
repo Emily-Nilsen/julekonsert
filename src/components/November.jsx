@@ -150,7 +150,8 @@ function classNames(...classes) {
 
 export function November() {
   return (
-    <div>
+    <div className="w-full overflow-x-hidden">
+      {/* Calendar */}
       <div className="rounded-lg bg-amber-50/70 px-6 pb-6 ring-1 ring-amber-800/10 dark:bg-gray-800/60 dark:ring-1 dark:ring-gray-300/10">
         <div className="flex items-center"></div>
         <div className="mt-10 grid grid-cols-7 text-center text-xs leading-6 text-gray-500">
@@ -208,6 +209,7 @@ export function November() {
         </div>
         {/* Tooltip end */}
       </div>
+      {/* Concert list */}
       <section className="mt-12">
         <h2 className="text-base font-semibold leading-6 text-gray-900 dark:text-white">
           Julekonserter i november {new Date().getFullYear()}
