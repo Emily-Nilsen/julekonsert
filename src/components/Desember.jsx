@@ -166,25 +166,25 @@ const concerts = [
     id: 20,
     name: 'Stormen, Bodø',
     imageUrl:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1694971527/Julekonsert/Bakkenteigen_Kulturhus_Horten_ist5xq.webp',
+      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1695102938/Julekonsert/Stormen_konserthus_a3xklm.webp',
     date: '20. desember',
-    pageUrl: '/docs/horten',
+    pageUrl: '/docs/bodoe',
   },
   {
     id: 21,
     name: 'Grieghallen, Bergen',
     imageUrl:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1694971527/Julekonsert/Bakkenteigen_Kulturhus_Horten_ist5xq.webp',
+      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1695103770/Julekonsert/Grieghallen_Bergen_cm8qsr.webp',
     date: '21. desember',
-    pageUrl: '/docs/horten',
+    pageUrl: '/docs/bergen',
   },
   {
     id: 22,
     name: 'Drammens Teater',
     imageUrl:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1694971527/Julekonsert/Bakkenteigen_Kulturhus_Horten_ist5xq.webp',
+      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1695104625/Julekonsert/Drammens_Teater_i81lcc.webp',
     date: '22. desember',
-    pageUrl: '/docs/horten',
+    pageUrl: '/docs/drammen',
   },
 ]
 
