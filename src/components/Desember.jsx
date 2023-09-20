@@ -273,7 +273,7 @@ export function Desember() {
       </div>
       <section className="mt-12">
         <h2 className="text-base font-semibold leading-6 text-gray-900 dark:text-white">
-          Julekonserter i desember {new Date().getFullYear()}
+          Julekonserter i desember 2023
         </h2>
         <ol className="mt-4 space-y-1 text-sm leading-6 text-gray-500">
           {concerts.map((concert) => (

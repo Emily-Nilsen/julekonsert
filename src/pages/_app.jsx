@@ -53,9 +53,7 @@ export default function App({ Component, pageProps }) {
 
   let pageTitle =
     pageProps.markdoc?.frontmatter.pageTitle ||
-    `${
-      pageProps.markdoc?.frontmatter.title
-    } | Julekonserter med Nordic Tenors - ${new Date().getFullYear()}`
+    `${pageProps.markdoc?.frontmatter.title} | Julekonserter med Nordic Tenors - 2023`
 
   let description = pageProps.markdoc?.frontmatter.description
 

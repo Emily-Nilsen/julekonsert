@@ -212,7 +212,7 @@ export function November() {
       {/* Concert list */}
       <section className="mt-12">
         <h2 className="text-base font-semibold leading-6 text-gray-900 dark:text-white">
-          Julekonserter i november {new Date().getFullYear()}
+          Julekonserter i november 2023
         </h2>
         <ol className="mt-4 space-y-1 text-sm leading-6 text-gray-500">
           {concerts.map((concert) => (
