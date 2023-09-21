@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import { slugifyWithCounter } from '@sindresorhus/slugify'
-
+// Import the useRouter hook
+import { useRouter } from 'next/router'
 import { Layout } from '@/components/Layout'
 
 import 'focus-visible'
@@ -57,6 +58,9 @@ export default function App({ Component, pageProps }) {
 
   let description = pageProps.markdoc?.frontmatter.description
 
+  // Get the current pathname using useRouter
+  const { pathname } = useRouter()
+
   let tableOfContents = pageProps.markdoc?.content
     ? collectHeadings(pageProps.markdoc.content)
     : []
@@ -69,6 +73,12 @@ export default function App({ Component, pageProps }) {
         <link
           rel="icon"
           href="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/julekonsert_favicon_c1iul8.webp"
+        />
+        {/* Set a dynamic canonical URL based on the current pathname */}
+        <link
+          rel="canonical"
+          href={`https://julekonsert.com${pathname}`}
+          key="canonical"
         />
       </Head>
       <Layout title={title} tableOfContents={tableOfContents}>
