@@ -1,47 +1,44 @@
-# Promptutor
+# Christmas with Nordic Tenors
 
-Welcome to Promptutor, a comprehensive ChatGPT prompt reference designed to help you save time and find the prompt you need, to significantly increase your everyday productivity. Promptutor is built using [Tailwind CSS](https://tailwindcss.com) and [Next.js](https://nextjs.org).
+Christmas with Nordic Tenors is a website dedicated to showcasing the magical Christmas concerts performed by the Nordic Tenors in Norway. The website provides information about the concerts, ticket booking, artist profiles, and more. It is built using [Next.js](https://nextjs.org) and features a modern and user-friendly design.
 
-## Introduction
-
-Use Promptutor's search bar to easily find the prompt you're looking for. The prompt formulas and examples work in any AI language model, such as ChatGPT.
-
-## Video Tutorials
-
-Additionally, promptutor.com provides short video tutorials for the most popular prompts, allowing users to learn and understand how to formulate effective prompts for various use cases. These tutorials serve as a helpful resource for both beginners and experienced users of the ChatGPT model.
-
-## Global Search
-
-Promptutor uses [Algolia DocSearch](https://docsearch.algolia.com) for the global search.
+Visit the [Christmas with Nordic Tenors](https://julekonsert.com) to experience their traditional Christmas concerts!
 
 ## Technologies Used
 
-Promptutor is created with the following dependencies:
+This project makes use of the following technologies:
 
-- "@algolia/autocomplete-core": "^1.7.3"
-- "@algolia/autocomplete-preset-algolia": "^1.7.3"
-- "@headlessui/react": "^1.7.13"
-- "@mdx-js/loader": "^2.1.5"
-- "@mdx-js/react": "^2.1.5"
-- "@next/mdx": "^13.0.3"
-- "@sindresorhus/slugify": "^2.1.1"
-- "@tailwindcss/typography": "^0.5.8"
-- "acorn": "^8.8.1"
-- "algoliasearch": "^4.14.2"
-- "autoprefixer": "^10.4.7"
-- "clsx": "^1.2.0"
-- "focus-visible": "^5.2.0"
-- "framer-motion": "7.8.1"
-- "mdast-util-to-string": "^3.1.0"
-- "mdx-annotations": "^0.1.1"
-- "next": "13.3.0"
-- "postcss-focus-visible": "^6.0.4"
-- "react": "18.2.0"
-- "react-dom": "18.2.0"
-- "recma-nextjs-static-props": "^1.0.0"
-- "rehype-mdx-title": "^2.0.0"
-- "remark-gfm": "^3.0.1"
-- "shiki": "^0.11.1"
-- "tailwindcss": "^3.3.0"
-- "unist-util-visit": "^4.1.1"
-- "zustand": "^4.3.2"
+- Next.js - version 13.4
+- Tailwind CSS - version 3.3
+- Framer Motion - version 10.16
+- Cloudinary React - version 1.8
+- Prism React Renderer - version 1.3
+- React - version 18.2
+- React DOM - version 18.2
+
+## Setup
+
+To run this project, first install the npm dependencies:
+
+```bash
+npm install
+```
+
+Next, run the development server:
+
+```bash
+npm run dev
+```
+
+You can now access the website locally at http://localhost:3000.
+
+## Usage
+
+- Explore Christmas concert details.
+- Book tickets for upcoming concerts.
+- Learn more about the Nordic Tenors.
+- Contact the Nordic Tenors for inquiries.
+
+## Contact
+
+Created by [norsk nett](https://norsknett.no) - feel free to contact us!
