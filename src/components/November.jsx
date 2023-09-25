@@ -152,7 +152,7 @@ export function November() {
   return (
     <div className="w-full overflow-x-hidden">
       {/* Calendar */}
-      <div className="rounded-lg bg-amber-50/70 px-6 pb-6 ring-1 ring-amber-800/10 dark:bg-gray-800/60 dark:ring-1 dark:ring-gray-300/10">
+      <div className="hidden rounded-lg bg-amber-50/70 px-6 pb-6 ring-1 ring-amber-800/10 dark:bg-gray-800/60 dark:ring-1 dark:ring-gray-300/10 sm:block">
         <div className="flex items-center"></div>
         <div className="mt-10 grid grid-cols-7 text-center text-xs leading-6 text-gray-500">
           <div>M</div>
@@ -210,9 +210,9 @@ export function November() {
         {/* Tooltip end */}
       </div>
       {/* Concert list */}
-      <section className="mt-12">
+      <section className="-mt-3 sm:mt-12">
         <h2 className="text-base font-semibold leading-6 text-gray-900 dark:text-white">
-          Julekonserter i november 2023
+          Christmas with Nordic Tenors
         </h2>
         <ol className="mt-4 space-y-1 text-sm leading-6 text-gray-500">
           {concerts.map((concert) => (

@@ -15,6 +15,8 @@ import { ConcertHeader } from '@/components/ConcertHeader'
 import { ConcertIntroduction } from '@/components/ConcertIntroduction'
 import { ExternalLink } from '@/components/ExternalLink'
 import { Reviews } from '@/components/Reviews'
+import { CalendarText } from '@/components/CalendarText'
+import { ChristmasConcertText } from '@/components/ChristmasConcertText'
 
 const tags = {
   callout: {
@@ -138,6 +140,14 @@ const tags = {
   desember: {
     selfClosing: true,
     render: Desember,
+  },
+  'calendar-text': {
+    selfClosing: true,
+    render: CalendarText,
+  },
+  'christmas-concert-text': {
+    selfClosing: true,
+    render: ChristmasConcertText,
   },
   'current-year': {
     selfClosing: true,
