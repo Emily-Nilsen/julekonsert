@@ -8,7 +8,7 @@ Velkommen skal du være til julekonsert med Nordic Tenors i 2023! {% .lead %}
 
 {% videos %}
 
-{% video title="O Helga Natt" href="https://res.cloudinary.com/dt3k2apqd/video/upload/v1694939017/Julekonsert/NT-O_Helga_Natt_V3_-_HD_1080p_hnzqpe.mov" posterImg="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/O_Helga_Natt_temp_poster_vtbef9.webp" description="Her er en smakebit på hva du kan se frem til på årets julekonsert." /%}
+{% video title="O Helga Natt" href="https://res.cloudinary.com/dt3k2apqd/video/upload/v1695973774/Julekonsert/Complete_-_Topaz_HD_25fps_weemri.mp4" posterImg="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/O_Helga_Natt_poster_v2_cur6z8.webp" description="Her er en smakebit på hva du kan se frem til på årets julekonsert." /%}
 
 {% /videos %}
 

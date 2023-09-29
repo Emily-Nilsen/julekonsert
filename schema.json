@@ -1,0 +1,58 @@
+{
+  "@context": "http://schema.org",
+  "@type": "MusicEvent",
+  "name": "Christmas with Nordic Tenors 2023",
+  "url": "https://julekonsert.com",
+  "description": "Join us for a series of festive Christmas concerts with Nordic Tenors.",
+  "startDate": "2023-12-11T18:00:00+02:00",
+  "endDate": "2023-12-11T19:20:00+02:00",
+  "location": {
+    "@type": "Place",
+    "name": "Parken Kulturhus, Ålesund"
+  },
+  "image": "https://example.com/concert-image.jpg",
+  "performer": {
+    "@type": "PerformingGroup",
+    "name": "Nordic Tenors"
+  },
+  "organizer": {
+    "@type": "Organization",
+    "name": "Your Organization Name",
+    "url": "https://example.com"
+  },
+  "subEvent": [
+    {
+      "@type": "Event",
+      "name": "Ålesund Concert",
+      "startDate": "2023-12-11T18:00:00+02:00",
+      "endDate": "2023-12-11T19:20:00+02:00",
+      "location": {
+        "@type": "Place",
+        "name": "Parken Kulturhus, Ålesund"
+      },
+      "description": "A Christmas concert in Ålesund with Nordic Tenors."
+    },
+    {
+      "@type": "Event",
+      "name": "Bodø Concert",
+      "startDate": "2023-12-15T19:00:00+02:00",
+      "endDate": "2023-12-15T20:30:00+02:00",
+      "location": {
+        "@type": "Place",
+        "name": "Bodø Concert Hall"
+      },
+      "description": "A Christmas concert in Bodø with Nordic Tenors."
+    },
+    {
+      "@type": "Event",
+      "name": "Trondheim Concert",
+      "startDate": "2023-12-20T20:00:00+02:00",
+      "endDate": "2023-12-20T21:30:00+02:00",
+      "location": {
+        "@type": "Place",
+        "name": "Trondheim Concert Venue"
+      },
+      "description": "A Christmas concert in Trondheim with Nordic Tenors."
+    }
+  ]
+}
