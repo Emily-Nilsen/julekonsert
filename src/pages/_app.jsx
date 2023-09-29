@@ -80,6 +80,16 @@ export default function App({ Component, pageProps }) {
           href={`https://julekonsert.com${pathname}`}
           key="canonical"
         />
+        {/* New OG meta tags */}
+        <meta property="og:title" content="Christmas with Nordic Tenors 2023" />
+        <meta
+          property="og:description"
+          content="Velkommen skal du være til julekonsert med Nordic Tenors i 2023!"
+        />
+        <meta
+          property="og:image"
+          content="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Facebook_poster_ssyqkp.webp" // Replace with the URL of your desired image
+        />
       </Head>
       <Layout title={title} tableOfContents={tableOfContents}>
         <Component {...pageProps} />
