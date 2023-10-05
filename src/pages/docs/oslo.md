@@ -1,6 +1,14 @@
 ---
+layout: special
 title: Oslo
 description: Christmas with Nordic Tenors | Oslo Konserthus
+date: 2023-11-26T19:00:00.000Z
+duration: 80
+locationName: Oslo Konserthus
+locationAddress: Munkedamsveien 14, 0115 Oslo, Norway
+performer: Nordic Tenors
+image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Facebook_poster_ssyqkp.webp
+url: https://julekonsert/docs/oslo
 ---
 
 {% concert-header day="søndag" date="26" month="november" time="19:00" /%}

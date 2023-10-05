@@ -1,4 +1,5 @@
 import { useCallback, useEffect, useState } from 'react'
+import Head from 'next/head'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import clsx from 'clsx'
@@ -217,7 +218,9 @@ function useTableOfContents(tableOfContents) {
   return currentSection
 }
 
-export function Layout({ children, title, tableOfContents }) {
+export function Layout({ children, title, tableOfContents, frontmatter }) {
+  let layoutType = frontmatter?.layout || 'default'
+
   let router = useRouter()
   let isHomePage = router.pathname === '/'
 
@@ -240,130 +243,170 @@ export function Layout({ children, title, tableOfContents }) {
     return section.children.findIndex(isActive) > -1
   }
 
+  // Generate JSON-LD schema for each concert page
+  const generateSchema = () => {
+    if (layoutType !== 'special') return null
+
+    const schema = {
+      '@context': 'http://schema.org',
+      '@type': 'Event',
+      name: frontmatter?.title,
+      description: frontmatter?.description,
+      startDate: frontmatter?.date,
+      endDate: new Date(
+        new Date(frontmatter?.date).getTime() + frontmatter?.duration * 60000
+      ).toISOString(),
+      location: {
+        '@type': 'Place',
+        name: frontmatter?.locationName,
+        address: frontmatter?.locationAddress,
+      },
+      image: frontmatter?.image,
+      url: frontmatter?.url,
+      performer: {
+        '@type': 'Person',
+        name: frontmatter?.performer,
+      },
+    }
+
+    return <script type="application/ld+json">{JSON.stringify(schema)}</script>
+  }
+
   return (
     <>
-      <Header navigation={navigation} />
+      <Head>
+        {generateSchema()}
+        <title>{title}</title>
+      </Head>
+      {layoutType === 'special' ? (
+        <SpecialLayout>{children}</SpecialLayout>
+      ) : (
+        <>
+          <Header navigation={navigation} />
 
-      {isHomePage && <Hero />}
+          {isHomePage && <Hero />}
 
-      <div className="relative mx-auto flex max-w-8xl justify-center sm:px-2 lg:px-8 xl:px-12">
-        <div className="hidden lg:relative lg:block lg:flex-none">
-          <div className="absolute inset-y-0 right-0 w-[50vw] bg-gray-50 dark:hidden" />
-          <div className="absolute bottom-0 right-0 top-16 hidden h-12 w-px bg-gradient-to-t from-gray-800 dark:block" />
-          <div className="absolute bottom-0 right-0 top-28 hidden w-px bg-gray-800 dark:block" />
-          <div className="sticky top-[4.5rem] -ml-0.5 h-[calc(100vh-4.5rem)] w-64 overflow-y-auto overflow-x-hidden py-16 pl-0.5 pr-8 xl:w-72 xl:pr-16">
-            <Navigation navigation={navigation} />
-          </div>
-        </div>
-        <div className="min-w-0 max-w-2xl flex-auto px-4 py-16 lg:max-w-none lg:pl-8 lg:pr-0 xl:px-16">
-          <article>
-            {(title || section) && (
-              <header className="mb-9 space-y-1">
-                {section && (
-                  <p className="text-base font-semibold text-red-800 dark:text-amber-300">
-                    {section.title}
-                  </p>
-                )}
-                {title && (
-                  <h1 className="font-display text-3xl font-semibold tracking-tight text-gray-900 dark:text-white">
-                    {title}
-                  </h1>
-                )}
-              </header>
-            )}
-            <Prose>{children}</Prose>
-          </article>
-
-          <dl className="mt-12 flex border-t border-gray-200 pt-6 dark:border-gray-800">
-            {previousPage && (
-              <div>
-                <dt className="text-base font-medium text-gray-900 dark:text-white">
-                  Forrige
-                </dt>
-                <dd className="mt-1">
-                  <Link
-                    href={previousPage.href}
-                    className="text-base font-semibold text-gray-500 hover:text-gray-600 dark:text-gray-400 dark:hover:text-gray-300"
-                  >
-                    <span aria-hidden="true">&larr;</span> {previousPage.title}
-                  </Link>
-                </dd>
+          <div className="relative mx-auto flex max-w-8xl justify-center sm:px-2 lg:px-8 xl:px-12">
+            <div className="hidden lg:relative lg:block lg:flex-none">
+              <div className="absolute inset-y-0 right-0 w-[50vw] bg-gray-50 dark:hidden" />
+              <div className="absolute bottom-0 right-0 top-16 hidden h-12 w-px bg-gradient-to-t from-gray-800 dark:block" />
+              <div className="absolute bottom-0 right-0 top-28 hidden w-px bg-gray-800 dark:block" />
+              <div className="sticky top-[4.5rem] -ml-0.5 h-[calc(100vh-4.5rem)] w-64 overflow-y-auto overflow-x-hidden py-16 pl-0.5 pr-8 xl:w-72 xl:pr-16">
+                <Navigation navigation={navigation} />
               </div>
-            )}
-            {nextPage && (
-              <div className="ml-auto text-right">
-                <dt className="text-base font-medium text-gray-900 dark:text-white">
-                  Neste
-                </dt>
-                <dd className="mt-1">
-                  <Link
-                    href={nextPage.href}
-                    className="text-base font-semibold text-gray-500 hover:text-gray-600 dark:text-gray-400 dark:hover:text-gray-300"
-                  >
-                    {nextPage.title} <span aria-hidden="true">&rarr;</span>
-                  </Link>
-                </dd>
-              </div>
-            )}
-          </dl>
-        </div>
-        <div className="hidden xl:sticky xl:top-[4.5rem] xl:-mr-6 xl:block xl:h-[calc(100vh-4.5rem)] xl:flex-none xl:overflow-y-auto xl:py-16 xl:pr-6">
-          <nav aria-labelledby="on-this-page-title" className="w-56">
-            {tableOfContents.length > 0 && (
-              <>
-                <h2
-                  id="on-this-page-title"
-                  className="font-display text-base font-medium text-gray-900 dark:text-white"
-                >
-                  På denne siden
-                </h2>
-                <ol role="list" className="mt-4 space-y-3 text-base">
-                  {tableOfContents.map((section) => (
-                    <li key={section.id}>
-                      <p>
-                        <Link
-                          href={`#${section.id}`}
-                          className={clsx(
-                            isActive(section)
-                              ? 'text-red-800 dark:text-amber-300'
-                              : 'font-normal text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-300'
-                          )}
-                        >
-                          {section.title}
-                        </Link>
+            </div>
+            <div className="min-w-0 max-w-2xl flex-auto px-4 py-16 lg:max-w-none lg:pl-8 lg:pr-0 xl:px-16">
+              <article>
+                {(title || section) && (
+                  <header className="mb-9 space-y-1">
+                    {section && (
+                      <p className="text-base font-semibold text-red-800 dark:text-amber-300">
+                        {section.title}
                       </p>
-                      {section.children.length > 0 && (
-                        <ol
-                          role="list"
-                          className="mt-2 space-y-3 pl-5 text-gray-500 dark:text-gray-400"
-                        >
-                          {section.children.map((subSection) => (
-                            <li key={subSection.id}>
-                              <Link
-                                href={`#${subSection.id}`}
-                                className={
-                                  isActive(subSection)
-                                    ? 'text-red-800 dark:text-amber-300'
-                                    : 'hover:text-gray-600 dark:hover:text-gray-300'
-                                }
-                              >
-                                {subSection.title}
-                              </Link>
-                            </li>
-                          ))}
-                        </ol>
-                      )}
-                    </li>
-                  ))}
-                </ol>
-              </>
-            )}
-          </nav>
-        </div>
-      </div>
-      <footer>
-        <Footer />
-      </footer>
+                    )}
+                    {title && (
+                      <h1 className="font-display text-3xl font-semibold tracking-tight text-gray-900 dark:text-white">
+                        {title}
+                      </h1>
+                    )}
+                  </header>
+                )}
+                <Prose>{children}</Prose>
+              </article>
+
+              <dl className="mt-12 flex border-t border-gray-200 pt-6 dark:border-gray-800">
+                {previousPage && (
+                  <div>
+                    <dt className="text-base font-medium text-gray-900 dark:text-white">
+                      Forrige
+                    </dt>
+                    <dd className="mt-1">
+                      <Link
+                        href={previousPage.href}
+                        className="text-base font-semibold text-gray-500 hover:text-gray-600 dark:text-gray-400 dark:hover:text-gray-300"
+                      >
+                        <span aria-hidden="true">&larr;</span>{' '}
+                        {previousPage.title}
+                      </Link>
+                    </dd>
+                  </div>
+                )}
+                {nextPage && (
+                  <div className="ml-auto text-right">
+                    <dt className="text-base font-medium text-gray-900 dark:text-white">
+                      Neste
+                    </dt>
+                    <dd className="mt-1">
+                      <Link
+                        href={nextPage.href}
+                        className="text-base font-semibold text-gray-500 hover:text-gray-600 dark:text-gray-400 dark:hover:text-gray-300"
+                      >
+                        {nextPage.title} <span aria-hidden="true">&rarr;</span>
+                      </Link>
+                    </dd>
+                  </div>
+                )}
+              </dl>
+            </div>
+            <div className="hidden xl:sticky xl:top-[4.5rem] xl:-mr-6 xl:block xl:h-[calc(100vh-4.5rem)] xl:flex-none xl:overflow-y-auto xl:py-16 xl:pr-6">
+              <nav aria-labelledby="on-this-page-title" className="w-56">
+                {tableOfContents.length > 0 && (
+                  <>
+                    <h2
+                      id="on-this-page-title"
+                      className="font-display text-base font-medium text-gray-900 dark:text-white"
+                    >
+                      På denne siden
+                    </h2>
+                    <ol role="list" className="mt-4 space-y-3 text-base">
+                      {tableOfContents.map((section) => (
+                        <li key={section.id}>
+                          <p>
+                            <Link
+                              href={`#${section.id}`}
+                              className={clsx(
+                                isActive(section)
+                                  ? 'text-red-800 dark:text-amber-300'
+                                  : 'font-normal text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-300'
+                              )}
+                            >
+                              {section.title}
+                            </Link>
+                          </p>
+                          {section.children.length > 0 && (
+                            <ol
+                              role="list"
+                              className="mt-2 space-y-3 pl-5 text-gray-500 dark:text-gray-400"
+                            >
+                              {section.children.map((subSection) => (
+                                <li key={subSection.id}>
+                                  <Link
+                                    href={`#${subSection.id}`}
+                                    className={
+                                      isActive(subSection)
+                                        ? 'text-red-800 dark:text-amber-300'
+                                        : 'hover:text-gray-600 dark:hover:text-gray-300'
+                                    }
+                                  >
+                                    {subSection.title}
+                                  </Link>
+                                </li>
+                              ))}
+                            </ol>
+                          )}
+                        </li>
+                      ))}
+                    </ol>
+                  </>
+                )}
+              </nav>
+            </div>
+          </div>
+          <footer>
+            <Footer />
+          </footer>
+        </>
+      )}
     </>
   )
 }
