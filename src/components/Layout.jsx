@@ -270,7 +270,12 @@ export function Layout({ children, title, tableOfContents, frontmatter }) {
       },
     }
 
-    return <script type="application/ld+json">{JSON.stringify(schema)}</script>
+    return (
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      />
+    )
   }
 
   return (
