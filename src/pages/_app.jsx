@@ -73,7 +73,7 @@ export default function App({ Component, pageProps }) {
       ? {
           '@context': 'http://schema.org',
           '@type': 'Event',
-          name: title,
+          name: concertTitle,
           description,
           startDate: startDate.toISOString(),
           endDate: endDate.toISOString(),
