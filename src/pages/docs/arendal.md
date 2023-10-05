@@ -1,6 +1,15 @@
 ---
 title: Arendal
 description: Christmas with Nordic Tenors | Arendal Kulturhus
+schemaName: Christmas with Nordic Tenors 2023 | Arendal Kulturhus
+schemaDescription: Julekonsert med Nordic Tenors i Arendal Kulturhus
+date: 2023-12-13T19:00:00.000Z
+duration: 80
+locationName: Arendal Kulturhus
+locationAddress: Sam Eydes plass 2, 4836 Arendal, Norway
+performer: Nordic Tenors
+image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/schema_-_arendal_konserthus_iv5qtp.webp
+url: https://julekonsert.com/docs/arendal
 ---
 
 {% concert-header day="onsdag" date="13" month="desember" time="19:00" /%}
