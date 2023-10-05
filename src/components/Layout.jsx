@@ -222,28 +222,6 @@ function useTableOfContents(tableOfContents) {
 export function Layout({ children, title, tableOfContents, frontmatter }) {
   let layoutType = frontmatter?.layout || 'default'
 
-  let router = useRouter()
-  let isHomePage = router.pathname === '/'
-
-  let allLinks = navigation.flatMap((section) => section.links)
-  let linkIndex = allLinks.findIndex((link) => link.href === router.pathname)
-  let previousPage = allLinks[linkIndex - 1]
-  let nextPage = allLinks[linkIndex + 1]
-  let section = navigation.find((section) =>
-    section.links.find((link) => link.href === router.pathname)
-  )
-  let currentSection = useTableOfContents(tableOfContents)
-
-  function isActive(section) {
-    if (section.id === currentSection) {
-      return true
-    }
-    if (!section.children) {
-      return false
-    }
-    return section.children.findIndex(isActive) > -1
-  }
-
   // Generate JSON-LD schema for each concert page
   const generateSchema = () => {
     if (layoutType !== 'special') return null
@@ -278,6 +256,28 @@ export function Layout({ children, title, tableOfContents, frontmatter }) {
     )
   }
 
+  let router = useRouter()
+  let isHomePage = router.pathname === '/'
+
+  let allLinks = navigation.flatMap((section) => section.links)
+  let linkIndex = allLinks.findIndex((link) => link.href === router.pathname)
+  let previousPage = allLinks[linkIndex - 1]
+  let nextPage = allLinks[linkIndex + 1]
+  let section = navigation.find((section) =>
+    section.links.find((link) => link.href === router.pathname)
+  )
+  let currentSection = useTableOfContents(tableOfContents)
+
+  function isActive(section) {
+    if (section.id === currentSection) {
+      return true
+    }
+    if (!section.children) {
+      return false
+    }
+    return section.children.findIndex(isActive) > -1
+  }
+
   return (
     <>
       <Head>
@@ -285,7 +285,7 @@ export function Layout({ children, title, tableOfContents, frontmatter }) {
         <title>{title}</title>
       </Head>
       {layoutType === 'special' ? (
-        <SpecialLayout>{children}</SpecialLayout>
+        <SpecialLayout frontmatter={frontmatter}>{children}</SpecialLayout>
       ) : (
         <>
           <Header navigation={navigation} />
