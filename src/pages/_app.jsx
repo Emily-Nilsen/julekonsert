@@ -41,10 +41,8 @@ function collectHeadings(nodes, slugify = slugifyWithCounter()) {
         }
       }
     }
-
     sections.push(...collectHeadings(node.children ?? [], slugify))
   }
-
   return sections
 }
 
@@ -73,8 +71,9 @@ export default function App({ Component, pageProps }) {
       ? {
           '@context': 'http://schema.org',
           '@type': 'Event',
-          name: concertTitle,
-          description,
+          name: pageProps.markdoc?.frontmatter.schemaName || title,
+          description:
+            pageProps.markdoc?.frontmatter.schemaDescription || description,
           startDate: startDate.toISOString(),
           endDate: endDate.toISOString(),
           location: {

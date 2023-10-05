@@ -1,8 +1,9 @@
 ---
 layout: special
 title: Oslo
-concertTitle: Christmas with Nordic Tenors 2023 | Oslo Konserthus
-description: Julekonsert med Nordic Tenors i Oslo Konserthus
+description: Christmas with Nordic Tenors | Oslo Konserthus
+schemaName: Christmas with Nordic Tenors 2023 | Oslo Konserthus
+schemaDescription: Julekonsert med Nordic Tenors i Oslo Konserthus
 date: 2023-11-26T19:00:00.000Z
 duration: 80
 locationName: Oslo Konserthus
