@@ -12,6 +12,7 @@ import { Prose } from '@/components/Prose'
 import { Search } from '@/components/Search'
 import { ThemeSelector } from '@/components/ThemeSelector'
 import { Footer } from '@/components/Footer'
+import { SpecialLayout } from '@/components/SpecialLayout'
 
 export const navigation = [
   {
