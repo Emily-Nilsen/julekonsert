@@ -281,14 +281,10 @@ export function Layout({ children, title, tableOfContents, frontmatter }) {
   return (
     <>
       <Head>
-        {layoutType === 'special' && (
-          <script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-          />
-        )}
-        <title>Your Title</title>
+        {generateSchema()}
+        {/* <title>Your Title</title> */}
       </Head>
+
       {layoutType === 'special' ? (
         <SpecialLayout frontmatter={frontmatter}>{children}</SpecialLayout>
       ) : (
