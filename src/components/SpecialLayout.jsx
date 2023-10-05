@@ -1,3 +1,5 @@
+import Head from 'next/head'
+
 export function SpecialLayout({ children, frontmatter }) {
   const generateSchema = () => {
     if (!frontmatter) return null
