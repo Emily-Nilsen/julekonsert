@@ -1,3 +1,5 @@
+import Head from 'next/head'
+
 export function SpecialLayout({ children, frontmatter }) {
   // Generate JSON-LD schema directly here
   const schema = frontmatter
