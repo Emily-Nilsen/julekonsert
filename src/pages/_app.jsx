@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import { slugifyWithCounter } from '@sindresorhus/slugify'
-// Import the useRouter hook
 import { useRouter } from 'next/router'
 import { Layout } from '@/components/Layout'
 
@@ -50,20 +49,48 @@ function collectHeadings(nodes, slugify = slugifyWithCounter()) {
 }
 
 export default function App({ Component, pageProps }) {
-  let title = pageProps.markdoc?.frontmatter.title
-
-  let pageTitle =
+  const title = pageProps.markdoc?.frontmatter.title
+  const pageTitle =
     pageProps.markdoc?.frontmatter.pageTitle ||
     `${pageProps.markdoc?.frontmatter.title} | Julekonserter med Nordic Tenors - 2023`
-
-  let description = pageProps.markdoc?.frontmatter.description
-
-  // Get the current pathname using useRouter
+  const description = pageProps.markdoc?.frontmatter.description
   const { pathname } = useRouter()
-
-  let tableOfContents = pageProps.markdoc?.content
+  const tableOfContents = pageProps.markdoc?.content
     ? collectHeadings(pageProps.markdoc.content)
     : []
+
+  // Validate date and time
+  const startDate = new Date(pageProps.markdoc?.frontmatter.date)
+  const endDate = new Date(
+    startDate.getTime() + pageProps.markdoc?.frontmatter.duration * 60000
+  )
+
+  const schema = pageProps.markdoc?.frontmatter
+    ? startDate &&
+      !isNaN(startDate.getTime()) &&
+      endDate &&
+      !isNaN(endDate.getTime())
+      ? {
+          '@context': 'http://schema.org',
+          '@type': 'Event',
+          name: title,
+          description,
+          startDate: startDate.toISOString(),
+          endDate: endDate.toISOString(),
+          location: {
+            '@type': 'Place',
+            name: pageProps.markdoc?.frontmatter.locationName,
+            address: pageProps.markdoc?.frontmatter.locationAddress,
+          },
+          image: pageProps.markdoc?.frontmatter.image,
+          url: pageProps.markdoc?.frontmatter.url,
+          performer: {
+            '@type': 'Person',
+            name: pageProps.markdoc?.frontmatter.performer,
+          },
+        }
+      : null
+    : null
 
   return (
     <>
@@ -74,13 +101,11 @@ export default function App({ Component, pageProps }) {
           rel="icon"
           href="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/julekonsert_favicon_c1iul8.webp"
         />
-        {/* Set a dynamic canonical URL based on the current pathname */}
         <link
           rel="canonical"
           href={`https://julekonsert.com${pathname}`}
           key="canonical"
         />
-        {/* New OG meta tags */}
         <meta property="og:title" content="Christmas with Nordic Tenors 2023" />
         <meta
           property="og:description"
@@ -88,8 +113,14 @@ export default function App({ Component, pageProps }) {
         />
         <meta
           property="og:image"
-          content="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Facebook_poster_ssyqkp.webp" // Replace with the URL of your desired image
+          content="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Facebook_poster_ssyqkp.webp"
         />
+        {schema && (
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+          />
+        )}
       </Head>
       <Layout title={title} tableOfContents={tableOfContents}>
         <Component {...pageProps} />

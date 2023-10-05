@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useState } from 'react'
-import Head from 'next/head'
+// import Head from 'next/head'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import clsx from 'clsx'
@@ -223,38 +223,6 @@ export function Layout({ children, title, tableOfContents, frontmatter }) {
   let layoutType = frontmatter?.layout || 'default'
 
   // Generate JSON-LD schema for each concert page
-  const generateSchema = () => {
-    if (layoutType !== 'special') return null
-
-    const schema = {
-      '@context': 'http://schema.org',
-      '@type': 'Event',
-      name: frontmatter?.title,
-      description: frontmatter?.description,
-      startDate: frontmatter?.date,
-      endDate: new Date(
-        new Date(frontmatter?.date).getTime() + frontmatter?.duration * 60000
-      ).toISOString(),
-      location: {
-        '@type': 'Place',
-        name: frontmatter?.locationName,
-        address: frontmatter?.locationAddress,
-      },
-      image: frontmatter?.image,
-      url: frontmatter?.url,
-      performer: {
-        '@type': 'Person',
-        name: frontmatter?.performer,
-      },
-    }
-
-    return (
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-      />
-    )
-  }
 
   let router = useRouter()
   let isHomePage = router.pathname === '/'
@@ -280,11 +248,6 @@ export function Layout({ children, title, tableOfContents, frontmatter }) {
 
   return (
     <>
-      <Head>
-        {generateSchema()}
-        {/* <title>Your Title</title> */}
-      </Head>
-
       {layoutType === 'special' ? (
         <SpecialLayout frontmatter={frontmatter}>{children}</SpecialLayout>
       ) : (
