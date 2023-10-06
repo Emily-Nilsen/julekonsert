@@ -1,6 +1,15 @@
 ---
 title: Ålesund
 description: Christmas with Nordic Tenors | Parken Kulturhus, Ålesund
+schemaName: Christmas with Nordic Tenors 2023 | Parken Kulturhus, Ålesund
+schemaDescription: Julekonsert med Nordic Tenors i Parken Kulturhus, Ålesund
+date: 2023-12-11T18:00:00.000Z
+duration: 80
+locationName: Parken Kulturhus, Ålesund
+locationAddress: Parkgata 3B, 6003 Ålesund, Norway
+performer: Nordic Tenors
+image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/schema_-_parken_kulturehus_a%CC%8Alesund_t69rqc.webp
+url: https://julekonsert.com/docs/aalesund
 ---
 
 {% concert-header day="mandag" date="11" month="desember" time="18:00" /%}

@@ -1,6 +1,15 @@
 ---
 title: Haugesund
 description: Christmas with Nordic Tenors | Festiviteten, Haugesund
+schemaName: Christmas with Nordic Tenors 2023 | Festiviteten, Haugesund
+schemaDescription: Julekonsert med Nordic Tenors i Festiviteten, Haugesund
+date: 2023-12-18T18:00:00.000Z
+duration: 80
+locationName: Festiviteten Konserthus, Haugesund
+locationAddress: Knut Knutsen O.A.S gate 4, 5528 Haugesund, Norway
+performer: Nordic Tenors
+image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/schema_-_festiviteten_haugesund_ybc9k7.webp
+url: https://julekonsert.com/docs/haugesund
 ---
 
 {% concert-header day="mandag" date="18" month="desember" time="18:00" /%}

@@ -1,6 +1,15 @@
 ---
 title: Fosnavåg
 description: Christmas with Nordic Tenors | Fosnavåg Konserthus
+schemaName: Christmas with Nordic Tenors 2023 | Fosnavåg Konserthus
+schemaDescription: Julekonsert med Nordic Tenors i Fosnavåg Konserthus
+date: 2023-12-09T19:00:00.000Z
+duration: 80
+locationName: Fosnavåg Konserthus
+locationAddress: Gerhard Voldnes veg 7, 6090 Fosnavåg, Norway
+performer: Nordic Tenors
+image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/schema_-_fosnava%CC%8Ag_konserthus_j75min.webp
+url: https://julekonsert.com/docs/fosnavaag
 ---
 
 {% concert-header day="lørdag" date="9" month="desember" time="19:00" /%}

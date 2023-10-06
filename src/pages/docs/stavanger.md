@@ -1,6 +1,15 @@
 ---
 title: Stavanger
 description: Christmas with Nordic Tenors | Stavanger Konserthus
+schemaName: Christmas with Nordic Tenors 2023 | Stavanger Konserthus
+schemaDescription: Julekonsert med Nordic Tenors i Stavanger Konserthus
+date: 2023-12-17T18:00:00.000Z
+duration: 80
+locationName: Stavanger Konserthus
+locationAddress: Sandvigå 1, 4007 Stavanger, Norway
+performer: Nordic Tenors
+image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/schema_-_stavanger_konserthus_bpphya.webp
+url: https://julekonsert.com/docs/stavanger
 ---
 
 {% concert-header day="søndag" date="17" month="desember" time="18:00" /%}

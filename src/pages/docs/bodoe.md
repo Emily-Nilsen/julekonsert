@@ -1,6 +1,15 @@
 ---
 title: Bodø
 description: Christmas with Nordic Tenors | Stormen, Bodø
+schemaName: Christmas with Nordic Tenors 2023 | Stormen, Bodø
+schemaDescription: Julekonsert med Nordic Tenors i Stormen, Bodø
+date: 2023-12-20T18:00:00.000Z
+duration: 80
+locationName: Stormen Konserthus, Bodø
+locationAddress: Storgata 1B, 8006 Bodø, Norway
+performer: Nordic Tenors
+image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/schema_-_stormen_bod%C3%B8_gxpx11.webp
+url: https://julekonsert.com/docs/bodoe
 ---
 
 {% concert-header day="onsdag" date="20" month="desember" time="18:00" /%}
