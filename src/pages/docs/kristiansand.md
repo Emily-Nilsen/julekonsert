@@ -1,6 +1,15 @@
 ---
 title: Kristiansand
 description: Christmas with Nordic Tenors | Kilden, Kristiansand
+schemaName: Christmas with Nordic Tenors 2023 | Kilden, Kristiansand
+schemaDescription: Julekonsert med Nordic Tenors i Kilden, Kristiansand
+date: 2023-12-14T18:00:00.000Z
+duration: 80
+locationName: Kilden, Kristiansand
+locationAddress: Sjølystveien 2, 4610 Kristiansand, Norway
+performer: Nordic Tenors
+image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/schema_-_kilden_kristiansand_mgrmx0.webp
+url: https://julekonsert.com/docs/kristiansand
 ---
 
 {% concert-header day="torsdag" date="14" month="desember" time="18:00" /%}

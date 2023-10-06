@@ -1,6 +1,15 @@
 ---
 title: Hamar
 description: Christmas with Nordic Tenors | Hamar Kulturhus
+schemaName: Christmas with Nordic Tenors 2023 | Hamar Kulturhus
+schemaDescription: Julekonsert med Nordic Tenors i Hamar Kulturhus
+date: 2023-11-25T18:00:00.000Z
+duration: 80
+locationName: Hamar Kulturhus
+locationAddress: Torggata 100, 2317 Hamar, Norway
+performer: Nordic Tenors
+image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/schema_-_hamar_konserthus_vqohxr.webp
+url: https://julekonsert.com/docs/hamar
 ---
 
 {% concert-header day="lørdag" date="25" month="november" time="18:00" /%}

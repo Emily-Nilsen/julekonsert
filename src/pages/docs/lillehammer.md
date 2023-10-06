@@ -1,6 +1,15 @@
 ---
 title: Lillehammer
 description: Christmas with Nordic Tenors | Maihaugsalen, Lillehammer
+schemaName: Christmas with Nordic Tenors 2023 | Maihaugsalen, Lillehammer
+schemaDescription: Julekonsert med Nordic Tenors i Maihaugsalen, Lillehammer
+date: 2023-12-05T18:00:00.000Z
+duration: 80
+locationName: Maihaugsalen, Lillehammer
+locationAddress: Maihaugveien 1, 2609 Lillehammer, Norway
+performer: Nordic Tenors
+image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/schema_-_Maihaugsalen_Lillehammer_ag43qh.webp
+url: https://julekonsert.com/docs/lillehammer
 ---
 
 {% concert-header day="tirsdag" date="5" month="desember" time="18:00" /%}

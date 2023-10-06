@@ -1,5 +1,4 @@
 ---
-layout: special
 title: Oslo
 description: Christmas with Nordic Tenors | Oslo Konserthus
 schemaName: Christmas with Nordic Tenors 2023 | Oslo Konserthus

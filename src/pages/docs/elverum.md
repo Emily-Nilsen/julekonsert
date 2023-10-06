@@ -1,6 +1,15 @@
 ---
 title: Elverum
 description: Christmas with Nordic Tenors | Elverum Kulturhus
+schemaName: Christmas with Nordic Tenors 2023 | Elverum Kulturhus
+schemaDescription: Julekonsert med Nordic Tenors i Elverum Kulturhus
+date: 2023-12-01T18:00:00.000Z
+duration: 80
+locationName: Elverum Kulturhus
+locationAddress: Storgata 18, 2414 Elverum, Norway
+performer: Nordic Tenors
+image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/schema_-_elverum_konserthus_ebtaqz.webp
+url: https://julekonsert.com/docs/elverum
 ---
 
 {% concert-header day="fredag" date="1" month="desember" time="18:00" /%}

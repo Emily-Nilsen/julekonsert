@@ -1,6 +1,15 @@
 ---
 title: Mandal
 description: Christmas with Nordic Tenors | Buen Kulturhus, Mandal
+schemaName: Christmas with Nordic Tenors 2023 | Buen Kulturhus, Mandal
+schemaDescription: Julekonsert med Nordic Tenors i Buen Kulturhus, Mandal
+date: 2023-12-15T18:00:00.000Z
+duration: 80
+locationName: Buen Kulturhus, Mandal
+locationAddress: Havnegata 2, 4515 Mandal, Norway
+performer: Nordic Tenors
+image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/schema_-_buen_kulturhus_mandal_j317lg.webp
+url: https://julekonsert.com/docs/mandal
 ---
 
 {% concert-header day="fredag" date="15" month="desember" time="18:00" /%}
