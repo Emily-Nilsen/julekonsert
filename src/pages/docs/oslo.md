@@ -9,7 +9,7 @@ duration: 80
 locationName: Oslo Konserthus
 locationAddress: Munkedamsveien 14, 0115 Oslo, Norway
 performer: Nordic Tenors
-image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/schema_-_oslo_konserthus_eu0q1l.webp
+image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/schema_-_oslo_konserthus_bqvtkg.webp
 url: https://julekonsert.com/docs/oslo
 ---
 

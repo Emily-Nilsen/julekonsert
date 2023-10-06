@@ -8,7 +8,7 @@ duration: 80
 locationName: Arendal Kulturhus
 locationAddress: Sam Eydes plass 2, 4836 Arendal, Norway
 performer: Nordic Tenors
-image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/schema_-_arendal_konserthus_iv5qtp.webp
+image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/schema_-_arendal_konserthus_c9vnxh.webp
 url: https://julekonsert.com/docs/arendal
 ---
 
