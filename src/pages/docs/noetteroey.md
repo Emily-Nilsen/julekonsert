@@ -1,6 +1,15 @@
 ---
 title: Nøtterøy
 description: Christmas with Nordic Tenors | Nøtterøy Kulturhus
+schemaName: Christmas with Nordic Tenors 2023 | Nøtterøy Kulturhus
+schemaDescription: Julekonsert med Nordic Tenors i Nøtterøy Kulturhus
+date: 2023-11-29T18:00:00.000Z
+duration: 80
+locationName: Nøtterøy Kulturhus
+locationAddress: Tinghaugveien 14, 3140 Borgheim, Norway
+performer: Nordic Tenors
+image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/schema_-_n%C3%B8tter%C3%B8y_kulturhus_wxobbk.webp
+url: https://julekonsert.com/docs/noetteroey
 ---
 
 {% concert-header day="onsdag" date="29" month="november" time="18:00" /%}

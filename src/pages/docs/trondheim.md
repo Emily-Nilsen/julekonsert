@@ -1,6 +1,15 @@
 ---
 title: Trondheim
 description: Christmas with Nordic Tenors | Olavshallen, Trondheim
+schemaName: Christmas with Nordic Tenors 2023 | Olavshallen, Trondheim
+schemaDescription: Julekonsert med Nordic Tenors i Olavshallen, Trondheim
+date: 2023-12-06T19:00:00.000Z
+duration: 80
+locationName: Olavshallen, Trondheim
+locationAddress: Kjøpmannsgata 48, 7010 Trondheim, Norway
+performer: Nordic Tenors
+image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/schema_-_Olavshallen_Trondheim_aevr2a.webp
+url: https://julekonsert.com/docs/trondheim
 ---
 
 {% concert-header day="onsdag" date="6" month="desember" time="19:00" /%}

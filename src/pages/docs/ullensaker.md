@@ -1,6 +1,15 @@
 ---
 title: Ullensaker
 description: Christmas with Nordic Tenors | Ullensaker Kulturhus
+schemaName: Christmas with Nordic Tenors 2023 | Ullensaker Kulturhus
+schemaDescription: Julekonsert med Nordic Tenors i Ullensaker Kulturhus
+date: 2023-12-12T18:00:00.000Z
+duration: 80
+locationName: Ullensaker Kulturhus
+locationAddress: Furusethgata 12, 2050 Jessheim, Norway
+performer: Nordic Tenors
+image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/schema_-_Ullensaker_Kulturhus_pyv1e1.webp
+url: https://julekonsert.com/docs/ullensaker
 ---
 
 {% concert-header day="tirsdag" date="12" month="desember" time="18:00" /%}

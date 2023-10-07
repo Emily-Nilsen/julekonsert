@@ -1,6 +1,15 @@
 ---
 title: Grong
 description: Christmas with Nordic Tenors | Kuben Kulturhus, Grong
+schemaName: Christmas with Nordic Tenors 2023 | Kuben Kulturhus, Grong
+schemaDescription: Julekonsert med Nordic Tenors i Kuben Kulturhus, Grong
+date: 2023-12-08T19:00:00.000Z
+duration: 80
+locationName: Kuben Kulturhus, Grong
+locationAddress: Sundspetvegen 23, 7870 Medjå, Norway
+performer: Nordic Tenors
+image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/schema_-_kuben_kulturhus_grong_x8xcnp.webp
+url: https://julekonsert.com/docs/grong
 ---
 
 {% concert-header day="fredag" date="8" month="desember" time="19:00" /%}

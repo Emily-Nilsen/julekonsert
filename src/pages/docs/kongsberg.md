@@ -1,6 +1,15 @@
 ---
 title: Kongsberg
 description: Christmas with Nordic Tenors | Kongsberg Musikkteater
+schemaName: Christmas with Nordic Tenors 2023 | Kongsberg Musikkteater
+schemaDescription: Julekonsert med Nordic Tenors i Kongsberg Musikkteater
+date: 2023-11-28T18:00:00.000Z
+duration: 80
+locationName: Kongsberg Musikkteater
+locationAddress: Hasbergs vei 36, 3616 Kongsberg, Norway
+performer: Nordic Tenors
+image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/schema_-_Kongsberg_Musikkteater_bzfi6n.webp
+url: https://julekonsert.com/docs/kongsberg
 ---
 
 {% concert-header day="tirsdag" date="28" month="november" time="18:00" /%}

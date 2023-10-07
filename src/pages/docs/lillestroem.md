@@ -1,6 +1,15 @@
 ---
 title: Lillestrøm
 description: Christmas with Nordic Tenors | Lillestrøm Kultursenter
+schemaName: Christmas with Nordic Tenors 2023 | Lillestrøm Kultursenter
+schemaDescription: Julekonsert med Nordic Tenors i Lillestrøm Kultursenter
+date: 2023-12-03T18:00:00.000Z
+duration: 80
+locationName: Lillestrøm Kultursenter
+locationAddress: Kirkegata 11, 2000 Lillestrøm, Norway
+performer: Nordic Tenors
+image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/schema_-_Lillestr%C3%B8m_Kultursenter_lqaed1.webp
+url: https://julekonsert.com/docs/lillestroem
 ---
 
 {% concert-header day="søndag" date="3" month="desember" time="18:00" /%}

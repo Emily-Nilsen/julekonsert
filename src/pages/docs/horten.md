@@ -1,6 +1,15 @@
 ---
 title: Horten
 description: Christmas with Nordic Tenors | Bakkenteigen Kulturhus, Horten
+schemaName: Christmas with Nordic Tenors 2023 | Bakkenteigen Kulturhus, Horten
+schemaDescription: Julekonsert med Nordic Tenors i Bakkenteigen Kulturhus, Horten
+date: 2023-11-23T19:00:00.000Z
+duration: 80
+locationName: Bakkenteigen Kulturhus, Horten
+locationAddress: Raveien 197, 3184 Borre, Norway
+performer: Nordic Tenors
+image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/schema_-_Bakkenteigen_Kulturhus_Horten_cstqv3.webp
+url: https://julekonsert.com/docs/horten
 ---
 
 {% concert-header day="torsdag" date="23" month="november" time="19:00" /%}

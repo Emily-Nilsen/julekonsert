@@ -1,6 +1,15 @@
 ---
 title: Askim
 description: Christmas with Nordic Tenors | Askim Kulturhus
+schemaName: Christmas with Nordic Tenors 2023 | Askim Kulturhus
+schemaDescription: Julekonsert med Nordic Tenors i Askim Kulturhus
+date: 2023-11-24T19:00:00.000Z
+duration: 80
+locationName: Askim Kulturhus
+locationAddress: P.M. Røwdes gate 6, 1811 Askim, Norway
+performer: Nordic Tenors
+image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/schema_-_Askim_Kulturhus_o4da6t.webp
+url: https://julekonsert.com/docs/askim
 ---
 
 {% concert-header day="fredag" date="24" month="november" time="19:00" /%}

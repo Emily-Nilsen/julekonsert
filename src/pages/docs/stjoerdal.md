@@ -1,6 +1,15 @@
 ---
 title: Stjørdal
 description: Christmas with Nordic Tenors | Kimen Kulturhus, Stjørdal
+schemaName: Christmas with Nordic Tenors 2023 | Kimen Kulturhus, Stjørdal
+schemaDescription: Julekonsert med Nordic Tenors i Kimen Kulturhus, Stjørdal
+date: 2023-12-07T18:00:00.000Z
+duration: 80
+locationName: Kimen Kulturhus
+locationAddress: Sandgata 15, 7500 Stjørdal, Norway
+performer: Nordic Tenors
+image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/schema_-_kimen_kulturhus_stj%C3%B8rdal_tylj6b.webp
+url: https://julekonsert.com/docs/stjoerdal
 ---
 
 {% concert-header day="torsdag" date="7" month="desember" time="18:00" /%}

@@ -1,6 +1,15 @@
 ---
 title: Drammen
 description: Christmas with Nordic Tenors | Drammens Teater
+schemaName: Christmas with Nordic Tenors 2023 | Drammens Teater
+schemaDescription: Julekonsert med Nordic Tenors i Drammens Teater
+date: 2023-12-22T18:00:00.000Z
+duration: 80
+locationName: Drammens Teater
+locationAddress: Øvre Storgate 12, 3018 Drammen, Norway
+performer: Nordic Tenors
+image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/schema_-_Drammens_Teater_txivpw.webp
+url: https://julekonsert.com/docs/drammen
 ---
 
 {% concert-header day="fredag" date="22" month="desember" time="18:00 og 20:00" /%}

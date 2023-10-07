@@ -1,6 +1,15 @@
 ---
 title: Sandefjord
 description: Christmas with Nordic Tenors | Hjertnes Kulturhus, Sandefjord
+schemaName: Christmas with Nordic Tenors 2023 | Hjertnes Kulturhus, Sandefjord
+schemaDescription: Julekonsert med Nordic Tenors i Hjertnes Kulturhus, Sandefjord
+date: 2023-11-30T18:00:00.000Z
+duration: 80
+locationName: Hjertnes Kulturhus, Sandefjord
+locationAddress: Sandefjordsveien 3, 3202 Sandefjord, Norway
+performer: Nordic Tenors
+image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/schema_-_Hjertnes_Kulturhus_Sandefjord_utlesb.webp
+url: https://julekonsert.com/docs/sandefjord
 ---
 
 {% concert-header day="torsdag" date="30" month="november" time="18:00" /%}

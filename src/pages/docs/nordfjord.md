@@ -1,6 +1,15 @@
 ---
 title: Nordfjord
 description: Christmas with Nordic Tenors | Operahuset, Nordfjord
+schemaName: Christmas with Nordic Tenors 2023 | Operahuset, Nordfjord
+schemaDescription: Julekonsert med Nordic Tenors i Operahuset, Nordfjord
+date: 2023-12-10T18:00:00.000Z
+duration: 80
+locationName: Operahuset, Nordfjord
+locationAddress: Sophus Lie-vegen 3, 6770 Nordfjordeid, Norway
+performer: Nordic Tenors
+image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/schema_-_Operahuset_Nordfjord_qsxsxb.webp
+url: https://julekonsert.com/docs/nordfjord
 ---
 
 {% concert-header day="søndag" date="10" month="desember" time="18:00" /%}
