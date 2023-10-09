@@ -12,9 +12,8 @@ image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/sche
 url: https://julekonsert.com/docs/stavanger
 organizer: Nordic Moments AS
 ticketUrl: https://tix.no/nb/stavanger/buyingflow/tickets/20832/41316/?_ga=2.44577517.811834603.1678814790-1890436003.1678814790&_gl=1*j0rtgz*_ga*MTg5MDQzNjAwMy4xNjc4ODE0Nzkw*_ga_DEB4HCM8L4*MTY3ODgxNDc4OS4xLjAuMTY3ODgxNDc4OS4wLjAuMA..
-ticketPrice: 580  # Replace with the actual price
-organizer: Nordic Moments AS
-eventStatus: EventScheduled 
+ticketPrice: 580 # Replace with the actual price
+eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 

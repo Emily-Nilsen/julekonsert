@@ -12,9 +12,8 @@ image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/sche
 url: https://julekonsert.com/docs/arendal
 organizer: Nordic Moments AS
 ticketUrl: https://www.arendalkulturhus.no/program/christmas-with-nordic-tenors/
-ticketPrice: 585  # Replace with the actual price
-organizer: Nordic Moments AS
-eventStatus: EventScheduled 
+ticketPrice: 585 # Replace with the actual price
+eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 

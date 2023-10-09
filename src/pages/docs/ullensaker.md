@@ -12,9 +12,8 @@ image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/sche
 url: https://julekonsert.com/docs/ullensaker
 organizer: Nordic Moments AS
 ticketUrl: https://www.ticketmaster.no/event/713439?language=no-no&track=DiscoveryAPI&subchannel_id=1&brand=ullensakerkulturhus&_ga=2.128066892.1907820984.1678097351-329025345.1622720366
-ticketPrice: 580  # Replace with the actual price
-organizer: Nordic Moments AS
-eventStatus: EventScheduled 
+ticketPrice: 580 # Replace with the actual price
+eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 

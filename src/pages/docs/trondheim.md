@@ -12,9 +12,8 @@ image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/sche
 url: https://julekonsert.com/docs/trondheim
 organizer: Nordic Moments AS
 ticketUrl: https://www.olavshallen.no/forestillinger/2023-02-17-christmas-with-nordic-tenors
-ticketPrice: 615  # Replace with the actual price
-organizer: Nordic Moments AS
-eventStatus: EventScheduled 
+ticketPrice: 615 # Replace with the actual price
+eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 

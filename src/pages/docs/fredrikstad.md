@@ -12,9 +12,8 @@ image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/sche
 url: https://julekonsert.com/docs/fredrikstad
 organizer: Nordic Moments AS
 ticketUrl: https://checkout.ebillett.no/260/events/123692/purchase/setup?_ga=2.49183406.989234483.1683547622-1832723000.1683547622&kanal=dxf
-ticketPrice: 580  # Replace with the actual price
-organizer: Nordic Moments AS
-eventStatus: EventScheduled 
+ticketPrice: 580 # Replace with the actual price
+eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
