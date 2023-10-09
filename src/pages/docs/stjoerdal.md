@@ -10,6 +10,12 @@ locationAddress: Sandgata 15, 7500 Stjørdal, Norway
 performer: Nordic Tenors
 image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/schema_-_kimen_kulturhus_stj%C3%B8rdal_tylj6b.webp
 url: https://julekonsert.com/docs/stjoerdal
+organizer: Nordic Moments AS
+ticketUrl: https://billett.kimenkulturhus.no/webshop/webticket/seatmap?eventId=376
+ticketPrice: 580  # Replace with the actual price
+organizer: Nordic Moments AS
+eventStatus: EventScheduled 
+eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
 {% concert-header day="torsdag" date="7" month="desember" time="18:00" /%}

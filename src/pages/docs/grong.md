@@ -10,6 +10,12 @@ locationAddress: Sundspetvegen 23, 7870 Medjå, Norway
 performer: Nordic Tenors
 image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/schema_-_kuben_kulturhus_grong_x8xcnp.webp
 url: https://julekonsert.com/docs/grong
+organizer: Nordic Moments AS
+ticketUrl: https://kulturhusetkuben.no/christmas-with-nordic-tenors-a3l6hn/
+ticketPrice: 580  # Replace with the actual price
+organizer: Nordic Moments AS
+eventStatus: EventScheduled 
+eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
 {% concert-header day="fredag" date="8" month="desember" time="19:00" /%}

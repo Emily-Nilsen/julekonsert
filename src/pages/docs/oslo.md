@@ -10,6 +10,12 @@ locationAddress: Munkedamsveien 14, 0115 Oslo, Norway
 performer: Nordic Tenors
 image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/schema_-_oslo_konserthus_bqvtkg.webp
 url: https://julekonsert.com/docs/oslo
+organizer: Nordic Moments AS
+ticketUrl: https://tix.no/nb/oslok/buyingflow/tickets/20487/40755/#tixsp
+ticketPrice: 580  # Replace with the actual price
+organizer: Nordic Moments AS
+eventStatus: EventScheduled 
+eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
 {% concert-header day="søndag" date="26" month="november" time="19:00" /%}

@@ -10,6 +10,12 @@ locationAddress: Edvard Griegs plass 1, 5015 Bergen, Norway
 performer: Nordic Tenors
 image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/schema_-_Grieghallen_Bergen_fxncaq.webp
 url: https://julekonsert.com/docs/bergen
+organizer: Nordic Moments AS
+ticketUrl: https://www.ticketmaster.no/event/714405
+ticketPrice: 585  # Replace with the actual price
+organizer: Nordic Moments AS
+eventStatus: EventScheduled 
+eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
 {% concert-header day="torsdag" date="21" month="desember" time="18:00" /%}

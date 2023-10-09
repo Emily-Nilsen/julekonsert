@@ -10,6 +10,12 @@ locationAddress: Sam Eydes plass 2, 4836 Arendal, Norway
 performer: Nordic Tenors
 image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/schema_-_arendal_konserthus_c9vnxh.webp
 url: https://julekonsert.com/docs/arendal
+organizer: Nordic Moments AS
+ticketUrl: https://www.arendalkulturhus.no/program/christmas-with-nordic-tenors/
+ticketPrice: 585  # Replace with the actual price
+organizer: Nordic Moments AS
+eventStatus: EventScheduled 
+eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
 {% concert-header day="onsdag" date="13" month="desember" time="19:00" /%}

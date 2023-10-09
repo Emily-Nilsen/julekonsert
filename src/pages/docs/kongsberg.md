@@ -10,6 +10,12 @@ locationAddress: Hasbergs vei 36, 3616 Kongsberg, Norway
 performer: Nordic Tenors
 image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/schema_-_Kongsberg_Musikkteater_bzfi6n.webp
 url: https://julekonsert.com/docs/kongsberg
+organizer: Nordic Moments AS
+ticketUrl: https://tix.no/nb/kongsberg/buyingflow/tickets/20822/41303
+ticketPrice: 580  # Replace with the actual price
+organizer: Nordic Moments AS
+eventStatus: EventScheduled 
+eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
 {% concert-header day="tirsdag" date="28" month="november" time="18:00" /%}

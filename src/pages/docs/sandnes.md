@@ -10,6 +10,12 @@ locationAddress: Mauritz Kartevoldsplass 1, 4306 Sandnes, Norway
 performer: Nordic Tenors
 image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/schema_-_sandnes_konserthus_okldts.webp
 url: https://julekonsert.com/docs/sandnes
+organizer: Nordic Moments AS
+ticketUrl: https://www.sandnes-kulturhus.no/program/christmas-with-nordic-tenors-2/
+ticketPrice: 580  # Replace with the actual price
+organizer: Nordic Moments AS
+eventStatus: EventScheduled 
+eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
 {% concert-header day="lørdag" date="16" month="desember" time="18:00" /%}

@@ -87,6 +87,22 @@ export default function App({ Component, pageProps }) {
             '@type': 'Person',
             name: pageProps.markdoc?.frontmatter.performer,
           },
+          organizer: {
+            '@type': 'Organization',
+            name: 'Nordic Moments AS',
+          },
+          offers: {
+            // Modified to be dynamic
+            '@type': 'Offer',
+            url:
+              pageProps.markdoc?.frontmatter.ticketUrl ||
+              'https://julekonsert.com', // Replace Default_URL with a fallback
+            price: `${pageProps.markdoc?.frontmatter.ticketPrice || '575'} NOK`, // Replace Default_Price with a fallback
+            priceCurrency: 'NOK',
+            availability: 'http://schema.org/InStock',
+          },
+          eventStatus: 'EventScheduled',
+          eventAttendanceMode: 'OfflineEventAttendanceMode',
         }
       : null
     : null

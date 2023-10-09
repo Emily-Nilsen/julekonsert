@@ -10,6 +10,12 @@ locationAddress: Erling Bangsunds plass 1, 9008 Tromsø, Norway
 performer: Nordic Tenors
 image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/schema_-_Kulturhuset_Troms%C3%B8_wxeeve.webp
 url: https://julekonsert.com/docs/tromsoe
+organizer: Nordic Moments AS
+ticketUrl: https://tix.no/nb/tr/buyingflow/tickets/21625/42507
+ticketPrice: 580  # Replace with the actual price
+organizer: Nordic Moments AS
+eventStatus: EventScheduled 
+eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
 {% concert-header day="tirsdag" date="19" month="desember" time="18:00" /%}

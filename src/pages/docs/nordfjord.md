@@ -10,6 +10,12 @@ locationAddress: Sophus Lie-vegen 3, 6770 Nordfjordeid, Norway
 performer: Nordic Tenors
 image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/schema_-_Operahuset_Nordfjord_qsxsxb.webp
 url: https://julekonsert.com/docs/nordfjord
+organizer: Nordic Moments AS
+ticketUrl: https://operahuset.no/christmas-with-nordic-tenors/
+ticketPrice: 575  # Replace with the actual price
+organizer: Nordic Moments AS
+eventStatus: EventScheduled 
+eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
 {% concert-header day="søndag" date="10" month="desember" time="18:00" /%}

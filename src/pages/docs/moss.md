@@ -10,6 +10,12 @@ locationAddress: Dronningens gate 25, 1530 Moss, Norway
 performer: Nordic Tenors
 image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/schema_-_Moss_Kulturhus_p1da5a.webp
 url: https://julekonsert.com/docs/moss
+organizer: Nordic Moments AS
+ticketUrl: https://www.mosskulturhus.no/event/christmas-with-nordic-tenors/
+ticketPrice: 580  # Replace with the actual price
+organizer: Nordic Moments AS
+eventStatus: EventScheduled 
+eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
 {% concert-header day="lørdag" date="2" month="desember" time="18:00" /%}

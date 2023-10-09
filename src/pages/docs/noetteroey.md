@@ -10,6 +10,12 @@ locationAddress: Tinghaugveien 14, 3140 Borgheim, Norway
 performer: Nordic Tenors
 image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/schema_-_n%C3%B8tter%C3%B8y_kulturhus_wxobbk.webp
 url: https://julekonsert.com/docs/noetteroey
+organizer: Nordic Moments AS
+ticketUrl: https://notteroy.kulturhus.no/program/christmas-with-nordic-tenors/
+ticketPrice: 580  # Replace with the actual price
+organizer: Nordic Moments AS
+eventStatus: EventScheduled 
+eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
 {% concert-header day="onsdag" date="29" month="november" time="18:00" /%}

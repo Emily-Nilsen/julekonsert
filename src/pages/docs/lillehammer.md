@@ -10,6 +10,12 @@ locationAddress: Maihaugveien 1, 2609 Lillehammer, Norway
 performer: Nordic Tenors
 image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/schema_-_Maihaugsalen_Lillehammer_ag43qh.webp
 url: https://julekonsert.com/docs/lillehammer
+organizer: Nordic Moments AS
+ticketUrl: https://www.ticketmaster.no/event/713885
+ticketPrice: 580  # Replace with the actual price
+organizer: Nordic Moments AS
+eventStatus: EventScheduled 
+eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
 {% concert-header day="tirsdag" date="5" month="desember" time="18:00" /%}

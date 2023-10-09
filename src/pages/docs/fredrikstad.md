@@ -10,6 +10,12 @@ locationAddress: Nygaardsgata 22-24, 1606 Fredrikstad, Norway
 performer: Nordic Tenors
 image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/schema_-_Bla%CC%8A_Grotte_Fredrikstad_qgn5lt.webp
 url: https://julekonsert.com/docs/fredrikstad
+organizer: Nordic Moments AS
+ticketUrl: https://checkout.ebillett.no/260/events/123692/purchase/setup?_ga=2.49183406.989234483.1683547622-1832723000.1683547622&kanal=dxf
+ticketPrice: 580  # Replace with the actual price
+organizer: Nordic Moments AS
+eventStatus: EventScheduled 
+eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
 {% concert-header day="mandag" date="4" month="desember" time="19:00" /%}

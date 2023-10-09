@@ -10,6 +10,12 @@ locationAddress: P.M. Røwdes gate 6, 1811 Askim, Norway
 performer: Nordic Tenors
 image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/schema_-_Askim_Kulturhus_o4da6t.webp
 url: https://julekonsert.com/docs/askim
+organizer: Nordic Moments AS
+ticketUrl: https://tix.no/nb/askim/buyingflow/tickets/20402/
+ticketPrice: 580  # Replace with the actual price
+organizer: Nordic Moments AS
+eventStatus: EventScheduled 
+eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
 {% concert-header day="fredag" date="24" month="november" time="19:00" /%}

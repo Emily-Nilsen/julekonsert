@@ -10,6 +10,12 @@ locationAddress: Sandefjordsveien 3, 3202 Sandefjord, Norway
 performer: Nordic Tenors
 image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/schema_-_Hjertnes_Kulturhus_Sandefjord_utlesb.webp
 url: https://julekonsert.com/docs/sandefjord
+organizer: Nordic Moments AS
+ticketUrl: https://checkout.ebillett.no/262/events/108247/purchase/setup
+ticketPrice: 566  # Replace with the actual price
+organizer: Nordic Moments AS
+eventStatus: EventScheduled 
+eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
 {% concert-header day="torsdag" date="30" month="november" time="18:00" /%}
