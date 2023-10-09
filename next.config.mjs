@@ -16,8 +16,8 @@ const nextConfig = {
   async redirects() {
     return [
       {
-        source: 'http://julekonsert.com/:path*',
-        destination: 'https://julekonsert.com/:path*',
+        source: 'http://julekonsert.com/',
+        destination: 'https://julekonsert.com/',
         permanent: true,
       },
     ]
