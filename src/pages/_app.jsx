@@ -97,7 +97,7 @@ export default function App({ Component, pageProps }) {
             url:
               pageProps.markdoc?.frontmatter.ticketUrl ||
               'https://julekonsert.com', // Replace Default_URL with a fallback
-            price: `${pageProps.markdoc?.frontmatter.ticketPrice || '575'} NOK`, // Replace Default_Price with a fallback
+            price: pageProps.markdoc?.frontmatter.ticketPrice || '575', // Replace Default_Price with a fallback
             priceCurrency: 'NOK',
             availability: 'http://schema.org/InStock',
           },
