@@ -13,15 +13,6 @@ const nextConfig = {
   experimental: {
     scrollRestoration: true,
   },
-  async redirects() {
-    return [
-      {
-        source: 'http://julekonsert.com/',
-        destination: 'https://julekonsert.com/',
-        permanent: true,
-      },
-    ]
-  },
 }
 
 export default withSearch(
