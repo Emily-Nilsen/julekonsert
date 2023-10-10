@@ -17,6 +17,7 @@ import { ExternalLink } from '@/components/ExternalLink'
 import { Reviews } from '@/components/Reviews'
 import { CalendarText } from '@/components/CalendarText'
 import { ChristmasConcertText } from '@/components/ChristmasConcertText'
+import { getConcertYearWord } from '../../utils/getConcertYearWord'
 
 const tags = {
   callout: {
@@ -30,6 +31,14 @@ const tags = {
       },
     },
     render: Callout,
+  },
+  'concert-year': {
+    selfClosing: true,
+    render: () => {
+      const word = getConcertYearWord()
+      console.log('Concert year word is:', word) // Debugging log
+      return <>{word}</>
+    },
   },
   figure: {
     selfClosing: true,

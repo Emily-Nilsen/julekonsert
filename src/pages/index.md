@@ -18,7 +18,7 @@ Velkommen skal du være til julekonsert med Nordic Tenors i 2023! {% .lead %}
 
 Når nettene blir lange og vinterfrosten legger et rimet slør over mørkelandet, er det lite som varmer som tonene fra de tre høyt elskede tenorene i Nordic Tenors og deres virtuose pianist Torgeir Koppang.
 
-For attende året skaper tenortrioen en førjulsstund fylt med varme og humor, med et variert julerepertoar bygget på høytid og tradisjon, en julekonsert som garantert vil sette deg i den gode julestemningen.
+For {% concert-year /%} året skaper tenortrioen en førjulsstund fylt med varme og humor, med et variert julerepertoar bygget på høytid og tradisjon, en julekonsert som garantert vil sette deg i den gode julestemningen.
 
 Forestillingen er ikke bare en fryd for øret, men også for øyet, da de har med seg Andreas Ohldieck, en av de gryende stjernene på den stadig voksende himmelen av norske videokunstnere.
 
