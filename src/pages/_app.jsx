@@ -101,7 +101,7 @@ export default function App({ Component, pageProps }) {
             price: pageProps.markdoc?.frontmatter.ticketPrice || '575', // Replace Default_Price with a fallback
             priceCurrency: 'NOK',
             availability: 'http://schema.org/InStock',
-            validFrom: new Date().toISOString(),
+            validFrom: '2023-09-01T00:00:00.000Z',
           },
           eventStatus: 'EventScheduled',
           eventAttendanceMode: 'OfflineEventAttendanceMode',
