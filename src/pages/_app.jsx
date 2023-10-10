@@ -90,6 +90,7 @@ export default function App({ Component, pageProps }) {
           organizer: {
             '@type': 'Organization',
             name: 'Nordic Moments AS',
+            url: 'https://www.nordictenors.no/',
           },
           offers: {
             // Modified to be dynamic
@@ -100,6 +101,7 @@ export default function App({ Component, pageProps }) {
             price: pageProps.markdoc?.frontmatter.ticketPrice || '575', // Replace Default_Price with a fallback
             priceCurrency: 'NOK',
             availability: 'http://schema.org/InStock',
+            validFrom: new Date().toISOString(),
           },
           eventStatus: 'EventScheduled',
           eventAttendanceMode: 'OfflineEventAttendanceMode',
