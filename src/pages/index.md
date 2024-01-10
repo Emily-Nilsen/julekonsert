@@ -1,10 +1,10 @@
 ---
 title: Christmas with Nordic Tenors
-pageTitle: Christmas with Nordic Tenors | Julekonserter 2023
+pageTitle: Christmas with Nordic Tenors | Julekonserter 2024
 description: Nordic Tenors gir deg en vakker julekonsert med unike stemmer, varme, humor, og et tradisjonelt julerepertoar. Opplev førjulsstemning med Jan-Tore Saltnes, Nils Georg Nilsen og Espen Solsbak.
 ---
 
-Velkommen skal du være til julekonsert med Nordic Tenors i 2023! {% .lead %}
+Velkommen skal du være til julekonsert med Nordic Tenors i 2024! {% .lead %}
 
 {% videos %}
 
