@@ -29,7 +29,7 @@ export function ConcertDetails({ concert, day, date, time, month, location }) {
               <span className="font-bold">
                 {date}. {month}
               </span>{' '}
-              2023
+              2024
             </p>
           </div>
           <div className="-mt-3 flex items-center gap-3">

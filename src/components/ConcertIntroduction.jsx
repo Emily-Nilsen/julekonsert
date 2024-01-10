@@ -7,7 +7,7 @@ export function ConcertIntroduction({ location, day, date, month }) {
         <span className="font-bold">
           {date}. {month}
         </span>{' '}
-        2023. Opplev unike stemmer, varme, humor og et tradisjonelt
+        2024. Opplev unike stemmer, varme, humor og et tradisjonelt
         julerepertoar med Jan-Tore Saltnes, Nils Georg Nilsen og Espen Solsbak.
       </p>
     </div>

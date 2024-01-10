@@ -19,7 +19,7 @@ export const navigation = [
     links: [
       { title: 'Christmas with Nordic Tenors', href: '/' },
       {
-        title: `Julekonserter 2023`,
+        title: `Julekonserter 2024`,
         href: '/docs/julekonserter',
       },
       { title: 'Kontakt oss', href: '/docs/kontakt' },

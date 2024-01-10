@@ -1,9 +1,9 @@
 ---
 title: Horten
 description: Christmas with Nordic Tenors | Bakkenteigen Kulturhus, Horten
-schemaName: Turnépremiere - Christmas with Nordic Tenors 2023 | Bakkenteigen Kulturhus, Horten
+schemaName: Turnépremiere - Christmas with Nordic Tenors 2024 | Bakkenteigen Kulturhus, Horten
 schemaDescription: Turnépremiere - Julekonsert med Nordic Tenors i Bakkenteigen Kulturhus, Horten
-date: 2023-11-23T19:00:00.000Z
+date: 2024-11-22T19:00:00.000Z
 duration: 80
 locationName: Bakkenteigen Kulturhus, Horten
 locationAddress: Raveien 197, 3184 Borre, Norway
@@ -12,18 +12,18 @@ image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/sche
 url: https://julekonsert.com/docs/horten
 organizer: Nordic Moments AS
 ticketUrl: https://bakkenteigen.ticketco.events/no/nb/e/christmas_with_nordic_tenors_2023
-ticketPrice: 590 # Replace with the actual price
+ticketPrice: 595 # Replace with the actual price
 eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
-{% concert-header day="torsdag" date="23" month="november" time="19:00" /%}
+{% concert-header day="fredag" date="22" month="november" time="19:00" /%}
 
 ---
 
 ## Bakkenteigen Kulturhus, Horten
 
-{% concert-introduction location="Bakkenteigen Kulturhus, Horten" day="torsdag" date="23" month="november" /%}
+{% concert-introduction location="Bakkenteigen Kulturhus, Horten" day="fredag" date="22" month="november" /%}
 
 {% categories %}
 {% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Bakkenteigen_Kulturhus_Horten_ist5xq.webp" title="Bakkenteigen Kulturhus, Horten" /%}
@@ -31,11 +31,11 @@ eventAttendanceMode: OfflineEventAttendanceMode
 
 ### Billetter
 
-{% billetter concert="Turnépremiere: " outlet="TicketCo" ticketUrl="https://bakkenteigen.ticketco.events/no/nb/e/christmas_with_nordic_tenors_2023" /%}
+{% billetter concert="Turnépremiere: " outlet="TicketCo" ticketUrl="https://bakkenteigen.ticketco.events/no/nb/e/christmas_with_nordic_tenors_2024" /%}
 
 ### Konsertdetaljer
 
-{% concert-details concert="Bakkenteigen Kulturhus, Horten" date="23" month="november" day="torsdag" time="19:00 – 20:20" location="Bakkenteigen Kulturhus, Horten" /%}
+{% concert-details concert="Bakkenteigen Kulturhus, Horten" date="22" month="november" day="fredag" time="19:00 – 20:20" location="Bakkenteigen Kulturhus, Horten" /%}
 
 ### Adresse
 
