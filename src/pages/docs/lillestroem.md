@@ -1,9 +1,9 @@
 ---
 title: Lillestrøm
 description: Christmas with Nordic Tenors | Lillestrøm Kultursenter
-schemaName: Christmas with Nordic Tenors 2023 | Lillestrøm Kultursenter
+schemaName: Christmas with Nordic Tenors 2024 | Lillestrøm Kultursenter
 schemaDescription: Julekonsert med Nordic Tenors i Lillestrøm Kultursenter
-date: 2023-12-03T18:00:00.000Z
+date: 2024-11-03T18:00:00.000Z
 duration: 80
 locationName: Lillestrøm Kultursenter
 locationAddress: Kirkegata 11, 2000 Lillestrøm, Norway
@@ -12,18 +12,18 @@ image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/sche
 url: https://julekonsert.com/docs/lillestroem
 organizer: Nordic Moments AS
 ticketUrl: https://www.lillestrom-kultursenter.no/event/christmas-with-nordic-tenors/
-ticketPrice: 575 # Replace with the actual price
+ticketPrice: 585 # Replace with the actual price
 eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
-{% concert-header day="søndag" date="3" month="desember" time="18:00" /%}
+{% concert-header day="søndag" date="24" month="november" time="18:00" /%}
 
 ---
 
 ## Lillestrøm Kultursenter
 
-{% concert-introduction location="Lillestrøm Kultursenter" day="søndag" date="3" month="desember" /%}
+{% concert-introduction location="Lillestrøm Kultursenter" day="søndag" date="24" month="november" /%}
 
 {% categories %}
 {% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Lillestr%C3%B8m_kultursenter_yl2vwa.webp" title="Lillestrøm Kultursenter" /%}
@@ -35,7 +35,7 @@ eventAttendanceMode: OfflineEventAttendanceMode
 
 ### Konsertdetaljer
 
-{% concert-details concert="Lillestrøm Kultursenter" date="3" month="desember" day="søndag" time="18:00 – 19:20" location="Lillestrøm Kultursenter, Teatersalen" /%}
+{% concert-details concert="Lillestrøm Kultursenter" date="24" month="november" day="søndag" time="18:00 – 19:20" location="Lillestrøm Kultursenter, Teatersalen" /%}
 
 ### Adresse
 
