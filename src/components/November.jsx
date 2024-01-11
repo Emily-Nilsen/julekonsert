@@ -96,7 +96,7 @@ const concerts = [
   },
   {
     id: 2,
-    name: 'Alles Kulturhus, Askim',
+    name: 'Alles Kulturhus, Hønefoss',
     imageUrl:
       'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1704979651/Julekonsert/alles-kulturhus_muvum4.webp',
     date: '23. november',
