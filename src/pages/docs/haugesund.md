@@ -1,9 +1,9 @@
 ---
 title: Haugesund
 description: Christmas with Nordic Tenors | Festiviteten, Haugesund
-schemaName: Christmas with Nordic Tenors 2023 | Festiviteten, Haugesund
+schemaName: Christmas with Nordic Tenors 2024 | Festiviteten, Haugesund
 schemaDescription: Julekonsert med Nordic Tenors i Festiviteten, Haugesund
-date: 2023-12-18T18:00:00.000Z
+date: 2024-12-16T18:00:00.000Z
 duration: 80
 locationName: Festiviteten Konserthus, Haugesund
 locationAddress: Knut Knutsen O.A.S gate 4, 5528 Haugesund, Norway
@@ -11,19 +11,19 @@ performer: Nordic Tenors
 image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/schema_-_festiviteten_haugesund_ybc9k7.webp
 url: https://julekonsert.com/docs/haugesund
 organizer: Nordic Moments AS
-ticketUrl: https://festiviteten.no/alle/nordic-tenors-christmas-with-nordic-tenors/
-ticketPrice: 575 # Replace with the actual price
+ticketUrl: https://tix.no/nb/festiviteten/buyingflow/tickets/25462/48303/
+ticketPrice: 585 # Replace with the actual price
 eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
-{% concert-header day="mandag" date="18" month="desember" time="18:00" /%}
+{% concert-header day="mandag" date="16" month="desember" time="18:00" /%}
 
 ---
 
 ## Festiviteten, Haugesund
 
-{% concert-introduction location="Festiviteten, Haugesund" day="mandag" date="18" month="desember" /%}
+{% concert-introduction location="Festiviteten, Haugesund" day="mandag" date="16" month="desember" /%}
 
 {% categories %}
 {% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Festiviteten_Haugesund_nkllsw.webp" title="Festiviteten, Haugesund" /%}
@@ -31,11 +31,11 @@ eventAttendanceMode: OfflineEventAttendanceMode
 
 ### Billetter
 
-{% billetter concert="" outlet="festiviteten.no" ticketUrl="https://festiviteten.no/alle/nordic-tenors-christmas-with-nordic-tenors/" /%}
+{% billetter concert="" outlet="festiviteten.no" ticketUrl="https://tix.no/nb/festiviteten/buyingflow/tickets/25462/48303/" /%}
 
 ### Konsertdetaljer
 
-{% concert-details concert="Festiviteten, Haugesund" date="18" month="desember" day="mandag" time="18:00 – 19:20" location="Festiviteten Konserthus, Haugesund" /%}
+{% concert-details concert="Festiviteten, Haugesund" date="16" month="desember" day="mandag" time="18:00 – 19:20" location="Festiviteten Konserthus, Haugesund" /%}
 
 ### Adresse
 
