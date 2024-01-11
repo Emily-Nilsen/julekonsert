@@ -1,9 +1,9 @@
 ---
 title: Sandnes
 description: Christmas with Nordic Tenors | Sandnes Kulturhus
-schemaName: Christmas with Nordic Tenors 2023 | Sandnes Kulturhus
+schemaName: Christmas with Nordic Tenors 2024 | Sandnes Kulturhus
 schemaDescription: Julekonsert med Nordic Tenors i Sandnes Kulturhus
-date: 2023-12-16T18:00:00.000Z
+date: 2024-12-14T18:00:00.000Z
 duration: 80
 locationName: Sandnes Kulturhus
 locationAddress: Mauritz Kartevoldsplass 1, 4306 Sandnes, Norway
@@ -11,19 +11,19 @@ performer: Nordic Tenors
 image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/schema_-_sandnes_konserthus_okldts.webp
 url: https://julekonsert.com/docs/sandnes
 organizer: Nordic Moments AS
-ticketUrl: https://www.sandnes-kulturhus.no/program/christmas-with-nordic-tenors-2/
-ticketPrice: 580 # Replace with the actual price
+ticketUrl: https://tix.no/nb/sandnes/buyingflow/tickets/25517/48365/
+ticketPrice: 590 # Replace with the actual price
 eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
-{% concert-header day="lørdag" date="16" month="desember" time="18:00" /%}
+{% concert-header day="lørdag" date="14" month="desember" time="18:00" /%}
 
 ---
 
 ## Sandnes Kulturhus
 
-{% concert-introduction location="Sandnes Kulturhus" day="lørdag" date="16" month="desember" /%}
+{% concert-introduction location="Sandnes Kulturhus" day="lørdag" date="14" month="desember" /%}
 
 {% categories %}
 {% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Sandnes_kulturhus_qdnush.webp" title="Sandnes Kulturhus" /%}
@@ -31,11 +31,11 @@ eventAttendanceMode: OfflineEventAttendanceMode
 
 ### Billetter
 
-{% billetter concert="" outlet="sandnes-kulturhus.no" ticketUrl="https://www.sandnes-kulturhus.no/program/christmas-with-nordic-tenors-2/" /%}
+{% billetter concert="" outlet="sandnes-kulturhus.no" ticketUrl="https://tix.no/nb/sandnes/buyingflow/tickets/25517/48365/" /%}
 
 ### Konsertdetaljer
 
-{% concert-details concert="Sandnes Kulturhus, Storsal" date="16" month="desember" day="lørdag" time="18:00 – 19:20" location="Sandnes Kulturhus" /%}
+{% concert-details concert="Sandnes Kulturhus, Storsal" date="14" month="desember" day="lørdag" time="18:00 – 19:20" location="Sandnes Kulturhus" /%}
 
 ### Adresse
 
