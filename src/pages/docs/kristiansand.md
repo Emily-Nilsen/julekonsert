@@ -1,9 +1,9 @@
 ---
 title: Kristiansand
 description: Christmas with Nordic Tenors | Kilden, Kristiansand
-schemaName: Christmas with Nordic Tenors 2023 | Kilden, Kristiansand
+schemaName: Christmas with Nordic Tenors 2024 | Kilden, Kristiansand
 schemaDescription: Julekonsert med Nordic Tenors i Kilden, Kristiansand
-date: 2023-12-14T18:00:00.000Z
+date: 2024-12-12T18:00:00.000Z
 duration: 80
 locationName: Kilden, Kristiansand
 locationAddress: Sjølystveien 2, 4610 Kristiansand, Norway
@@ -11,19 +11,19 @@ performer: Nordic Tenors
 image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/schema_-_kilden_kristiansand_mgrmx0.webp
 url: https://julekonsert.com/docs/kristiansand
 organizer: Nordic Moments AS
-ticketUrl: https://kilden.com/forestilling/christmas-with-nordic-tenors-4/
-ticketPrice: 575 # Replace with the actual price
+ticketUrl: https://kilden.com/forestilling/christmas-with-nordic-tenors-5/
+ticketPrice: 595 # Replace with the actual price
 eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
-{% concert-header day="torsdag" date="14" month="desember" time="18:00" /%}
+{% concert-header day="torsdag" date="12" month="desember" time="18:00" /%}
 
 ---
 
 ## Kilden, Kristiansand
 
-{% concert-introduction location="Kilden, Kristiansand" day="torsdag" date="14" month="desember" /%}
+{% concert-introduction location="Kilden, Kristiansand" day="torsdag" date="12" month="desember" /%}
 
 {% categories %}
 {% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Kilden_kulturhus_ux1ewk.webp" title="Kilden, Kristiansand" /%}
@@ -31,11 +31,11 @@ eventAttendanceMode: OfflineEventAttendanceMode
 
 ### Billetter
 
-{% billetter concert="" outlet="kilden.com" ticketUrl="https://kilden.com/forestilling/christmas-with-nordic-tenors-4/" /%}
+{% billetter concert="" outlet="kilden.com" ticketUrl="https://kilden.com/forestilling/christmas-with-nordic-tenors-5/" /%}
 
 ### Konsertdetaljer
 
-{% concert-details concert="Kilden, Kristiansand" date="14" month="desember" day="torsdag" time="18:00 – 19:20" location="Kilden Teater og Konserthus, Konsertsalen, Kristiansand" /%}
+{% concert-details concert="Kilden, Kristiansand" date="12" month="desember" day="torsdag" time="18:00 – 19:20" location="Kilden Teater og Konserthus, Konsertsalen, Kristiansand" /%}
 
 ### Adresse
 
