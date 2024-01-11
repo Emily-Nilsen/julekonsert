@@ -1,9 +1,9 @@
 ---
 title: Nøtterøy
 description: Christmas with Nordic Tenors | Nøtterøy Kulturhus
-schemaName: Christmas with Nordic Tenors 2023 | Nøtterøy Kulturhus
+schemaName: Christmas with Nordic Tenors 2024 | Nøtterøy Kulturhus
 schemaDescription: Julekonsert med Nordic Tenors i Nøtterøy Kulturhus
-date: 2023-11-29T18:00:00.000Z
+date: 2024-12-04T18:00:00.000Z
 duration: 80
 locationName: Nøtterøy Kulturhus
 locationAddress: Tinghaugveien 14, 3140 Borgheim, Norway
@@ -11,19 +11,19 @@ performer: Nordic Tenors
 image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/schema_-_n%C3%B8tter%C3%B8y_kulturhus_wxobbk.webp
 url: https://julekonsert.com/docs/noetteroey
 organizer: Nordic Moments AS
-ticketUrl: https://notteroy.kulturhus.no/program/christmas-with-nordic-tenors/
-ticketPrice: 580 # Replace with the actual price
+ticketUrl: https://tix.no/nb/notteroy/buyingflow/tickets/25514/48362/
+ticketPrice: 590 # Replace with the actual price
 eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
-{% concert-header day="onsdag" date="29" month="november" time="18:00" /%}
+{% concert-header day="onsdag" date="4" month="desember" time="18:00" /%}
 
 ---
 
 ## Nøtterøy Kulturhus
 
-{% concert-introduction location="Nøtterøy Kulturhus" day="onsdag" date="29" month="november" /%}
+{% concert-introduction location="Nøtterøy Kulturhus" day="onsdag" date="4" month="desember" /%}
 
 {% categories %}
 {% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/n%C3%B8tter%C3%B8y_kulturhus_mxugdj.webp" title="Nøtterøy Kulturhus" /%}
@@ -31,11 +31,11 @@ eventAttendanceMode: OfflineEventAttendanceMode
 
 ### Billetter
 
-{% billetter concert="" outlet="tix.no" ticketUrl="https://notteroy.kulturhus.no/program/christmas-with-nordic-tenors/" /%}
+{% billetter concert="" outlet="tix.no" ticketUrl="https://tix.no/nb/notteroy/buyingflow/tickets/25514/48362/" /%}
 
 ### Konsertdetaljer
 
-{% concert-details concert="Nøtterøy Kulturhus" date="29" month="november" day="onsdag" time="18:00 – 19:20" location="Nøtterøy Kulturhus, Amfi" /%}
+{% concert-details concert="Nøtterøy Kulturhus" date="4" month="desember" day="onsdag" time="18:00 – 19:20" location="Nøtterøy Kulturhus, Amfi" /%}
 
 ### Adresse
 
