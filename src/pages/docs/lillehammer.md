@@ -1,9 +1,9 @@
 ---
 title: Lillehammer
 description: Christmas with Nordic Tenors | Maihaugsalen, Lillehammer
-schemaName: Christmas with Nordic Tenors 2023 | Maihaugsalen, Lillehammer
+schemaName: Christmas with Nordic Tenors 2024 | Maihaugsalen, Lillehammer
 schemaDescription: Julekonsert med Nordic Tenors i Maihaugsalen, Lillehammer
-date: 2023-12-05T18:00:00.000Z
+date: 2024-12-10T18:00:00.000Z
 duration: 80
 locationName: Maihaugsalen, Lillehammer
 locationAddress: Maihaugveien 1, 2609 Lillehammer, Norway
@@ -11,19 +11,19 @@ performer: Nordic Tenors
 image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/schema_-_Maihaugsalen_Lillehammer_ag43qh.webp
 url: https://julekonsert.com/docs/lillehammer
 organizer: Nordic Moments AS
-ticketUrl: https://www.ticketmaster.no/event/713885
-ticketPrice: 580 # Replace with the actual price
+ticketUrl: https://www.ticketmaster.no/event/731015
+ticketPrice: 595 # Replace with the actual price
 eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
-{% concert-header day="tirsdag" date="5" month="desember" time="18:00" /%}
+{% concert-header day="tirsdag" date="10" month="desember" time="18:00" /%}
 
 ---
 
 ## Maihaugsalen, Lillehammer
 
-{% concert-introduction location="Maihaugsalen, Lillehammer" day="tirsdag" date="5" month="desember" /%}
+{% concert-introduction location="Maihaugsalen, Lillehammer" day="tirsdag" date="10" month="desember" /%}
 
 {% categories %}
 {% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Maihaugsalen_rakxmc.webp" title="Maihaugsalen, Lillehammer" /%}
@@ -31,11 +31,11 @@ eventAttendanceMode: OfflineEventAttendanceMode
 
 ### Billetter
 
-{% billetter concert="" outlet="ticketmaster.no" ticketUrl="https://www.ticketmaster.no/event/713885" /%}
+{% billetter concert="" outlet="ticketmaster.no" ticketUrl="https://www.ticketmaster.no/event/731015" /%}
 
 ### Konsertdetaljer
 
-{% concert-details concert="Maihaugsalen, Lillehammer" date="5" month="desember" day="tirsdag" time="18:00 – 19:20" location="Maihaugsalen, Lillehammer" /%}
+{% concert-details concert="Maihaugsalen, Lillehammer" date="10" month="desember" day="tirsdag" time="18:00 – 19:20" location="Maihaugsalen, Lillehammer" /%}
 
 ### Adresse
 
