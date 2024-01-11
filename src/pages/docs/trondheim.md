@@ -1,9 +1,9 @@
 ---
 title: Trondheim
 description: Christmas with Nordic Tenors | Olavshallen, Trondheim
-schemaName: Christmas with Nordic Tenors 2023 | Olavshallen, Trondheim
+schemaName: Christmas with Nordic Tenors 2024 | Olavshallen, Trondheim
 schemaDescription: Julekonsert med Nordic Tenors i Olavshallen, Trondheim
-date: 2023-12-06T19:00:00.000Z
+date: 2024-12-18T18:00:00.000Z
 duration: 80
 locationName: Olavshallen, Trondheim
 locationAddress: Kjøpmannsgata 48, 7010 Trondheim, Norway
@@ -11,19 +11,19 @@ performer: Nordic Tenors
 image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/schema_-_Olavshallen_Trondheim_aevr2a.webp
 url: https://julekonsert.com/docs/trondheim
 organizer: Nordic Moments AS
-ticketUrl: https://www.olavshallen.no/forestillinger/2023-02-17-christmas-with-nordic-tenors
-ticketPrice: 615 # Replace with the actual price
+ticketUrl: https://www.olavshallen.no/forestillinger/2023-11-23-christmas-with-nordic-tenors?utm_source=Social&utm_medium=Social&utm_campaign=Nordictenors&utm_id=Nordictenors
+ticketPrice: 595 # Replace with the actual price
 eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
-{% concert-header day="onsdag" date="6" month="desember" time="19:00" /%}
+{% concert-header day="onsdag" date="18" month="desember" time="18:00" /%}
 
 ---
 
 ## Olavshallen, Trondheim
 
-{% concert-introduction location="Olavshallen, Trondheim" day="onsdag" date="6" month="desember" /%}
+{% concert-introduction location="Olavshallen, Trondheim" day="onsdag" date="18" month="desember" /%}
 
 {% categories %}
 {% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Olavshallen_dzwrff.webp" title="Olavshallen, Trondheim" /%}
@@ -31,11 +31,11 @@ eventAttendanceMode: OfflineEventAttendanceMode
 
 ### Billetter
 
-{% billetter concert="" outlet="Olavshallen" ticketUrl="https://www.olavshallen.no/forestillinger/2023-02-17-christmas-with-nordic-tenors" /%}
+{% billetter concert="" outlet="Olavshallen" ticketUrl="https://www.olavshallen.no/forestillinger/2023-11-23-christmas-with-nordic-tenors?utm_source=Social&utm_medium=Social&utm_campaign=Nordictenors&utm_id=Nordictenors" /%}
 
 ### Konsertdetaljer
 
-{% concert-details concert="Olavshallen, Trondheim" date="6" month="desember" day="onsdag" time="19:00 – 20:20" location="Olavshallen, Store sal, Trondheim" /%}
+{% concert-details concert="Olavshallen, Trondheim" date="18" month="desember" day="onsdag" time="18:00 – 19:20" location="Olavshallen, Store sal, Trondheim" /%}
 
 ### Adresse
 
