@@ -8,9 +8,7 @@ description: Opplev våre julekonserter for 2024 med Nordic Tenors. Finn datoer 
 
 ---
 
-## Nordic Tenors ‘julekalender’
-
-{% calendar-text /%}
+## Christmas with Nordic Tenors
 
 ### November 2024
 

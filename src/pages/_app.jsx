@@ -50,7 +50,7 @@ export default function App({ Component, pageProps }) {
   const title = pageProps.markdoc?.frontmatter.title
   const pageTitle =
     pageProps.markdoc?.frontmatter.pageTitle ||
-    `${pageProps.markdoc?.frontmatter.title} | Julekonserter med Nordic Tenors - 2023`
+    `${pageProps.markdoc?.frontmatter.title} | Julekonserter med Nordic Tenors - 2024`
   const description = pageProps.markdoc?.frontmatter.description
   const { pathname } = useRouter()
   const tableOfContents = pageProps.markdoc?.content
@@ -101,7 +101,7 @@ export default function App({ Component, pageProps }) {
             price: pageProps.markdoc?.frontmatter.ticketPrice || '575', // Replace Default_Price with a fallback
             priceCurrency: 'NOK',
             availability: 'http://schema.org/InStock',
-            validFrom: '2023-09-01T00:00:00.000Z',
+            validFrom: '2024-01-01T00:00:00.000Z',
           },
           eventStatus: 'EventScheduled',
           eventAttendanceMode: 'OfflineEventAttendanceMode',
@@ -123,10 +123,10 @@ export default function App({ Component, pageProps }) {
           href={`https://julekonsert.com${pathname}`}
           key="canonical"
         />
-        <meta property="og:title" content="Christmas with Nordic Tenors 2023" />
+        <meta property="og:title" content="Christmas with Nordic Tenors 2024" />
         <meta
           property="og:description"
-          content="Velkommen skal du være til julekonsert med Nordic Tenors i 2023!"
+          content="Velkommen skal du være til julekonsert med Nordic Tenors i 2024!"
         />
         <meta
           property="og:image"

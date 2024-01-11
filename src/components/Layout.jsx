@@ -29,28 +29,37 @@ export const navigation = [
     title: 'Agder',
     links: [
       { title: 'Arendal', href: '/docs/arendal' },
+      { title: 'Flekkefjord', href: '/docs/flekkefjord' },
       { title: 'Kristiansand', href: '/docs/kristiansand' },
-      { title: 'Mandal', href: '/docs/mandal' },
+      // { title: 'Mandal', href: '/docs/mandal' },
+    ],
+  },
+  {
+    title: 'Akershus',
+    links: [
+      { title: 'Asker', href: '/docs/asker' },
+      { title: 'Sandvika', href: '/docs/sandvika' },
     ],
   },
   {
     title: 'Innlandet',
     links: [
-      { title: 'Elverum', href: '/docs/elverum' },
-      { title: 'Hamar', href: '/docs/hamar' },
+      // { title: 'Elverum', href: '/docs/elverum' },
+      // { title: 'Hamar', href: '/docs/hamar' },
+      { title: 'Hadeland', href: '/docs/hadeland' },
       {
         title: 'Lillehammer',
         href: '/docs/lillehammer',
       },
     ],
   },
-  {
-    title: 'Møre og Romsdal',
-    links: [
-      { title: 'Fosnavåg', href: '/docs/fosnavaag' },
-      { title: 'Ålesund', href: '/docs/aalesund' },
-    ],
-  },
+  // {
+  //   title: 'Møre og Romsdal',
+  //   links: [
+  //     { title: 'Fosnavåg', href: '/docs/fosnavaag' },
+  //     { title: 'Ålesund', href: '/docs/aalesund' },
+  //   ],
+  // },
   {
     title: 'Nordland',
     links: [{ title: 'Bodø', href: '/docs/bodoe' }],
@@ -77,7 +86,7 @@ export const navigation = [
   {
     title: 'Trøndelag',
     links: [
-      { title: 'Grong', href: '/docs/grong' },
+      // { title: 'Grong', href: '/docs/grong' },
       { title: 'Stjørdal', href: '/docs/stjoerdal' },
       { title: 'Trondheim', href: '/docs/trondheim' },
     ],
@@ -85,19 +94,21 @@ export const navigation = [
   {
     title: 'Vestfold og Telemark',
     links: [
+      { title: 'Holmestrand', href: '/docs/holmestrand' },
       { title: 'Horten', href: '/docs/horten' },
+      { title: 'Larvik', href: '/docs/larvik' },
       { title: 'Nøtterøy', href: '/docs/noetteroey' },
-      { title: 'Sandefjord', href: '/docs/sandefjord' },
+      // { title: 'Sandefjord', href: '/docs/sandefjord' },
     ],
   },
   {
     title: 'Vestland',
     links: [
       { title: 'Bergen', href: '/docs/bergen' },
-      {
-        title: 'Nordfjord',
-        href: '/docs/nordfjord',
-      },
+      // {
+      //   title: 'Nordfjord',
+      //   href: '/docs/nordfjord',
+      // },
     ],
   },
   {
@@ -109,10 +120,11 @@ export const navigation = [
         href: '/docs/drammen',
       },
       { title: 'Fredrikstad', href: '/docs/fredrikstad' },
-      {
-        title: 'Kongsberg',
-        href: '/docs/kongsberg',
-      },
+      { title: 'Hønefoss', href: '/docs/honefoss' },
+      // {
+      //   title: 'Kongsberg',
+      //   href: '/docs/kongsberg',
+      // },
       { title: 'Lillestrøm', href: '/docs/lillestroem' },
       {
         title: 'Moss',

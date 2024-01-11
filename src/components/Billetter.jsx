@@ -17,18 +17,26 @@ export function Billetter({ concert, outlet, ticketUrl }) {
             {concert}
             <span>Christmas with Nordic Tenors</span>
           </h2>
-
-          <p className="-mt-2 text-red-900 [--tw-prose-background:theme(colors.red.50)] prose-a:text-red-900 prose-code:text-red-900 dark:text-gray-300 dark:prose-code:text-gray-300">
-            Billetter kan kjøpes hos <span className="font-bold">{outlet}</span>
-          </p>
-          <a href={ticketUrl} target="_blank" rel="noopener noreferrer">
-            <button className="dark:bg-t flex items-center justify-center rounded-lg bg-white/80 px-5 py-2.5 text-base text-gray-500 shadow-md shadow-black/5 ring-1 ring-black/5 transition duration-150 ease-in-out hover:bg-white dark:bg-gray-700 dark:text-gray-300 dark:ring-inset dark:ring-white/5 dark:hover:bg-white/10">
-              <span className="flex items-center gap-3 text-base text-red-800 dark:text-white">
-                <TicketIcon className="h-6 w-6 fill-red-700 dark:fill-red-500" />
-                Kjøp billetter
-              </span>
-            </button>
-          </a>
+          {ticketUrl ? (
+            <>
+              <p className="-mt-2 text-red-900 [--tw-prose-background:theme(colors.red.50)] prose-a:text-red-900 prose-code:text-red-900 dark:text-gray-300 dark:prose-code:text-gray-300">
+                Billetter kan kjøpes hos{' '}
+                <span className="font-bold">{outlet}</span>
+              </p>
+              <a href={ticketUrl} target="_blank" rel="noopener noreferrer">
+                <button className="dark:bg-t flex items-center justify-center rounded-lg bg-white/80 px-5 py-2.5 text-base text-gray-500 shadow-md shadow-black/5 ring-1 ring-black/5 transition duration-150 ease-in-out hover:bg-white dark:bg-gray-700 dark:text-gray-300 dark:ring-inset dark:ring-white/5 dark:hover:bg-white/10">
+                  <span className="flex items-center gap-3 text-base text-red-800 dark:text-white">
+                    <TicketIcon className="h-6 w-6 fill-red-700 dark:fill-red-500" />
+                    Kjøp billetter
+                  </span>
+                </button>
+              </a>
+            </>
+          ) : (
+            <p className="-mt-2 text-red-900 [--tw-prose-background:theme(colors.red.50)] prose-a:text-red-900 prose-code:text-red-900 dark:text-gray-300 dark:prose-code:text-gray-300">
+              Billettsalg ikke åpnet
+            </p>
+          )}
         </div>
       </div>
     </div>

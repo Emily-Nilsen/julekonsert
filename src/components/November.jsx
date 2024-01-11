@@ -91,56 +91,56 @@ const concerts = [
     name: 'Bakkenteigen Kulturhus, Horten',
     imageUrl:
       'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1694971527/Julekonsert/Bakkenteigen_Kulturhus_Horten_ist5xq.webp',
-    date: '23. november',
+    date: '22. november',
     pageUrl: '/docs/horten',
   },
   {
     id: 2,
-    name: 'Askim Kulturhus',
+    name: 'Alles Kulturhus, Askim',
     imageUrl:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Askim_Kulturhus_night_thumbnail_zhltnr.webp',
-    date: '24. november',
-    pageUrl: '/docs/askim',
+      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1704979651/Julekonsert/alles-kulturhus_muvum4.webp',
+    date: '23. november',
+    pageUrl: '/docs/honefoss',
   },
   {
     id: 3,
-    name: 'Hamar Kulturhus',
+    name: 'Lillestrøm Kultursenter',
     imageUrl:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1694972398/Julekonsert/Hamar_Kulturhus_evhynw.webp',
-    date: '25. november',
-    pageUrl: '/docs/hamar',
+      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1695030110/Julekonsert/Lillestr%C3%B8m_kultursenter_yl2vwa.webp',
+    date: '24. november',
+    pageUrl: '/docs/lillestroem',
   },
-  {
-    id: 4,
-    name: 'Oslo Konserthus',
-    imageUrl:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1694973738/Julekonsert/Oslo_Konserthus_bw940p.webp',
-    date: '26. november',
-    pageUrl: '/docs/oslo',
-  },
-  {
-    id: 5,
-    name: 'Kongsberg Musikkteater',
-    imageUrl:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1694974538/Julekonsert/Kongsberg_Musikkteater_vmxx7a.webp',
-    date: '28. november',
-    pageUrl: '/docs/kongsberg',
-  },
+  // {
+  //   id: 4,
+  //   name: 'Oslo Konserthus',
+  //   imageUrl:
+  //     'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1694973738/Julekonsert/Oslo_Konserthus_bw940p.webp',
+  //   date: '26. november',
+  //   pageUrl: '/docs/oslo',
+  // },
+  // {
+  //   id: 5,
+  //   name: 'Kongsberg Musikkteater',
+  //   imageUrl:
+  //     'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1694974538/Julekonsert/Kongsberg_Musikkteater_vmxx7a.webp',
+  //   date: '28. november',
+  //   pageUrl: '/docs/kongsberg',
+  // },
   {
     id: 6,
-    name: 'Nøtterøy Kulturhus',
+    name: 'Ullensaker Kulturhus',
     imageUrl:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1694977171/Julekonsert/n%C3%B8tter%C3%B8y_kulturhus_mxugdj.webp',
+      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1695042423/Julekonsert/Ullensaker_kulturhus_b62zpr.webp',
     date: '29. november',
-    pageUrl: '/docs/noetteroey',
+    pageUrl: '/docs/ullensaker',
   },
   {
     id: 7,
-    name: 'Hjertnes Kulturhus, Sandefjord',
+    name: 'Askim Kulturhus',
     imageUrl:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1694979941/Julekonsert/Hjertness_Kulturhus_grv4mz.webp',
+      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/Julekonsert/Askim_Kulturhus_night_fjetxj.webp',
     date: '30. november',
-    pageUrl: '/docs/sandefjord',
+    pageUrl: '/docs/askim',
   },
 ]
 
@@ -152,9 +152,9 @@ export function November() {
   return (
     <div className="w-full overflow-x-hidden">
       {/* Calendar */}
-      <div className="hidden rounded-lg bg-amber-50/70 px-6 pb-6 ring-1 ring-amber-800/10 dark:bg-gray-800/60 dark:ring-1 dark:ring-gray-300/10 sm:block">
+      {/* <div className="hidden px-6 pb-6 rounded-lg bg-amber-50/70 ring-1 ring-amber-800/10 dark:bg-gray-800/60 dark:ring-1 dark:ring-gray-300/10 sm:block">
         <div className="flex items-center"></div>
-        <div className="mt-10 grid grid-cols-7 text-center text-xs leading-6 text-gray-500">
+        <div className="grid grid-cols-7 mt-10 text-xs leading-6 text-center text-gray-500">
           <div>M</div>
           <div>T</div>
           <div>O</div>
@@ -163,8 +163,8 @@ export function November() {
           <div>L</div>
           <div>S</div>
         </div>
-        {/* Tooltip start */}
-        <div className="mt-2 grid grid-cols-7 text-sm">
+
+        <div className="grid grid-cols-7 mt-2 text-sm">
           {days.map((day, dayIdx) => (
             <div
               key={day.date}
@@ -173,8 +173,7 @@ export function November() {
                 'py-2'
               )}
             >
-              <div className="group relative">
-                {/* Wrap the button with Link */}
+              <div className="relative group">
                 <Link href={day.href || ''}>
                   <button
                     type="button"
@@ -189,7 +188,7 @@ export function November() {
                       (day.isSelected || day.isCurrentMonth) && 'font-semibold',
                       'mx-auto flex h-8 w-8 items-center justify-center rounded-full'
                     )}
-                    title="" // Remove the title attribute
+                    title=""
                   >
                     <time dateTime={day.date}>
                       {day.date.split('-').pop().replace(/^0/, '')}
@@ -197,9 +196,8 @@ export function November() {
                   </button>
                 </Link>
 
-                {/* The tooltip content */}
                 {day.tooltip && (
-                  <div className="pointer-events-none absolute z-50 -mt-8 rounded-lg border border-amber-400/50 bg-white px-3 py-2 text-sm text-amber-900 opacity-0 transition-opacity duration-300 group-hover:opacity-100 dark:bg-gray-700 dark:text-white">
+                  <div className="absolute z-50 px-3 py-2 -mt-8 text-sm transition-opacity duration-300 bg-white border rounded-lg opacity-0 pointer-events-none border-amber-400/50 text-amber-900 group-hover:opacity-100 dark:bg-gray-700 dark:text-white">
                     {day.tooltip}
                   </div>
                 )}
@@ -207,13 +205,12 @@ export function November() {
             </div>
           ))}
         </div>
-        {/* Tooltip end */}
-      </div>
+      </div> */}
       {/* Concert list */}
-      <section className="-mt-3 sm:mt-12">
-        <h2 className="text-base font-semibold leading-6 text-gray-900 dark:text-white">
+      <section className="-mt-3 sm:mt-6">
+        {/* <h2 className="text-base font-semibold leading-6 text-gray-900 dark:text-white">
           Christmas with Nordic Tenors
-        </h2>
+        </h2> */}
         <ol className="mt-4 space-y-1 text-sm leading-6 text-gray-500">
           {concerts.map((concert) => (
             <Link key={concert.id} href={concert.pageUrl}>

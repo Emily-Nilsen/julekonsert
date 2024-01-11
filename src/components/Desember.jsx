@@ -12,147 +12,147 @@ const days = Array.from({ length: 31 }, (_, i) => ({
 const concerts = [
   {
     id: 1,
-    name: 'Elverum Kulturhus',
-    imageUrl:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1694979669/Julekonsert/Elverum_Kulturhus_kgjnfw.webp',
-    date: '1. desember',
-    pageUrl: '/docs/elverum',
-  },
-  {
-    id: 2,
-    name: 'Moss Kulturhus, Parkteatret',
+    name: 'Moss Kulturhus',
     imageUrl:
       'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1694981083/Julekonsert/Moss_Kulturhus_lnpkyw.webp',
-    date: '2. desember',
+    date: '1. desember',
     pageUrl: '/docs/moss',
   },
   {
-    id: 3,
-    name: 'Lillestrøm Kultursenter',
+    id: 2,
+    name: 'Bærum Kulturhus, Sandvika',
     imageUrl:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1695030110/Julekonsert/Lillestr%C3%B8m_kultursenter_yl2vwa.webp',
-    date: '3. desember',
-    pageUrl: '/docs/lillestroem',
+      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1704980301/Julekonsert/B%C3%A6rum_kulturhus_oriunn.webp',
+    date: '2. desember',
+    pageUrl: '/docs/sandvika',
   },
   {
-    id: 4,
+    id: 3,
     name: 'Blå Grotte, Fredrikstad',
     imageUrl:
       'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1695031332/Julekonsert/Bla%CC%8A_Grotte_x4x2hx.webp',
-    date: '4. desember',
+    date: '3. desember',
     pageUrl: '/docs/fredrikstad',
   },
   {
-    id: 5,
-    name: 'Maihaugsalen, Lillehammer',
+    id: 4,
+    name: 'Nøtterøy Kulturhus',
     imageUrl:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1695032351/Julekonsert/Maihaugsalen_rakxmc.webp',
+      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1694977171/Julekonsert/n%C3%B8tter%C3%B8y_kulturhus_mxugdj.webp',
+    date: '4. desember',
+    pageUrl: '/docs/noetteroey',
+  },
+  {
+    id: 5,
+    name: 'Bølgen Kulturhus, Larvik',
+    imageUrl:
+      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1704983890/Julekonsert/B%C3%B8lgen_kulturhus_f8mbxg.webp',
     date: '5. desember',
-    pageUrl: '/docs/lillehammer',
+    pageUrl: '/docs/larvik',
   },
   {
     id: 6,
-    name: 'Olavshallen, Trondheim',
+    name: 'Asker Kulturhus',
     imageUrl:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1695033204/Julekonsert/Olavshallen_dzwrff.webp',
+      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1704984754/Julekonsert/Asker_kulturhus_l7xhoo.webp',
     date: '6. desember',
-    pageUrl: '/docs/trondheim',
+    pageUrl: '/docs/asker',
   },
   {
     id: 7,
-    name: 'Kimen Kulturhus, Stjørdal',
+    name: 'Biorama, Holmestrand',
     imageUrl:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1695036048/Julekonsert/Kimen_hld2po.webp',
+      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1704990446/Julekonsert/Biorama_d17sr3.webp',
     date: '7. desember',
-    pageUrl: '/docs/stjoerdal',
+    pageUrl: '/docs/holmestrand',
   },
   {
     id: 8,
-    name: 'Kuben Kulturhus, Grong',
+    name: 'Hadeland Kultursal',
     imageUrl:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1695037233/Julekonsert/Kuben_Kulturhus_p9wfis.webp',
+      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1704992281/Julekonsert/Hadeland_Kultursal_bdpha3.webp',
     date: '8. desember',
-    pageUrl: '/docs/grong',
+    pageUrl: '/docs/hadeland',
   },
   {
     id: 9,
-    name: 'Fosnavåg Konserthus',
+    name: 'Oslo Konserthus',
     imageUrl:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1695039530/Julekonsert/Fosnava%CC%8Ag_konserthus_k9xqkr.webp',
+      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1694973738/Julekonsert/Oslo_Konserthus_bw940p.webp',
     date: '9. desember',
-    pageUrl: '/docs/fosnavaag',
+    pageUrl: '/docs/oslo',
   },
   {
     id: 10,
-    name: 'Operahuset, Nordfjord',
+    name: 'Maihaugsalen, Lillehammer',
     imageUrl:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1695040386/Julekonsert/Operahuset_Nordfjord_oseuny.webp',
+      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1695032351/Julekonsert/Maihaugsalen_rakxmc.webp',
     date: '10. desember',
-    pageUrl: '/docs/nordfjord',
+    pageUrl: '/docs/lillehammer',
   },
   {
     id: 11,
-    name: 'Parken Kulturhus, Ålesund',
-    imageUrl:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1695041133/Julekonsert/Parken_kulturhus_gsdtf4.webp',
-    date: '11. desember',
-    pageUrl: '/docs/aalesund',
-  },
-  {
-    id: 12,
-    name: 'Ullensaker Kulturhus',
-    imageUrl:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1695042423/Julekonsert/Ullensaker_kulturhus_b62zpr.webp',
-    date: '12. desember',
-    pageUrl: '/docs/ullensaker',
-  },
-  {
-    id: 13,
     name: 'Arendal Kulturhus',
     imageUrl:
       'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1695043591/Julekonsert/Arendal_kulturhus_xydymn.webp',
-    date: '13. desember',
+    date: '11. desember',
     pageUrl: '/docs/arendal',
   },
   {
-    id: 14,
+    id: 12,
     name: 'Kilden, Kristiansand',
     imageUrl:
       'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1695044421/Julekonsert/Kilden_kulturhus_ux1ewk.webp',
-    date: '14. desember',
+    date: '12. desember',
     pageUrl: '/docs/kristiansand',
   },
   {
-    id: 15,
-    name: 'Buen Kulturhus, Mandal',
+    id: 13,
+    name: 'Flekkefjord Kulturhus Spira',
     imageUrl:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1695046278/Julekonsert/Mandal_kulturhus_ou9mgi.webp',
-    date: '15. desember',
-    pageUrl: '/docs/mandal',
+      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1704993834/Julekonsert/Flekkefjord_kyzmwo.webp',
+    date: '13. desember',
+    pageUrl: '/docs/flekkefjord',
   },
   {
-    id: 16,
+    id: 14,
     name: 'Sandnes Kulturhus',
     imageUrl:
       'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1695048267/Julekonsert/Sandnes_kulturhus_qdnush.webp',
-    date: '16. desember',
+    date: '14. desember',
     pageUrl: '/docs/sandnes',
   },
   {
-    id: 17,
+    id: 15,
     name: 'Stavanger Konserthus',
     imageUrl:
       'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1695049327/Julekonsert/Stavanger_konserthus_xfqt2s.webp',
-    date: '17. desember',
+    date: '15. desember',
     pageUrl: '/docs/stavanger',
   },
   {
-    id: 18,
+    id: 16,
     name: 'Festiviteten, Haugesund',
     imageUrl:
       'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1695051392/Julekonsert/Festiviteten_Haugesund_nkllsw.webp',
-    date: '18. desember',
+    date: '16. desember',
     pageUrl: '/docs/haugesund',
+  },
+  {
+    id: 17,
+    name: 'Grieghallen, Bergen',
+    imageUrl:
+      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1695103770/Julekonsert/Grieghallen_Bergen_cm8qsr.webp',
+    date: '17. desember',
+    pageUrl: '/docs/bergen',
+  },
+  {
+    id: 18,
+    name: 'Olavshallen, Trondheim',
+    imageUrl:
+      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1695033204/Julekonsert/Olavshallen_dzwrff.webp',
+    date: '18. desember',
+    pageUrl: '/docs/trondheim',
   },
   {
     id: 19,
@@ -172,11 +172,11 @@ const concerts = [
   },
   {
     id: 21,
-    name: 'Grieghallen, Bergen',
+    name: 'Kimen, Stjørdal',
     imageUrl:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1695103770/Julekonsert/Grieghallen_Bergen_cm8qsr.webp',
+      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1695036048/Julekonsert/Kimen_hld2po.webp',
     date: '21. desember',
-    pageUrl: '/docs/bergen',
+    pageUrl: '/docs/stjoerdal',
   },
   {
     id: 22,
@@ -195,9 +195,10 @@ function classNames(...classes) {
 export function Desember() {
   return (
     <div className="w-full overflow-x-hidden">
-      <div className="hidden rounded-lg bg-amber-50/70 px-6 pb-6 ring-1 ring-amber-800/10 dark:bg-gray-800/60 dark:ring-1 dark:ring-gray-300/10 sm:block">
+      {/* Calendar */}
+      {/* <div className="hidden px-6 pb-6 rounded-lg bg-amber-50/70 ring-1 ring-amber-800/10 dark:bg-gray-800/60 dark:ring-1 dark:ring-gray-300/10 sm:block">
         <div className="flex items-center"></div>
-        <div className="mt-10 grid grid-cols-7 text-center text-xs leading-6 text-gray-500">
+        <div className="grid grid-cols-7 mt-10 text-xs leading-6 text-center text-gray-500">
           <div>M</div>
           <div>T</div>
           <div>O</div>
@@ -206,8 +207,8 @@ export function Desember() {
           <div>L</div>
           <div>S</div>
         </div>
-        {/* Tooltip start */}
-        <div className="mt-2 grid grid-cols-7 text-sm">
+        
+        <div className="grid grid-cols-7 mt-2 text-sm">
           {days.map((day, dayIdx) => (
             <div
               key={day.date}
@@ -216,8 +217,8 @@ export function Desember() {
                 'py-2'
               )}
             >
-              <div className="group relative">
-                {/* Wrap the button with Link and use concert.pageUrl if concert exists */}
+              <div className="relative group">
+                
                 {concerts[dayIdx] ? (
                   <Link href={concerts[dayIdx].pageUrl}>
                     <button
@@ -236,7 +237,7 @@ export function Desember() {
                           'font-semibold',
                         'mx-auto flex h-8 w-8 items-center justify-center rounded-full'
                       )}
-                      title="" // Remove the title attribute
+                      title="" 
                     >
                       <time dateTime={day.date}>
                         {day.date.split('-').pop().replace(/^0/, '')}
@@ -251,7 +252,7 @@ export function Desember() {
                       'mx-auto flex h-8 w-8 items-center justify-center rounded-full'
                     )}
                     title=""
-                    disabled // Disable the button if there's no concert
+                    disabled 
                   >
                     <time dateTime={day.date}>
                       {day.date.split('-').pop().replace(/^0/, '')}
@@ -259,9 +260,9 @@ export function Desember() {
                   </button>
                 )}
 
-                {/* The tooltip content */}
+                
                 {day.isSelected && concerts[dayIdx] && (
-                  <div className="pointer-events-none absolute z-50 -mt-8 rounded-lg border border-amber-400/50 bg-white px-3 py-2 text-sm text-amber-900 opacity-0 transition-opacity duration-300 group-hover:opacity-100 dark:bg-gray-700 dark:text-white">
+                  <div className="absolute z-50 px-3 py-2 -mt-8 text-sm transition-opacity duration-300 bg-white border rounded-lg opacity-0 pointer-events-none border-amber-400/50 text-amber-900 group-hover:opacity-100 dark:bg-gray-700 dark:text-white">
                     {concerts[dayIdx].name}
                   </div>
                 )}
@@ -269,12 +270,12 @@ export function Desember() {
             </div>
           ))}
         </div>
-        {/* Tooltip end */}
-      </div>
-      <section className="-mt-3 sm:mt-12">
-        <h2 className="text-base font-semibold leading-6 text-gray-900 dark:text-white">
+        
+      </div> */}
+      <section className="-mt-3 sm:mt-6">
+        {/* <h2 className="text-base font-semibold leading-6 text-gray-900 dark:text-white">
           Christmas with Nordic Tenors
-        </h2>
+        </h2> */}
         <ol className="mt-4 space-y-1 text-sm leading-6 text-gray-500">
           {concerts.map((concert) => (
             <Link key={concert.id} href={concert.pageUrl}>
