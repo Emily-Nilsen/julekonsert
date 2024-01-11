@@ -1,9 +1,9 @@
 ---
 title: Stjørdal
 description: Christmas with Nordic Tenors | Kimen Kulturhus, Stjørdal
-schemaName: Christmas with Nordic Tenors 2023 | Kimen Kulturhus, Stjørdal
+schemaName: Christmas with Nordic Tenors 2024 | Kimen Kulturhus, Stjørdal
 schemaDescription: Julekonsert med Nordic Tenors i Kimen Kulturhus, Stjørdal
-date: 2023-12-07T18:00:00.000Z
+date: 2024-12-21T18:00:00.000Z
 duration: 80
 locationName: Kimen Kulturhus
 locationAddress: Sandgata 15, 7500 Stjørdal, Norway
@@ -11,19 +11,19 @@ performer: Nordic Tenors
 image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/schema_-_kimen_kulturhus_stj%C3%B8rdal_tylj6b.webp
 url: https://julekonsert.com/docs/stjoerdal
 organizer: Nordic Moments AS
-ticketUrl: https://billett.kimenkulturhus.no/webshop/webticket/seatmap?eventId=376
-ticketPrice: 580 # Replace with the actual price
+ticketUrl: https://billett.kimenkulturhus.no/webshop/webticket/seatmap?eventId=502
+ticketPrice: 590 # Replace with the actual price
 eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
-{% concert-header day="torsdag" date="7" month="desember" time="18:00" /%}
+{% concert-header day="lørdag" date="21" month="desember" time="18:00" /%}
 
 ---
 
 ## Kimen Kulturhus, Stjørdal
 
-{% concert-introduction location="Kimen Kulturhus, Stjørdal" day="torsdag" date="7" month="desember" /%}
+{% concert-introduction location="Kimen Kulturhus, Stjørdal" day="lørdag" date="21" month="desember" /%}
 
 {% categories %}
 {% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Kimen_hld2po.webp" title="Kimen Kulturhus, Stjørdal" /%}
@@ -31,11 +31,11 @@ eventAttendanceMode: OfflineEventAttendanceMode
 
 ### Billetter
 
-{% billetter concert="" outlet="Kimen Kulturhus" ticketUrl="https://billett.kimenkulturhus.no/webshop/webticket/seatmap?eventId=376" /%}
+{% billetter concert="" outlet="Kimen Kulturhus" ticketUrl="https://billett.kimenkulturhus.no/webshop/webticket/seatmap?eventId=502" /%}
 
 ### Konsertdetaljer
 
-{% concert-details concert="Kimen Kulturhus, Stjørdal" date="7" month="desember" day="torsdag" time="18:00 – 19:20" location="Kimen Kulturhus, Storsalen, Stjørdal" /%}
+{% concert-details concert="Kimen Kulturhus, Stjørdal" date="21" month="desember" day="lørdag" time="18:00 – 19:20" location="Kimen Kulturhus, Storsalen, Stjørdal" /%}
 
 ### Adresse
 
