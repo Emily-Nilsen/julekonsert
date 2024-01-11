@@ -1,9 +1,9 @@
 ---
 title: Tromsø
 description: Christmas with Nordic Tenors | Kulturhuset Tromsø
-schemaName: Christmas with Nordic Tenors 2023 | Kulturhuset Tromsø
+schemaName: Christmas with Nordic Tenors 2024 | Kulturhuset Tromsø
 schemaDescription: Julekonsert med Nordic Tenors i Kulturhuset Tromsø
-date: 2023-12-19T18:00:00.000Z
+date: 2024-12-19T18:00:00.000Z
 duration: 80
 locationName: Kulturhuset Tromsø
 locationAddress: Erling Bangsunds plass 1, 9008 Tromsø, Norway
@@ -11,19 +11,19 @@ performer: Nordic Tenors
 image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/schema_-_Kulturhuset_Troms%C3%B8_wxeeve.webp
 url: https://julekonsert.com/docs/tromsoe
 organizer: Nordic Moments AS
-ticketUrl: https://tix.no/nb/tr/buyingflow/tickets/21625/42507
-ticketPrice: 580 # Replace with the actual price
+ticketUrl: https://tix.no/nb/tr/buyingflow/tickets/25469/48311/
+ticketPrice: 590 # Replace with the actual price
 eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
-{% concert-header day="tirsdag" date="19" month="desember" time="18:00" /%}
+{% concert-header day="torsdag" date="19" month="desember" time="18:00" /%}
 
 ---
 
 ## Kulturhuset Tromsø
 
-{% concert-introduction location="Kulturhuset Tromsø" day="tirsdag" date="19" month="desember" /%}
+{% concert-introduction location="Kulturhuset Tromsø" day="torsdag" date="19" month="desember" /%}
 
 {% categories %}
 {% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Kulturhuset_troms%C3%B8_tp5q3k.webp" title="Kulturhuset Tromsø" /%}
@@ -31,11 +31,11 @@ eventAttendanceMode: OfflineEventAttendanceMode
 
 ### Billetter
 
-{% billetter concert="" outlet="tix.no" ticketUrl="https://tix.no/nb/tr/buyingflow/tickets/21625/42507" /%}
+{% billetter concert="" outlet="tix.no" ticketUrl="https://tix.no/nb/tr/buyingflow/tickets/25469/48311/" /%}
 
 ### Konsertdetaljer
 
-{% concert-details concert="Kulturhuset Tromsø" date="19" month="desember" day="tirsdag" time="18:00 – 19:20" location="Kulturhuset Tromsø, Hovedscenen" /%}
+{% concert-details concert="Kulturhuset Tromsø" date="19" month="desember" day="torsdag" time="18:00 – 19:20" location="Kulturhuset Tromsø, Hovedscenen" /%}
 
 ### Adresse
 
