@@ -1,9 +1,9 @@
 ---
 title: Bergen
 description: Christmas with Nordic Tenors | Grieghallen, Bergen
-schemaName: Christmas with Nordic Tenors 2023 | Grieghallen, Bergen
+schemaName: Christmas with Nordic Tenors 2024 | Grieghallen, Bergen
 schemaDescription: Julekonsert med Nordic Tenors i Grieghallen, Bergen
-date: 2023-12-21T18:00:00.000Z
+date: 2024-12-17T18:00:00.000Z
 duration: 80
 locationName: Grieghallen, Bergen
 locationAddress: Edvard Griegs plass 1, 5015 Bergen, Norway
@@ -11,19 +11,19 @@ performer: Nordic Tenors
 image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/schema_-_Grieghallen_Bergen_fxncaq.webp
 url: https://julekonsert.com/docs/bergen
 organizer: Nordic Moments AS
-ticketUrl: https://www.ticketmaster.no/event/714405
-ticketPrice: 585 # Replace with the actual price
+ticketUrl: https://www.ticketmaster.no/event/731181
+ticketPrice: 595 # Replace with the actual price
 eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
-{% concert-header day="torsdag" date="21" month="desember" time="18:00" /%}
+{% concert-header day="tirsdag" date="17" month="desember" time="18:00" /%}
 
 ---
 
 ## Grieghallen, Bergen
 
-{% concert-introduction location="Grieghallen, Bergen" day="torsdag" date="21" month="desember" /%}
+{% concert-introduction location="Grieghallen, Bergen" day="tirsdag" date="17" month="desember" /%}
 
 {% categories %}
 {% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Grieghallen_Bergen_cm8qsr.webp" title="Grieghallen, Bergen" /%}
@@ -31,11 +31,11 @@ eventAttendanceMode: OfflineEventAttendanceMode
 
 ### Billetter
 
-{% billetter concert="" outlet="ticketmaster" ticketUrl="https://www.ticketmaster.no/event/714405" /%}
+{% billetter concert="" outlet="ticketmaster" ticketUrl="https://www.ticketmaster.no/event/731181" /%}
 
 ### Konsertdetaljer
 
-{% concert-details concert="Grieghallen, Bergen" date="21" month="desember" day="torsdag" time="18:00 – 19:20" location="Grieghallen, Bergen" /%}
+{% concert-details concert="Grieghallen, Bergen" date="17" month="desember" day="tirsdag" time="18:00 – 19:20" location="Grieghallen, Bergen" /%}
 
 ### Adresse
 
