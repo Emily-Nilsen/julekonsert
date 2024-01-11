@@ -1,9 +1,9 @@
 ---
 title: Bodø
 description: Christmas with Nordic Tenors | Stormen, Bodø
-schemaName: Christmas with Nordic Tenors 2023 | Stormen, Bodø
+schemaName: Christmas with Nordic Tenors 2024 | Stormen, Bodø
 schemaDescription: Julekonsert med Nordic Tenors i Stormen, Bodø
-date: 2023-12-20T18:00:00.000Z
+date: 2024-12-20T18:00:00.000Z
 duration: 80
 locationName: Stormen Konserthus, Bodø
 locationAddress: Storgata 1B, 8006 Bodø, Norway
@@ -11,19 +11,19 @@ performer: Nordic Tenors
 image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/schema_-_stormen_bod%C3%B8_gxpx11.webp
 url: https://julekonsert.com/docs/bodoe
 organizer: Nordic Moments AS
-ticketUrl: https://checkout.ebillett.no/144/events/35772/purchase/setup
-ticketPrice: 585 # Replace with the actual price
+ticketUrl: https://checkout.ebillett.no/144/events/35932/purchase/setup
+ticketPrice: 595 # Replace with the actual price
 eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
-{% concert-header day="onsdag" date="20" month="desember" time="18:00" /%}
+{% concert-header day="fredag" date="20" month="desember" time="18:00" /%}
 
 ---
 
 ## Stormen, Bodø
 
-{% concert-introduction location="Stormen, Bodø" day="onsdag" date="20" month="desember" /%}
+{% concert-introduction location="Stormen, Bodø" day="fredag" date="20" month="desember" /%}
 
 {% categories %}
 {% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Stormen_konserthus_a3xklm.webp" title="Stormen, Bodø" /%}
@@ -31,11 +31,11 @@ eventAttendanceMode: OfflineEventAttendanceMode
 
 ### Billetter
 
-{% billetter concert="" outlet="eBillett" ticketUrl="https://checkout.ebillett.no/144/events/35772/purchase/setup" /%}
+{% billetter concert="" outlet="eBillett" ticketUrl="https://checkout.ebillett.no/144/events/35932/purchase/setup" /%}
 
 ### Konsertdetaljer
 
-{% concert-details concert="Stormen, Bodø" date="20" month="desember" day="onsdag" time="18:00 – 19:20" location="Stormen Konserthus, Store Sal, Bodø" /%}
+{% concert-details concert="Stormen, Bodø" date="20" month="desember" day="fredag" time="18:00 – 19:20" location="Stormen Konserthus, Store Sal, Bodø" /%}
 
 ### Adresse
 
