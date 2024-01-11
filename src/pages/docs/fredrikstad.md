@@ -1,9 +1,9 @@
 ---
 title: Fredrikstad
 description: Christmas with Nordic Tenors | Blå Grotte, Fredrikstad
-schemaName: Christmas with Nordic Tenors 2023 | Blå Grotte, Fredrikstad
+schemaName: Christmas with Nordic Tenors 2024 | Blå Grotte, Fredrikstad
 schemaDescription: Julekonsert med Nordic Tenors i Blå Grotte, Fredrikstad
-date: 2023-12-04T19:00:00.000Z
+date: 2024-12-03T19:00:00.000Z
 duration: 80
 locationName: Blå Grotte, Fredrikstad
 locationAddress: Nygaardsgata 22-24, 1606 Fredrikstad, Norway
@@ -11,19 +11,19 @@ performer: Nordic Tenors
 image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/schema_-_Bla%CC%8A_Grotte_Fredrikstad_qgn5lt.webp
 url: https://julekonsert.com/docs/fredrikstad
 organizer: Nordic Moments AS
-ticketUrl: https://checkout.ebillett.no/260/events/123692/purchase/setup?_ga=2.49183406.989234483.1683547622-1832723000.1683547622&kanal=dxf
-ticketPrice: 580 # Replace with the actual price
+ticketUrl: https://checkout.ebillett.no/260/events/129790/purchase/setup
+ticketPrice: 595 # Replace with the actual price
 eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
-{% concert-header day="mandag" date="4" month="desember" time="19:00" /%}
+{% concert-header day="tirsdag" date="3" month="desember" time="19:00" /%}
 
 ---
 
 ## Blå Grotte, Fredrikstad
 
-{% concert-introduction location="Blå Grotte, Fredrikstad" day="mandag" date="4" month="desember" /%}
+{% concert-introduction location="Blå Grotte, Fredrikstad" day="tirsdag" date="3" month="desember" /%}
 
 {% categories %}
 {% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Bla%CC%8A_Grotte_x4x2hx.webp" title="Blå Grotte, Fredrikstad" /%}
@@ -31,11 +31,11 @@ eventAttendanceMode: OfflineEventAttendanceMode
 
 ### Billetter
 
-{% billetter concert="" outlet="eBillett" ticketUrl="https://checkout.ebillett.no/260/events/123692/purchase/setup?_ga=2.49183406.989234483.1683547622-1832723000.1683547622&kanal=dxf" /%}
+{% billetter concert="" outlet="eBillett" ticketUrl="https://checkout.ebillett.no/260/events/129790/purchase/setup" /%}
 
 ### Konsertdetaljer
 
-{% concert-details concert="Blå Grotte, Fredrikstad" date="4" month="desember" day="mandag" time="19:00 – 20:20" location="Kulturhuset Blå Grotte, Fredrikstad" /%}
+{% concert-details concert="Blå Grotte, Fredrikstad" date="3" month="desember" day="tirsdag" time="19:00 – 20:20" location="Kulturhuset Blå Grotte, Fredrikstad" /%}
 
 ### Adresse
 
