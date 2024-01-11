@@ -1,9 +1,9 @@
 ---
 title: Askim
 description: Christmas with Nordic Tenors | Askim Kulturhus
-schemaName: Christmas with Nordic Tenors 2023 | Askim Kulturhus
+schemaName: Christmas with Nordic Tenors 2024 | Askim Kulturhus
 schemaDescription: Julekonsert med Nordic Tenors i Askim Kulturhus
-date: 2023-11-24T19:00:00.000Z
+date: 2024-11-30T18:00:00.000Z
 duration: 80
 locationName: Askim Kulturhus
 locationAddress: P.M. Røwdes gate 6, 1811 Askim, Norway
@@ -11,19 +11,19 @@ performer: Nordic Tenors
 image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/schema_-_Askim_Kulturhus_o4da6t.webp
 url: https://julekonsert.com/docs/askim
 organizer: Nordic Moments AS
-ticketUrl: https://tix.no/nb/askim/buyingflow/tickets/20402/
-ticketPrice: 580 # Replace with the actual price
+ticketUrl: https://tix.no/nb/askim/buyingflow/tickets/25588/
+ticketPrice: 590 # Replace with the actual price
 eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
-{% concert-header day="fredag" date="24" month="november" time="19:00" /%}
+{% concert-header day="lørdag" date="30" month="november" time="18:00" /%}
 
 ---
 
 ## Askim Kulturhus
 
-{% concert-introduction location="Askim Kulturhus" day="fredag" date="24" month="november" /%}
+{% concert-introduction location="Askim Kulturhus" day="lørdag" date="30" month="november" /%}
 
 {% categories %}
 {% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Askim_Kulturhus_night_fjetxj.webp" title="Askim Kulturhus" /%}
@@ -31,11 +31,11 @@ eventAttendanceMode: OfflineEventAttendanceMode
 
 ### Billetter
 
-{% billetter concert="" outlet="tix.no" ticketUrl="https://tix.no/nb/askim/buyingflow/tickets/20402/" /%}
+{% billetter concert="" outlet="tix.no" ticketUrl="https://tix.no/nb/askim/buyingflow/tickets/25588/" /%}
 
 ### Konsertdetaljer
 
-{% concert-details concert="Askim Kulturhus" date="24" month="november" day="fredag" time="19:00 – 20:20" location="Askim Kulturhus" /%}
+{% concert-details concert="Askim Kulturhus" date="30" month="november" day="lørdag" time="18:00 – 19:20" location="Askim Kulturhus" /%}
 
 ### Adresse
 

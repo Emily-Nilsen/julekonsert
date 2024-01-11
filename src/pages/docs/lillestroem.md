@@ -3,7 +3,7 @@ title: Lillestrøm
 description: Christmas with Nordic Tenors | Lillestrøm Kultursenter
 schemaName: Christmas with Nordic Tenors 2024 | Lillestrøm Kultursenter
 schemaDescription: Julekonsert med Nordic Tenors i Lillestrøm Kultursenter
-date: 2024-11-03T18:00:00.000Z
+date: 2024-11-24T18:00:00.000Z
 duration: 80
 locationName: Lillestrøm Kultursenter
 locationAddress: Kirkegata 11, 2000 Lillestrøm, Norway

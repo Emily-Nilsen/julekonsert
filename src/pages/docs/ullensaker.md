@@ -1,9 +1,9 @@
 ---
 title: Ullensaker
 description: Christmas with Nordic Tenors | Ullensaker Kulturhus
-schemaName: Christmas with Nordic Tenors 2023 | Ullensaker Kulturhus
+schemaName: Christmas with Nordic Tenors 2024 | Ullensaker Kulturhus
 schemaDescription: Julekonsert med Nordic Tenors i Ullensaker Kulturhus
-date: 2023-12-12T18:00:00.000Z
+date: 2024-11-29T18:00:00.000Z
 duration: 80
 locationName: Ullensaker Kulturhus
 locationAddress: Furusethgata 12, 2050 Jessheim, Norway
@@ -11,19 +11,19 @@ performer: Nordic Tenors
 image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/schema_-_Ullensaker_Kulturhus_pyv1e1.webp
 url: https://julekonsert.com/docs/ullensaker
 organizer: Nordic Moments AS
-ticketUrl: https://www.ticketmaster.no/event/713439?language=no-no&track=DiscoveryAPI&subchannel_id=1&brand=ullensakerkulturhus&_ga=2.128066892.1907820984.1678097351-329025345.1622720366
+ticketUrl: https://www.ticketmaster.no/event/731653?language=no-no&track=DiscoveryAPI&subchannel_id=1&brand=ullensakerkulturhus&_ga=2.228013205.905843521.1700720460-336858269.1579679332&_gl=1*wqena*_ga*MzM2ODU4MjY5LjE1Nzk2NzkzMzI.*_ga_Q5XX5068LZ*MTcwMDcyMDQ1OS4xMDAuMS4xNzAwNzIwNTQ4LjAuMC4w
 ticketPrice: 595 # Replace with the actual price
 eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
-{% concert-header day="tirsdag" date="29" month="november" time="18:00" /%}
+{% concert-header day="fredag" date="29" month="november" time="18:00" /%}
 
 ---
 
 ## Ullensaker Kulturhus
 
-{% concert-introduction location="Ullensaker Kulturhus" day="tirsdag" date="29" month="november" /%}
+{% concert-introduction location="Ullensaker Kulturhus" day="fredag" date="29" month="november" /%}
 
 {% categories %}
 {% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Ullensaker_kulturhus_b62zpr.webp" title="Ullensaker Kulturhus" /%}
@@ -35,7 +35,7 @@ eventAttendanceMode: OfflineEventAttendanceMode
 
 ### Konsertdetaljer
 
-{% concert-details concert="Ullensaker Kulturhus" date="29" month="november" day="tirsdag" time="18:00 – 19:20" location="Ullensaker Kulturhus, Jessheim" /%}
+{% concert-details concert="Ullensaker Kulturhus" date="29" month="november" day="fredag" time="18:00 – 19:20" location="Ullensaker Kulturhus, Jessheim" /%}
 
 ### Adresse
 

@@ -11,7 +11,7 @@ performer: Nordic Tenors
 image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/schema_-_Bakkenteigen_Kulturhus_Horten_cstqv3.webp
 url: https://julekonsert.com/docs/horten
 organizer: Nordic Moments AS
-ticketUrl: https://bakkenteigen.ticketco.events/no/nb/e/christmas_with_nordic_tenors_2023
+ticketUrl: https://bakkenteigen.ticketco.events/no/nb/e/christmas_with_nordic_tenors_2024
 ticketPrice: 595 # Replace with the actual price
 eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
