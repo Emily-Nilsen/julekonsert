@@ -1,9 +1,9 @@
 ---
 title: Arendal
 description: Christmas with Nordic Tenors | Arendal Kulturhus
-schemaName: Christmas with Nordic Tenors 2023 | Arendal Kulturhus
+schemaName: Christmas with Nordic Tenors 2024 | Arendal Kulturhus
 schemaDescription: Julekonsert med Nordic Tenors i Arendal Kulturhus
-date: 2023-12-13T19:00:00.000Z
+date: 2024-12-11T19:00:00.000Z
 duration: 80
 locationName: Arendal Kulturhus
 locationAddress: Sam Eydes plass 2, 4836 Arendal, Norway
@@ -11,19 +11,19 @@ performer: Nordic Tenors
 image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/schema_-_arendal_konserthus_c9vnxh.webp
 url: https://julekonsert.com/docs/arendal
 organizer: Nordic Moments AS
-ticketUrl: https://www.arendalkulturhus.no/program/christmas-with-nordic-tenors/
-ticketPrice: 585 # Replace with the actual price
+ticketUrl: https://tix.no/nb/arendal/buyingflow/tickets/25512/
+ticketPrice: 595 # Replace with the actual price
 eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
-{% concert-header day="onsdag" date="13" month="desember" time="19:00" /%}
+{% concert-header day="onsdag" date="11" month="desember" time="19:00" /%}
 
 ---
 
 ## Arendal Kulturhus
 
-{% concert-introduction location="Arendal Kulturhus" day="onsdag" date="13" month="desember" /%}
+{% concert-introduction location="Arendal Kulturhus" day="onsdag" date="11" month="desember" /%}
 
 {% categories %}
 {% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Arendal_kulturhus_xydymn.webp" title="Arendal Kulturhus" /%}
@@ -31,11 +31,11 @@ eventAttendanceMode: OfflineEventAttendanceMode
 
 ### Billetter
 
-{% billetter concert="" outlet="arendalkulturhus.no" ticketUrl="https://www.arendalkulturhus.no/program/christmas-with-nordic-tenors/" /%}
+{% billetter concert="" outlet="arendalkulturhus.no" ticketUrl="https://tix.no/nb/arendal/buyingflow/tickets/25512/" /%}
 
 ### Konsertdetaljer
 
-{% concert-details concert="Arendal Kulturhus" date="13" month="desember" day="onsdag" time="19:00 – 20:20" location="Arendal Kulturhus" /%}
+{% concert-details concert="Arendal Kulturhus" date="11" month="desember" day="onsdag" time="19:00 – 20:20" location="Arendal Kulturhus" /%}
 
 ### Adresse
 
