@@ -12,18 +12,18 @@ image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/sche
 url: https://julekonsert.com/docs/ullensaker
 organizer: Nordic Moments AS
 ticketUrl: https://www.ticketmaster.no/event/713439?language=no-no&track=DiscoveryAPI&subchannel_id=1&brand=ullensakerkulturhus&_ga=2.128066892.1907820984.1678097351-329025345.1622720366
-ticketPrice: 580 # Replace with the actual price
+ticketPrice: 595 # Replace with the actual price
 eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
-{% concert-header day="tirsdag" date="12" month="desember" time="18:00" /%}
+{% concert-header day="tirsdag" date="29" month="november" time="18:00" /%}
 
 ---
 
 ## Ullensaker Kulturhus
 
-{% concert-introduction location="Ullensaker Kulturhus" day="tirsdag" date="12" month="desember" /%}
+{% concert-introduction location="Ullensaker Kulturhus" day="tirsdag" date="29" month="november" /%}
 
 {% categories %}
 {% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Ullensaker_kulturhus_b62zpr.webp" title="Ullensaker Kulturhus" /%}
@@ -31,11 +31,11 @@ eventAttendanceMode: OfflineEventAttendanceMode
 
 ### Billetter
 
-{% billetter concert="" outlet="ticketmaster.no" ticketUrl="https://www.ticketmaster.no/event/713439?language=no-no&track=DiscoveryAPI&subchannel_id=1&brand=ullensakerkulturhus&_ga=2.128066892.1907820984.1678097351-329025345.1622720366" /%}
+{% billetter concert="" outlet="ticketmaster.no" ticketUrl="https://www.ticketmaster.no/event/731653?language=no-no&track=DiscoveryAPI&subchannel_id=1&brand=ullensakerkulturhus&_ga=2.228013205.905843521.1700720460-336858269.1579679332&_gl=1*wqena*_ga*MzM2ODU4MjY5LjE1Nzk2NzkzMzI.*_ga_Q5XX5068LZ*MTcwMDcyMDQ1OS4xMDAuMS4xNzAwNzIwNTQ4LjAuMC4w" /%}
 
 ### Konsertdetaljer
 
-{% concert-details concert="Ullensaker Kulturhus" date="12" month="desember" day="tirsdag" time="18:00 – 19:20" location="Ullensaker Kulturhus, Jessheim" /%}
+{% concert-details concert="Ullensaker Kulturhus" date="29" month="november" day="tirsdag" time="18:00 – 19:20" location="Ullensaker Kulturhus, Jessheim" /%}
 
 ### Adresse
 
