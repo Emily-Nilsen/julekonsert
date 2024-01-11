@@ -1,9 +1,9 @@
 ---
 title: Stavanger
 description: Christmas with Nordic Tenors | Stavanger Konserthus
-schemaName: Christmas with Nordic Tenors 2023 | Stavanger Konserthus
+schemaName: Christmas with Nordic Tenors 2024 | Stavanger Konserthus
 schemaDescription: Julekonsert med Nordic Tenors i Stavanger Konserthus
-date: 2023-12-17T18:00:00.000Z
+date: 2024-12-15T18:00:00.000Z
 duration: 80
 locationName: Stavanger Konserthus
 locationAddress: Sandvigå 1, 4007 Stavanger, Norway
@@ -11,19 +11,19 @@ performer: Nordic Tenors
 image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/schema_-_stavanger_konserthus_bpphya.webp
 url: https://julekonsert.com/docs/stavanger
 organizer: Nordic Moments AS
-ticketUrl: https://tix.no/nb/stavanger/buyingflow/tickets/20832/41316/?_ga=2.44577517.811834603.1678814790-1890436003.1678814790&_gl=1*j0rtgz*_ga*MTg5MDQzNjAwMy4xNjc4ODE0Nzkw*_ga_DEB4HCM8L4*MTY3ODgxNDc4OS4xLjAuMTY3ODgxNDc4OS4wLjAuMA..
-ticketPrice: 580 # Replace with the actual price
+ticketUrl: https://billetter.stavanger-konserthus.no/nb/buyingflow/tickets/25566/
+ticketPrice: 590 # Replace with the actual price
 eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
-{% concert-header day="søndag" date="17" month="desember" time="18:00" /%}
+{% concert-header day="søndag" date="15" month="desember" time="18:00" /%}
 
 ---
 
 ## Stavanger Konserthus
 
-{% concert-introduction location="Stavanger Konserthus" day="søndag" date="17" month="desember" /%}
+{% concert-introduction location="Stavanger Konserthus" day="søndag" date="15" month="desember" /%}
 
 {% categories %}
 {% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Stavanger_konserthus_xfqt2s.webp" title="Stavanger Konserthus" /%}
@@ -31,11 +31,11 @@ eventAttendanceMode: OfflineEventAttendanceMode
 
 ### Billetter
 
-{% billetter concert="" outlet="tix.no" ticketUrl="https://tix.no/nb/stavanger/buyingflow/tickets/20832/41316/?_ga=2.44577517.811834603.1678814790-1890436003.1678814790&_gl=1*j0rtgz*_ga*MTg5MDQzNjAwMy4xNjc4ODE0Nzkw*_ga_DEB4HCM8L4*MTY3ODgxNDc4OS4xLjAuMTY3ODgxNDc4OS4wLjAuMA.." /%}
+{% billetter concert="" outlet="tix.no" ticketUrl="https://billetter.stavanger-konserthus.no/nb/buyingflow/tickets/25566/" /%}
 
 ### Konsertdetaljer
 
-{% concert-details concert="Stavanger Konserthus" date="17" month="desember" day="søndag" time="18:00 – 19:20" location="Stavanger Konserthus" /%}
+{% concert-details concert="Stavanger Konserthus" date="15" month="desember" day="søndag" time="18:00 – 19:20" location="Stavanger Konserthus" /%}
 
 ### Adresse
 
