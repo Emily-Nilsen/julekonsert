@@ -1,9 +1,9 @@
 ---
 title: Moss
 description: Christmas with Nordic Tenors | Moss Kulturhus - Parkteatret
-schemaName: Christmas with Nordic Tenors 2023 | Moss Kulturhus - Parkteatret
+schemaName: Christmas with Nordic Tenors 2024 | Moss Kulturhus - Parkteatret
 schemaDescription: Julekonsert med Nordic Tenors i Moss Kulturhus - Parkteatret
-date: 2023-12-02T18:00:00.000Z
+date: 2024-12-01T18:00:00.000Z
 duration: 80
 locationName: Moss Kulturhus - Parkteatret
 locationAddress: Dronningens gate 25, 1530 Moss, Norway
@@ -11,19 +11,19 @@ performer: Nordic Tenors
 image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/schema_-_Moss_Kulturhus_p1da5a.webp
 url: https://julekonsert.com/docs/moss
 organizer: Nordic Moments AS
-ticketUrl: https://www.mosskulturhus.no/event/christmas-with-nordic-tenors/
-ticketPrice: 580 # Replace with the actual price
+ticketUrl: https://tix.no/nb/moss/buyingflow/tickets/25614/48484/
+ticketPrice: 590 # Replace with the actual price
 eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
-{% concert-header day="lørdag" date="2" month="desember" time="18:00" /%}
+{% concert-header day="søndag" date="1" month="desember" time="18:00" /%}
 
 ---
 
 ## Moss Kulturhus - Parkteatret
 
-{% concert-introduction location="Moss Kulturhus - Parkteatret" day="lørdag" date="2" month="desember" /%}
+{% concert-introduction location="Moss Kulturhus - Parkteatret" day="søndag" date="1" month="desember" /%}
 
 {% categories %}
 {% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Moss_Kulturhus_lnpkyw.webp" title="Moss Kulturhus - Parkteatret" /%}
@@ -31,11 +31,11 @@ eventAttendanceMode: OfflineEventAttendanceMode
 
 ### Billetter
 
-{% billetter concert="" outlet="Moss Kulturhus" ticketUrl="https://www.mosskulturhus.no/event/christmas-with-nordic-tenors/" /%}
+{% billetter concert="" outlet="Moss Kulturhus" ticketUrl="https://tix.no/nb/moss/buyingflow/tickets/25614/48484/" /%}
 
 ### Konsertdetaljer
 
-{% concert-details concert="Moss Kulturhus - Parkteatret" date="2" month="desember" day="lørdag" time="18:00 – 19:20" location="Moss Kulturhus - Parkteatret" /%}
+{% concert-details concert="Moss Kulturhus - Parkteatret" date="1" month="desember" day="søndag" time="18:00 – 19:20" location="Moss Kulturhus - Parkteatret" /%}
 
 ### Adresse
 
