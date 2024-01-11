@@ -1,11 +1,11 @@
 ---
 title: Asker
-description: Christmas with Nordic Tenors | Asker kulturhus, Asker
-schemaName: Christmas with Nordic Tenors 2024 | Asker kulturhus, Asker
-schemaDescription: Julekonsert med Nordic Tenors i Asker kulturhus, Asker
+description: Christmas with Nordic Tenors | Asker kulturhus
+schemaName: Christmas with Nordic Tenors 2024 | Asker kulturhus
+schemaDescription: Julekonsert med Nordic Tenors i Asker kulturhus
 date: 2024-12-06T18:00:00.000Z
 duration: 80
-locationName: Asker kulturhus, Asker
+locationName: Asker kulturhus
 locationAddress: Strøket 15A, 1383 Asker, Norway
 performer: Nordic Tenors
 image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Asker_OG_eenkh1.webp
@@ -21,12 +21,12 @@ eventAttendanceMode: OfflineEventAttendanceMode
 
 ---
 
-## Asker kulturhus, Asker
+## Asker kulturhus
 
-{% concert-introduction location="Asker kulturhus, Asker" day="fredag" date="6" month="desember" /%}
+{% concert-introduction location="Asker kulturhus" day="fredag" date="6" month="desember" /%}
 
 {% categories %}
-{% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Asker_kulturhus_l7xhoo.webp" title="Asker kulturhus, Asker" /%}
+{% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Asker_kulturhus_l7xhoo.webp" title="Asker kulturhus" /%}
 {% /categories %}
 
 ### Billetter
@@ -35,7 +35,7 @@ eventAttendanceMode: OfflineEventAttendanceMode
 
 ### Konsertdetaljer
 
-{% concert-details concert="Asker kulturhus, Asker" date="6" month="desember" day="fredag" time="18:00 – 19:20" location="Asker kulturhus, Asker" /%}
+{% concert-details concert="Asker kulturhus" date="6" month="desember" day="fredag" time="18:00 – 19:20" location="Asker kulturhus" /%}
 
 ### Adresse
 
