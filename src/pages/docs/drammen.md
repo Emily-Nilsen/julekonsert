@@ -1,9 +1,9 @@
 ---
 title: Drammen
 description: Christmas with Nordic Tenors | Drammens Teater
-schemaName: Christmas with Nordic Tenors 2023 | Drammens Teater
+schemaName: Christmas with Nordic Tenors 2024 | Drammens Teater
 schemaDescription: Julekonsert med Nordic Tenors i Drammens Teater
-date: 2023-12-22T18:00:00.000Z
+date: 2024-12-22T18:00:00.000Z
 duration: 80
 locationName: Drammens Teater
 locationAddress: Øvre Storgate 12, 3018 Drammen, Norway
@@ -11,19 +11,19 @@ performer: Nordic Tenors
 image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/schema_-_Drammens_Teater_txivpw.webp
 url: https://julekonsert.com/docs/drammen
 organizer: Nordic Moments AS
-ticketUrl: https://www.drammenscener.no/teatret/program/20886-christmas-with-nordic-tenors/
-ticketPrice: 580 # Replace with the actual price
+ticketUrl: https://www.drammenscener.no/teatret/program/25611-christmas-with-nordic-tenors/
+ticketPrice: 595 # Replace with the actual price
 eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
-{% concert-header day="fredag" date="22" month="desember" time="18:00 og 20:00" /%}
+{% concert-header day="søndag" date="22" month="desember" time="18:00 og 20:00" /%}
 
 ---
 
 ## Drammens Teater – 2 forestillinger
 
-{% concert-introduction location="Drammens Teater" day="fredag" date="22" month="desember" /%}
+{% concert-introduction location="Drammens Teater" day="søndag" date="22" month="desember" /%}
 
 {% categories %}
 {% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Drammens_Teater_i81lcc.webp" title="Drammens Teater" /%}
@@ -31,11 +31,11 @@ eventAttendanceMode: OfflineEventAttendanceMode
 
 ### Billetter
 
-{% billetter concert="" outlet="drammenscener.no" ticketUrl="https://www.drammenscener.no/teatret/program/20886-christmas-with-nordic-tenors/" /%}
+{% billetter concert="" outlet="drammenscener.no" ticketUrl="https://www.drammenscener.no/teatret/program/25611-christmas-with-nordic-tenors/" /%}
 
 ### Konsertdetaljer
 
-{% concert-details concert="Drammens Teater" date="22" month="desember" day="fredag" time="18:00 – 19:20 og 20:00 – 21:20" location="Drammens Teater, Hovedscenen" /%}
+{% concert-details concert="Drammens Teater" date="22" month="desember" day="søndag" time="18:00 – 19:20 og 20:00 – 21:20" location="Drammens Teater, Hovedscenen" /%}
 
 ### Adresse
 
