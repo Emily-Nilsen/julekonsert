@@ -11,7 +11,7 @@ performer: Nordic Tenors
 image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/schema_-_stormen_bod%C3%B8_gxpx11.webp
 url: https://julekonsert.com/docs/bodoe
 organizer: Nordic Moments AS
-ticketUrl: https://checkout.ebillett.no/144/events/35932/purchase/setup
+ticketUrl: https://billetter.stormen.no/nb/buyingflow/tickets/26884/50393
 ticketPrice: 595 # Replace with the actual price
 eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
@@ -31,7 +31,7 @@ eventAttendanceMode: OfflineEventAttendanceMode
 
 ### Billetter
 
-{% billetter concert="" outlet="eBillett" ticketUrl="https://checkout.ebillett.no/144/events/35932/purchase/setup" /%}
+{% billetter concert="" outlet="eBillett" ticketUrl="https://billetter.stormen.no/nb/buyingflow/tickets/26884/50393" /%}
 
 ### Konsertdetaljer
 
