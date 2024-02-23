@@ -11,7 +11,7 @@ performer: Nordic Tenors
 image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/schema_-_kimen_kulturhus_stj%C3%B8rdal_tylj6b.webp
 url: https://julekonsert.com/docs/stjoerdal
 organizer: Nordic Moments AS
-ticketUrl: https://billett.kimenkulturhus.no/webshop/webticket/seatmap?eventId=502
+ticketUrl: https://tix.no/nb/kimenkulturhus/buyingflow/tickets/27102/50673/
 ticketPrice: 590 # Replace with the actual price
 eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
@@ -31,7 +31,7 @@ eventAttendanceMode: OfflineEventAttendanceMode
 
 ### Billetter
 
-{% billetter concert="" outlet="Kimen Kulturhus" ticketUrl="https://billett.kimenkulturhus.no/webshop/webticket/seatmap?eventId=502" /%}
+{% billetter concert="" outlet="Kimen Kulturhus" ticketUrl="https://tix.no/nb/kimenkulturhus/buyingflow/tickets/27102/50673/" /%}
 
 ### Konsertdetaljer
 
