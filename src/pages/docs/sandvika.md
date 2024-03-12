@@ -11,7 +11,7 @@ performer: Nordic Tenors
 image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/B%C3%A6rum_OG_vbemzj.webp
 url: https://www.baerumkulturhus.no/
 organizer: Nordic Moments AS
-ticketUrl:
+ticketUrl: https://www.baerumkulturhus.no/arrangement/nordic-tenors2/
 ticketPrice: 595 # Replace with the actual price
 eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
@@ -31,7 +31,7 @@ eventAttendanceMode: OfflineEventAttendanceMode
 
 ### Billetter
 
-{% billetter concert="" outlet="eBillett" ticketUrl="" /%}
+{% billetter concert="" outlet="eBillett" ticketUrl="https://www.baerumkulturhus.no/arrangement/nordic-tenors2/" /%}
 
 ### Konsertdetaljer
 
