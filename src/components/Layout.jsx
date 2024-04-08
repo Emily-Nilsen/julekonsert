@@ -105,6 +105,7 @@ export const navigation = [
     title: 'Vestland',
     links: [
       { title: 'Bergen', href: '/docs/bergen' },
+      { title: 'Voss', href: '/docs/voss' },
       // {
       //   title: 'Nordfjord',
       //   href: '/docs/nordfjord',
