@@ -1,11 +1,11 @@
 ---
 title: Voss
-description: Christmas with Nordic Tenors | Voss Kino
-schemaName: Christmas with Nordic Tenors 2024 | Voss Kino
-schemaDescription: Julekonsert med Nordic Tenors i Voss Kino
+description: Christmas with Nordic Tenors | Voss Kulturhus
+schemaName: Christmas with Nordic Tenors 2024 | Voss Kulturhus
+schemaDescription: Julekonsert med Nordic Tenors i Voss Kulturhus
 date: 2024-11-26T18:00:00.000Z
 duration: 80
-locationName: Voss Kino
+locationName: Voss Kulturhus
 locationAddress: Evangervegen 6, 5704 Vossevangen, Norway
 performer: Nordic Tenors
 image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Nordic%20Tenors/OG%20images/Julekonsert/Voss_ldic4t.webp
@@ -21,21 +21,21 @@ eventAttendanceMode: OfflineEventAttendanceMode
 
 ---
 
-## Voss Kino
+## Voss Kulturhus
 
-{% concert-introduction location="Voss Kino" day="tirsdag" date="26" month="november" /%}
+{% concert-introduction location="Voss Kulturhus" day="tirsdag" date="26" month="november" /%}
 
 {% categories %}
-{% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Lillestr%C3%B8m_kultursenter_yl2vwa.webp" title="Voss Kino" /%}
+{% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Lillestr%C3%B8m_kultursenter_yl2vwa.webp" title="Voss Kulturhus" /%}
 {% /categories %}
 
 ### Billetter
 
-{% billetter concert="" outlet="Voss Kino" ticketUrl="https://checkout.ebillett.no/149/events/82831/purchase/setup?kanal=dxf" /%}
+{% billetter concert="" outlet="Voss Kulturhus" ticketUrl="https://checkout.ebillett.no/149/events/82831/purchase/setup?kanal=dxf" /%}
 
 ### Konsertdetaljer
 
-{% concert-details concert="Voss Kino" date="26" month="november" day="tirsdag" time="18:00 – 19:20" location="Voss Kino, Kultursal" /%}
+{% concert-details concert="Voss Kulturhus" date="26" month="november" day="tirsdag" time="18:00 – 19:20" location="Voss Kino, Kultursal" /%}
 
 ### Adresse
 

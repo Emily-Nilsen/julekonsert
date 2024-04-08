@@ -110,14 +110,14 @@ const concerts = [
     date: '24. november',
     pageUrl: '/docs/lillestroem',
   },
-  // {
-  //   id: 4,
-  //   name: 'Oslo Konserthus',
-  //   imageUrl:
-  //     'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1694973738/Julekonsert/Oslo_Konserthus_bw940p.webp',
-  //   date: '26. november',
-  //   pageUrl: '/docs/oslo',
-  // },
+  {
+    id: 4,
+    name: 'Voss Konserthus',
+    imageUrl:
+      'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Nordic%20Tenors/concert%20halls/Voss_Kulturhus_thumbnail_xp37cz.webp',
+    date: '26. november',
+    pageUrl: '/docs/voss',
+  },
   // {
   //   id: 5,
   //   name: 'Kongsberg Musikkteater',
