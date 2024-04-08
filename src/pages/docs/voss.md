@@ -26,7 +26,7 @@ eventAttendanceMode: OfflineEventAttendanceMode
 {% concert-introduction location="Voss Kulturhus" day="tirsdag" date="26" month="november" /%}
 
 {% categories %}
-{% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Lillestr%C3%B8m_kultursenter_yl2vwa.webp" title="Voss Kulturhus" /%}
+{% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Nordic%20Tenors/concert%20halls/Voss_Kulturhus_txxubr.webp" title="Voss Kulturhus" /%}
 {% /categories %}
 
 ### Billetter
