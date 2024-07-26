@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+   <url>
+     <loc>https://julekonsert.com/</loc>
+     <video:video>
+       <video:thumbnail_loc>https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/O_Helga_Natt_poster_v2_cur6z8.webp</video:thumbnail_loc>
+       <video:title>O Helga Natt</video:title>
+       <video:description>Her er en smakebit på hva du kan se frem til på årets julekonsert med Nordic Tenors</video:description>
+       <video:content_loc>https://res.cloudinary.com/dt3k2apqd/video/upload/v1695973774/Julekonsert/Complete_-_Topaz_HD_25fps_weemri.mp4</video:content_loc>
+       <video:duration>242</video:duration>
+       <video:publication_date>2023-09-21T12:25:10.676Z</video:publication_date>
+       <video:tag>julekonsert</video:tag>
+       <video:tag>julesang</video:tag>
+     </video:video>
+   </url>
+   <!-- Add more video entries as needed -->
+</urlset>

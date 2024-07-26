@@ -1,0 +1,24 @@
+@import 'tailwindcss/base';
+@import './prism.css';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@layer base {
+  [inert] ::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.font-display {
+  text-transform: lowercase;
+}
+
+h1,
+h2,
+h3 {
+  text-transform: lowercase;
+}
+
+body {
+  outline: none;
+}
