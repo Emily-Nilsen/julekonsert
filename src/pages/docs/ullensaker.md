@@ -17,7 +17,7 @@ eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
-{% concert-header day="fredag" date="29" month="november" time="18:00" /%}
+{% concert-header day="fredag" date="29" month="november" time="18:00 og 20:00 (utsolgt)" /%}
 
 ---
 
@@ -35,7 +35,7 @@ eventAttendanceMode: OfflineEventAttendanceMode
 
 ### Konsertdetaljer
 
-{% concert-details concert="Ullensaker Kulturhus" date="29" month="november" day="fredag" time="18:00 – 19:20" location="Ullensaker Kulturhus, Jessheim" /%}
+{% concert-details concert="Ullensaker Kulturhus" date="29" month="november" day="fredag" time="18:00 – 19:20 og 20:00 – 21:20 (utsolgt)" location="Ullensaker Kulturhus, Jessheim" /%}
 
 ### Adresse
 
