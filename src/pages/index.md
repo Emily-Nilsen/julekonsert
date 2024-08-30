@@ -6,6 +6,8 @@ description: Nordic Tenors gir deg en vakker julekonsert med unike stemmer, varm
 
 Velkommen skal du være til julekonsert med Nordic Tenors i 2024! {% .lead %}
 
+{% spotify-player /%}
+
 Her er en smakebit på hva du kan se frem til på årets julekonsert.
 
 ---
