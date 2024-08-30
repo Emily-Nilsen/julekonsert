@@ -6,11 +6,7 @@ description: Nordic Tenors gir deg en vakker julekonsert med unike stemmer, varm
 
 Velkommen skal du være til julekonsert med Nordic Tenors i 2024! {% .lead %}
 
-{% videos %}
-
-{% video title="O Helga Natt" href="https://res.cloudinary.com/dt3k2apqd/video/upload/v1695973774/Julekonsert/Complete_-_Topaz_HD_25fps_weemri.mp4" posterImg="/images/general/O_Helga_Natt_poster.webp" description="Her er en smakebit på hva du kan se frem til på årets julekonsert." /%}
-
-{% /videos %}
+Her er en smakebit på hva du kan se frem til på årets julekonsert.
 
 ---
 
