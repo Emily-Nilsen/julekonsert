@@ -22,7 +22,7 @@ export function Hero() {
       <div className="inset-0 hidden bg-black/20 mix-blend-multiply md:absolute md:block" />
       <div className="inset-0 hidden bg-gradient-to-tr from-black/50 mix-blend-multiply md:absolute md:block" />
 
-      <div className="py-16 sm:px-2 md:relative md:px-0 md:py-52">
+      <div className="py-24 sm:px-2 md:relative md:px-0 md:py-52">
         <div className="absolute inset-0 hidden bg-gray-900 md:block">
           <Image
             alt="Nordic Tenors"
@@ -37,7 +37,7 @@ export function Hero() {
         <div className="mx-auto grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-16 px-4 lg:max-w-8xl lg:grid-cols-2 lg:px-8 xl:gap-x-16 xl:px-12">
           <div className="relative z-10 text-center lg:text-left">
             <div className="relative">
-              <p className="absolute inset-0 -mt-10 mb-10 inline bg-gradient-to-r from-white via-amber-300 to-white bg-clip-text pb-0 font-display text-4xl font-medium tracking-tight text-transparent sm:text-6xl md:-mt-32 lg:-mt-40 xl:text-7xl">
+              <p className="absolute inset-0 -mt-14 mb-10 inline bg-gradient-to-r from-white via-amber-300 to-white bg-clip-text pb-10 font-display text-4xl font-medium tracking-tight text-transparent sm:text-6xl md:-mt-32 lg:-mt-40 xl:text-7xl">
                 Julekonserter
               </p>
 
@@ -47,7 +47,7 @@ export function Hero() {
                   Nordic Tenors gir deg en vakker julekonsert med unike stemmer,
                   varme, humor, og et tradisjonelt julerepertoar.
                 </p>
-                <div className="-mb-20 mt-32 flex justify-center gap-8 sm:-mb-20 sm:mt-20 sm:gap-10 lg:-mb-0 lg:mt-8 lg:justify-start">
+                <div className="-mb-24 mt-32 flex justify-center gap-8 sm:-mb-20 sm:mt-20 sm:gap-10 lg:-mb-0 lg:mt-8 lg:justify-start">
                   <Button className="relative z-20" href="/docs/julekonserter">
                     Julekonserter 2024
                   </Button>
