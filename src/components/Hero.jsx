@@ -42,7 +42,7 @@ export function Hero() {
               </p>
 
               <div className="h-12 sm:h-44 xl:hidden" />
-              <div className="mb-0 md:-mb-52 lg:-mb-32 lg:pt-96">
+              <div className="mb-0 md:-mb-52 lg:-mb-32 xl:pt-96">
                 <p className="mb-0 mt-3 hidden max-w-xl pt-0 text-2xl tracking-tight text-white md:mx-auto md:block md:pt-20 lg:mx-0">
                   Nordic Tenors gir deg en vakker julekonsert med unike stemmer,
                   varme, humor, og et tradisjonelt julerepertoar.

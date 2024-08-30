@@ -127,7 +127,7 @@ export default function App({ Component, pageProps }) {
         />
         <meta
           property="og:image"
-          content="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Facebook_poster_ssyqkp.webp"
+          content="/images/general/Christmas_with_Nordic_Tenors.webp"
         />
         {schema && (
           <script
