@@ -114,10 +114,7 @@ export default function App({ Component, pageProps }) {
       <Head>
         <title>{pageTitle}</title>
         {description && <meta name="description" content={description} />}
-        <link
-          rel="icon"
-          href="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/julekonsert_favicon_c1iul8.webp"
-        />
+        <link rel="icon" href="/images/general/favicon.webp" />
         <link
           rel="canonical"
           href={`https://julekonsert.com${pathname}`}
