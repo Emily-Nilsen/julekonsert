@@ -26,7 +26,7 @@ eventAttendanceMode: OfflineEventAttendanceMode
 {% concert-introduction location="Bakkenteigen Kulturhus, Horten" day="fredag" date="22" month="november" /%}
 
 {% categories %}
-{% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Bakkenteigen_Kulturhus_Horten_ist5xq.webp" title="Bakkenteigen Kulturhus, Horten" /%}
+{% category imageUrl="/images/halls/Bakkenteigen_Kulturhus_Horten.webp" title="Bakkenteigen Kulturhus, Horten" /%}
 {% /categories %}
 
 ### Billetter

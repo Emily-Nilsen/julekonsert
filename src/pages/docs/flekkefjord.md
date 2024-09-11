@@ -26,7 +26,7 @@ eventAttendanceMode: OfflineEventAttendanceMode
 {% concert-introduction location="Flekkefjord Kultursenter Spira" day="fredag" date="13" month="desember" /%}
 
 {% categories %}
-{% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Flekkefjord_kyzmwo.webp" title="Flekkefjord Kultursenter Spira" /%}
+{% category imageUrl="/images/halls/Flekkefjord.webp" title="Flekkefjord Kultursenter Spira" /%}
 {% /categories %}
 
 ### Billetter

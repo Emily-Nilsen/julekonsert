@@ -26,7 +26,7 @@ eventAttendanceMode: OfflineEventAttendanceMode
 {% concert-introduction location="Blå Grotte, Fredrikstad" day="tirsdag" date="3" month="desember" /%}
 
 {% categories %}
-{% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Bla%CC%8A_Grotte_x4x2hx.webp" title="Blå Grotte, Fredrikstad" /%}
+{% category imageUrl="/images/halls/Blå_Grotte.webp" title="Blå Grotte, Fredrikstad" /%}
 {% /categories %}
 
 ### Billetter

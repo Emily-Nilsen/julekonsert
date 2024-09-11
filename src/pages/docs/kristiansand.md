@@ -26,7 +26,7 @@ eventAttendanceMode: OfflineEventAttendanceMode
 {% concert-introduction location="Kilden, Kristiansand" day="torsdag" date="12" month="desember" /%}
 
 {% categories %}
-{% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Kilden_kulturhus_ux1ewk.webp" title="Kilden, Kristiansand" /%}
+{% category imageUrl="/images/halls/Kilden_kulturhus.webp" title="Kilden, Kristiansand" /%}
 {% /categories %}
 
 ### Billetter

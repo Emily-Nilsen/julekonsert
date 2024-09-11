@@ -26,7 +26,7 @@ eventAttendanceMode: OfflineEventAttendanceMode
 {% concert-introduction location="Alles Kulturhus, Hønefoss" day="lørdag" date="23" month="november" /%}
 
 {% categories %}
-{% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/alles-kulturhus_muvum4.webp" title="Alles Kulturhus, Hønefoss" /%}
+{% category imageUrl="/images/halls/Alles-Kulturhus.webp" title="Alles Kulturhus, Hønefoss" /%}
 {% /categories %}
 
 ### Billetter

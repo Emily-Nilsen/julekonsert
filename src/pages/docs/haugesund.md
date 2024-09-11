@@ -26,7 +26,7 @@ eventAttendanceMode: OfflineEventAttendanceMode
 {% concert-introduction location="Festiviteten, Haugesund" day="mandag" date="16" month="desember" /%}
 
 {% categories %}
-{% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Festiviteten_Haugesund_nkllsw.webp" title="Festiviteten, Haugesund" /%}
+{% category imageUrl="/images/halls/Festiviteten_Haugesund.webp" title="Festiviteten, Haugesund" /%}
 {% /categories %}
 
 ### Billetter

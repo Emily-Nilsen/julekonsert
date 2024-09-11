@@ -26,7 +26,7 @@ eventAttendanceMode: OfflineEventAttendanceMode
 {% concert-introduction location="Drammens Teater" day="søndag" date="22" month="desember" /%}
 
 {% categories %}
-{% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Drammens_Teater_i81lcc.webp" title="Drammens Teater" /%}
+{% category imageUrl="/images/halls/Drammens_Teater.webp" title="Drammens Teater" /%}
 {% /categories %}
 
 ### Billetter

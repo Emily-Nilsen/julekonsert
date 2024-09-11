@@ -26,7 +26,7 @@ eventAttendanceMode: OfflineEventAttendanceMode
 {% concert-introduction location="Bølgen Kulturhus, Larvik" day="torsdag" date="5" month="desember" /%}
 
 {% categories %}
-{% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/B%C3%B8lgen_kulturhus_f8mbxg.webp" title="Bølgen Kulturhus, Larvik" /%}
+{% category imageUrl="/images/halls/Bølgen_kulturhus.webp" title="Bølgen Kulturhus, Larvik" /%}
 {% /categories %}
 
 ### Billetter

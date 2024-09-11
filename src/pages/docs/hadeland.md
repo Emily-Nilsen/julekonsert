@@ -26,7 +26,7 @@ eventAttendanceMode: OfflineEventAttendanceMode
 {% concert-introduction location="Hadeland Kultursal, Gran" day="søndag" date="8" month="desember" /%}
 
 {% categories %}
-{% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Hadeland_Kultursal_bdpha3.webp" title="Hadeland Kultursal, Gran" /%}
+{% category imageUrl="/images/halls/Hadeland_Kultursal.webp" title="Hadeland Kultursal, Gran" /%}
 {% /categories %}
 
 ### Billetter
