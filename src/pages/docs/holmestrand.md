@@ -8,7 +8,7 @@ duration: 80
 locationName: Biorama, Holmestrand
 locationAddress: Rådhusgaten 11, 3080 Holmestrand, Norway
 performer: Nordic Tenors
-image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Holmestrand_OG_ke0zku.webp
+image: /images/general/Christmas_with_Nordic_Tenors_v2.webp
 url: https://www.askerkulturhus.no/program/christmas-with-nordic-tenors/
 organizer: Nordic Moments AS
 ticketUrl: https://holmestrandkommune.ticketco.events/no/nb/e/christmas_with_nordic_tenors_2024

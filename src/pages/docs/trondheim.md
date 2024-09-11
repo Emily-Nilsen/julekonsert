@@ -8,7 +8,7 @@ duration: 80
 locationName: Olavshallen, Trondheim
 locationAddress: Kjøpmannsgata 48, 7010 Trondheim, Norway
 performer: Nordic Tenors
-image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/schema_-_Olavshallen_Trondheim_aevr2a.webp
+image: /images/general/Christmas_with_Nordic_Tenors_v2.webp
 url: https://julekonsert.com/docs/trondheim
 organizer: Nordic Moments AS
 ticketUrl: https://www.olavshallen.no/forestillinger/2023-11-23-christmas-with-nordic-tenors?utm_source=Social&utm_medium=Social&utm_campaign=Nordictenors&utm_id=Nordictenors

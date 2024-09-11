@@ -8,7 +8,7 @@ duration: 80
 locationName: Blå Grotte, Fredrikstad
 locationAddress: Nygaardsgata 22-24, 1606 Fredrikstad, Norway
 performer: Nordic Tenors
-image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/schema_-_Bla%CC%8A_Grotte_Fredrikstad_qgn5lt.webp
+image: /images/general/Christmas_with_Nordic_Tenors_v2.webp
 url: https://julekonsert.com/docs/fredrikstad
 organizer: Nordic Moments AS
 ticketUrl: https://checkout.ebillett.no/260/events/129790/purchase/setup

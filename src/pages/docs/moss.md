@@ -8,7 +8,7 @@ duration: 80
 locationName: Moss Kulturhus - Parkteatret
 locationAddress: Dronningens gate 25, 1530 Moss, Norway
 performer: Nordic Tenors
-image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/schema_-_Moss_Kulturhus_p1da5a.webp
+image: /images/general/Christmas_with_Nordic_Tenors_v2.webp
 url: https://julekonsert.com/docs/moss
 organizer: Nordic Moments AS
 ticketUrl: https://tix.no/nb/moss/buyingflow/tickets/25614/48484/

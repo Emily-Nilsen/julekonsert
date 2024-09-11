@@ -8,7 +8,7 @@ duration: 80
 locationName: Lillestrøm Kultursenter
 locationAddress: Kirkegata 11, 2000 Lillestrøm, Norway
 performer: Nordic Tenors
-image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/schema_-_Lillestr%C3%B8m_Kultursenter_lqaed1.webp
+image: /images/general/Christmas_with_Nordic_Tenors_v2.webp
 url: https://julekonsert.com/docs/lillestroem
 organizer: Nordic Moments AS
 ticketUrl: https://www.lillestrom-kultursenter.no/event/christmas-with-nordic-tenors/

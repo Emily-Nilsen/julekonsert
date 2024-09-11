@@ -8,7 +8,7 @@ duration: 80
 locationName: Drammens Teater
 locationAddress: Øvre Storgate 12, 3018 Drammen, Norway
 performer: Nordic Tenors
-image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/schema_-_Drammens_Teater_txivpw.webp
+image: /images/general/Christmas_with_Nordic_Tenors_v2.webp
 url: https://julekonsert.com/docs/drammen
 organizer: Nordic Moments AS
 ticketUrl: https://www.drammenscener.no/teatret/program/25611-christmas-with-nordic-tenors/

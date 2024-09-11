@@ -8,7 +8,7 @@ duration: 80
 locationName: Sandnes Kulturhus
 locationAddress: Mauritz Kartevoldsplass 1, 4306 Sandnes, Norway
 performer: Nordic Tenors
-image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/schema_-_sandnes_konserthus_okldts.webp
+image: /images/general/Christmas_with_Nordic_Tenors_v2.webp
 url: https://julekonsert.com/docs/sandnes
 organizer: Nordic Moments AS
 ticketUrl: https://tix.no/nb/sandnes/buyingflow/tickets/25517/48365/

@@ -8,7 +8,7 @@ duration: 80
 locationName: Kulturhuset Tromsø
 locationAddress: Erling Bangsunds plass 1, 9008 Tromsø, Norway
 performer: Nordic Tenors
-image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/schema_-_Kulturhuset_Troms%C3%B8_wxeeve.webp
+image: /images/general/Christmas_with_Nordic_Tenors_v2.webp
 url: https://julekonsert.com/docs/tromsoe
 organizer: Nordic Moments AS
 ticketUrl: https://tix.no/nb/tr/buyingflow/tickets/25469/48311/

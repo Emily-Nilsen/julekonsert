@@ -8,7 +8,7 @@ duration: 80
 locationName: Alles Kulturhus, Hønefoss
 locationAddress: Hønefoss bru 3, 3510 Hønefoss, Norway
 performer: Nordic Tenors
-image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Alles_OG_q7bt4u.webp
+image: /images/general/Christmas_with_Nordic_Tenors_v2.webp
 url: https://julekonsert.com/docs/honefoss
 organizer: Nordic Moments AS
 ticketUrl: https://alleskulturhus.no/arrangement/christmas-with

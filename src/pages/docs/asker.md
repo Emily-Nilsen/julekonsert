@@ -8,7 +8,7 @@ duration: 80
 locationName: Asker kulturhus
 locationAddress: Strøket 15A, 1383 Asker, Norway
 performer: Nordic Tenors
-image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Asker_OG_eenkh1.webp
+image: /images/general/Christmas_with_Nordic_Tenors_v2.webp
 url: https://www.askerkulturhus.no/program/christmas-with-nordic-tenors/
 organizer: Nordic Moments AS
 ticketUrl:
