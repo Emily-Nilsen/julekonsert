@@ -1,7 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import { SpotifyIcon } from '@/components/Logo'
-import { GlitterLights } from '@/components/GlitterLights'
 
 const navigation = [
   {
@@ -47,7 +46,7 @@ export function Footer() {
         />
         <div className="inset-0 hidden bg-black/30 mix-blend-multiply lg:absolute lg:block" />
       </div>
-      <GlitterLights />
+
       <div className="relative z-10 mx-auto max-w-7xl px-6 py-12 md:flex md:items-center md:justify-between lg:px-8">
         <div className="flex items-center justify-center space-x-6 md:order-2">
           <Link
