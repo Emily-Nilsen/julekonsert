@@ -37,7 +37,7 @@ export function Footer() {
       <div className="absolute inset-0 bg-red-900 dark:bg-red-950">
         <Image
           alt="Nordic Tenors"
-          src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1694807320/Julekonsert/hero_background_desktop_vetfn3.webp"
+          src="/images/general/hero_background_desktop.webp"
           width={3000}
           height={1000}
           unoptimized

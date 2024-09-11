@@ -89,32 +89,28 @@ const concerts = [
   {
     id: 1,
     name: 'Bakkenteigen Kulturhus, Horten',
-    imageUrl:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1694971527/Julekonsert/Bakkenteigen_Kulturhus_Horten_ist5xq.webp',
+    imageUrl: '/images/thumbnails/Bakkenteigen_Kulturhus_Horten.webp',
     date: '22. november',
     pageUrl: '/docs/horten',
   },
   {
     id: 2,
     name: 'Alles Kulturhus, Hønefoss',
-    imageUrl:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1704979651/Julekonsert/alles-kulturhus_muvum4.webp',
+    imageUrl: '/images/thumbnails/Alles-Kulturhus.webp',
     date: '23. november',
     pageUrl: '/docs/honefoss',
   },
   {
     id: 3,
     name: 'Lillestrøm Kultursenter',
-    imageUrl:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1695030110/Julekonsert/Lillestr%C3%B8m_kultursenter_yl2vwa.webp',
+    imageUrl: '/images/thumbnails/Lillestrøm_Kultursenter.webp',
     date: '24. november',
     pageUrl: '/docs/lillestroem',
   },
   {
     id: 4,
     name: 'Voss Konserthus',
-    imageUrl:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Nordic%20Tenors/concert%20halls/Voss_Kulturhus_thumbnail_xp37cz.webp',
+    imageUrl: '/images/thumbnails/Voss_Kulturhus.webp',
     date: '26. november',
     pageUrl: '/docs/voss',
   },
@@ -135,16 +131,14 @@ const concerts = [
   {
     id: 6,
     name: 'Ullensaker Kulturhus',
-    imageUrl:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1695042423/Julekonsert/Ullensaker_kulturhus_b62zpr.webp',
+    imageUrl: '/images/thumbnails/Ullensaker_Kulturhus.webp',
     date: '29. november',
     pageUrl: '/docs/ullensaker',
   },
   {
     id: 7,
     name: 'Askim Kulturhus',
-    imageUrl:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/Julekonsert/Askim_Kulturhus_night_fjetxj.webp',
+    imageUrl: '/images/thumbnails/Askim_Kulturhus.webp',
     date: '30. november',
     pageUrl: '/docs/askim',
   },
