@@ -1,6 +1,5 @@
 import { Callout } from '@/components/Callout'
 import { QuickLink, QuickLinks } from '@/components/QuickLinks'
-import { Video, Videos } from '@/components/Videos'
 import { Category, Categories } from '@/components/Categories'
 import { November } from '@/components/November'
 import { Desember } from '@/components/Desember'
@@ -133,19 +132,6 @@ const tags = {
   'spotify-player': {
     selfClosing: true,
     render: SpotifyPlayer,
-  },
-  videos: {
-    render: Videos,
-  },
-  video: {
-    selfClosing: true,
-    render: Video,
-    attributes: {
-      title: { type: String },
-      description: { type: String },
-      href: { type: String },
-      posterImg: { type: String },
-    },
   },
   november: {
     selfClosing: true,

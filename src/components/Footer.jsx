@@ -30,20 +30,6 @@ const navigation = [
       </svg>
     ),
   },
-
-  {
-    name: 'YouTube',
-    href: 'https://www.youtube.com/user/clarkbattwingen',
-    icon: (props) => (
-      <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
-        <path
-          fillRule="evenodd"
-          d="M19.812 5.418c.861.23 1.538.907 1.768 1.768C21.998 8.746 22 12 22 12s0 3.255-.418 4.814a2.504 2.504 0 0 1-1.768 1.768c-1.56.419-7.814.419-7.814.419s-6.255 0-7.814-.419a2.505 2.505 0 0 1-1.768-1.768C2 15.255 2 12 2 12s0-3.255.417-4.814a2.507 2.507 0 0 1 1.768-1.768C5.744 5 11.998 5 11.998 5s6.255 0 7.814.418ZM15.194 12 10 15V9l5.194 3Z"
-          clipRule="evenodd"
-        />
-      </svg>
-    ),
-  },
 ]
 
 export function Footer() {
@@ -86,21 +72,7 @@ export function Footer() {
         </div>
         <div className="mt-8 md:order-1 md:mt-0">
           <p className="text-center text-sm leading-5 text-white">
-            &copy; {new Date().getFullYear()} Christmas with Nordic Tenors.
-          </p>
-        </div>
-        <div className="mt-8 md:order-1 md:mt-0">
-          <p className="text-center text-sm leading-5 text-white">
-            Utviklet av{' '}
-            <Link
-              href="https://norsknett.no"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="cursor-pointer transition-all duration-200 ease-in hover:underline"
-            >
-              Norsk Nett
-            </Link>
-            .
+            &copy; {new Date().getFullYear()} Christmas with Nordic Tenors
           </p>
         </div>
       </div>
