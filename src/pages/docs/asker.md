@@ -26,7 +26,7 @@ eventAttendanceMode: OfflineEventAttendanceMode
 {% concert-introduction location="Asker kulturhus" day="fredag" date="6" month="desember" /%}
 
 {% categories %}
-{% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Asker_kulturhus_l7xhoo.webp" title="Asker kulturhus" /%}
+{% category imageUrl="/images/halls/Asker_kulturhus.webp" title="Asker kulturhus" /%}
 {% /categories %}
 
 ### Billetter

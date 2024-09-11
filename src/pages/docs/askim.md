@@ -26,7 +26,7 @@ eventAttendanceMode: OfflineEventAttendanceMode
 {% concert-introduction location="Askim Kulturhus" day="lørdag" date="30" month="november" /%}
 
 {% categories %}
-{% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Askim_Kulturhus_night_fjetxj.webp" title="Askim Kulturhus" /%}
+{% category imageUrl="/images/halls/Askim_Kulturhus.webp" title="Askim Kulturhus" /%}
 {% /categories %}
 
 ### Billetter

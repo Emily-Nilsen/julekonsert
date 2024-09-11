@@ -26,7 +26,7 @@ eventAttendanceMode: OfflineEventAttendanceMode
 {% concert-introduction location="Arendal Kulturhus" day="onsdag" date="11" month="desember" /%}
 
 {% categories %}
-{% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Arendal_kulturhus_xydymn.webp" title="Arendal Kulturhus" /%}
+{% category imageUrl="/images/halls/Arendal_kulturhus.webp" title="Arendal Kulturhus" /%}
 {% /categories %}
 
 ### Billetter

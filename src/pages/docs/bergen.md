@@ -26,7 +26,7 @@ eventAttendanceMode: OfflineEventAttendanceMode
 {% concert-introduction location="Grieghallen, Bergen" day="tirsdag" date="17" month="desember" /%}
 
 {% categories %}
-{% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Grieghallen_Bergen_cm8qsr.webp" title="Grieghallen, Bergen" /%}
+{% category imageUrl="/images/halls/Grieghallen_Bergen.webp" title="Grieghallen, Bergen" /%}
 {% /categories %}
 
 ### Billetter
