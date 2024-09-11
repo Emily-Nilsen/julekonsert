@@ -26,7 +26,7 @@ eventAttendanceMode: OfflineEventAttendanceMode
 {% concert-introduction location="Bærum Kulturhus, Sandvika" day="mandag" date="2" month="desember" /%}
 
 {% categories %}
-{% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/B%C3%A6rum_kulturhus_oriunn.webp" title="Bærum Kulturhus, Sandvika" /%}
+{% category imageUrl="/images/halls/Bærum_kulturhus.webp" title="Bærum Kulturhus, Sandvika" /%}
 {% /categories %}
 
 ### Billetter

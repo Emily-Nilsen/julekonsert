@@ -26,7 +26,7 @@ eventAttendanceMode: OfflineEventAttendanceMode
 {% concert-introduction location="Sandnes Kulturhus" day="lørdag" date="14" month="desember" /%}
 
 {% categories %}
-{% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Sandnes_kulturhus_qdnush.webp" title="Sandnes Kulturhus" /%}
+{% category imageUrl="/images/halls/Sandnes_kulturhus.webp" title="Sandnes Kulturhus" /%}
 {% /categories %}
 
 ### Billetter

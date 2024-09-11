@@ -26,7 +26,7 @@ eventAttendanceMode: OfflineEventAttendanceMode
 {% concert-introduction location="Stavanger Konserthus" day="søndag" date="15" month="desember" /%}
 
 {% categories %}
-{% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Stavanger_konserthus_xfqt2s.webp" title="Stavanger Konserthus" /%}
+{% category imageUrl="/images/halls/Stavanger_konserthus.webp" title="Stavanger Konserthus" /%}
 {% /categories %}
 
 ### Billetter

@@ -26,7 +26,7 @@ eventAttendanceMode: OfflineEventAttendanceMode
 {% concert-introduction location="Maihaugsalen, Lillehammer" day="tirsdag" date="10" month="desember" /%}
 
 {% categories %}
-{% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Maihaugsalen_rakxmc.webp" title="Maihaugsalen, Lillehammer" /%}
+{% category imageUrl="/images/halls/Maihaugsalen.webp" title="Maihaugsalen, Lillehammer" /%}
 {% /categories %}
 
 ### Billetter

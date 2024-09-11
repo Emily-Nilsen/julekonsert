@@ -26,7 +26,7 @@ eventAttendanceMode: OfflineEventAttendanceMode
 {% concert-introduction location="Kimen Kulturhus, Stjørdal" day="lørdag" date="21" month="desember" /%}
 
 {% categories %}
-{% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Kimen_hld2po.webp" title="Kimen Kulturhus, Stjørdal" /%}
+{% category imageUrl="/images/halls/Kimen_kulturhus.webp" title="Kimen Kulturhus, Stjørdal" /%}
 {% /categories %}
 
 ### Billetter

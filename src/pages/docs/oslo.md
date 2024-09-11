@@ -26,7 +26,7 @@ eventAttendanceMode: OfflineEventAttendanceMode
 {% concert-introduction location="Oslo Konserthus" day="mandag" date="9" month="desember" /%}
 
 {% categories %}
-{% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Oslo_Konserthus_bw940p.webp" title="Oslo Konserthus" /%}
+{% category imageUrl="/images/halls/Oslo_Konserthus.webp" title="Oslo Konserthus" /%}
 {% /categories %}
 
 ### Billetter

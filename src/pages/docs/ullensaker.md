@@ -26,7 +26,7 @@ eventAttendanceMode: OfflineEventAttendanceMode
 {% concert-introduction location="Ullensaker Kulturhus" day="fredag" date="29" month="november" /%}
 
 {% categories %}
-{% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Ullensaker_kulturhus_b62zpr.webp" title="Ullensaker Kulturhus" /%}
+{% category imageUrl="/images/halls/Ullensaker_Kulturhus.webp" title="Ullensaker Kulturhus" /%}
 {% /categories %}
 
 ### Billetter

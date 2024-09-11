@@ -26,7 +26,7 @@ eventAttendanceMode: OfflineEventAttendanceMode
 {% concert-introduction location="Kulturhuset Tromsø" day="torsdag" date="19" month="desember" /%}
 
 {% categories %}
-{% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Kulturhuset_troms%C3%B8_tp5q3k.webp" title="Kulturhuset Tromsø" /%}
+{% category imageUrl="/images/halls/Kulturhuset_tromsø.webp" title="Kulturhuset Tromsø" /%}
 {% /categories %}
 
 ### Billetter

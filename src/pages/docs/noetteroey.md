@@ -26,7 +26,7 @@ eventAttendanceMode: OfflineEventAttendanceMode
 {% concert-introduction location="Nøtterøy Kulturhus" day="onsdag" date="4" month="desember" /%}
 
 {% categories %}
-{% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/n%C3%B8tter%C3%B8y_kulturhus_mxugdj.webp" title="Nøtterøy Kulturhus" /%}
+{% category imageUrl="/images/halls/Nøtterøy_kulturhus.webp" title="Nøtterøy Kulturhus" /%}
 {% /categories %}
 
 ### Billetter

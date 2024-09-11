@@ -26,7 +26,7 @@ eventAttendanceMode: OfflineEventAttendanceMode
 {% concert-introduction location="Lillestrøm Kultursenter" day="søndag" date="24" month="november" /%}
 
 {% categories %}
-{% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Lillestr%C3%B8m_kultursenter_yl2vwa.webp" title="Lillestrøm Kultursenter" /%}
+{% category imageUrl="/images/halls/Lillestrøm_Kultursenter.webp" title="Lillestrøm Kultursenter" /%}
 {% /categories %}
 
 ### Billetter
