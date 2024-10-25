@@ -51,13 +51,13 @@ export function Hero() {
                   <Button className="relative z-20" href="/docs/julekonserter">
                     Julekonserter 2024
                   </Button>
-                  <Button
+                  {/* <Button
                     className="relative z-20"
                     href="/docs/kontakt"
                     variant="secondary"
                   >
                     Kontakt oss
-                  </Button>
+                  </Button> */}
                 </div>
               </div>
             </div>
