@@ -4,13 +4,13 @@ import Link from 'next/link'
 import { EllipsisVerticalIcon } from '@heroicons/react/24/outline'
 
 const concerts = [
-  {
-    id: 8,
-    name: 'Oseana Kunst & Kultursenter, Os',
-    imageUrl: '/images/thumbnails/Oseana.webp',
-    date: '27. november',
-    pageUrl: '/docs/os',
-  },
+  // {
+  //   id: 8,
+  //   name: 'Oseana Kunst & Kultursenter, Os',
+  //   imageUrl: '/images/thumbnails/Oseana.webp',
+  //   date: '27. november',
+  //   pageUrl: '/docs/os',
+  // },
   {
     id: 5,
     name: 'Berge Gard & Gartneri',
