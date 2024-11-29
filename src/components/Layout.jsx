@@ -95,7 +95,7 @@ export const navigation = [
     title: 'Vestfold og Telemark',
     links: [
       { title: 'Holmestrand', href: '/docs/holmestrand' },
-      { title: 'Horten', href: '/docs/horten' },
+      // { title: 'Horten', href: '/docs/horten' },
       { title: 'Larvik', href: '/docs/larvik' },
       { title: 'Nøtterøy', href: '/docs/noetteroey' },
       // { title: 'Sandefjord', href: '/docs/sandefjord' },
@@ -105,9 +105,9 @@ export const navigation = [
     title: 'Vestland',
     links: [
       { title: 'Bergen', href: '/docs/bergen' },
-      { title: 'Os', href: '/docs/os' },
-      { title: 'Tørvikbygd', href: '/docs/torvikbygd' },
-      { title: 'Voss', href: '/docs/voss' },
+      // { title: 'Os', href: '/docs/os' },
+      // { title: 'Tørvikbygd', href: '/docs/torvikbygd' },
+      // { title: 'Voss', href: '/docs/voss' },
       // {
       //   title: 'Nordfjord',
       //   href: '/docs/nordfjord',
@@ -123,12 +123,12 @@ export const navigation = [
         href: '/docs/drammen',
       },
       { title: 'Fredrikstad', href: '/docs/fredrikstad' },
-      { title: 'Hønefoss', href: '/docs/honefoss' },
+      // { title: 'Hønefoss', href: '/docs/honefoss' },
       // {
       //   title: 'Kongsberg',
       //   href: '/docs/kongsberg',
       // },
-      { title: 'Lillestrøm', href: '/docs/lillestroem' },
+      // { title: 'Lillestrøm', href: '/docs/lillestroem' },
       {
         title: 'Moss',
         href: '/docs/moss',

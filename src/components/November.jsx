@@ -11,13 +11,13 @@ const concerts = [
   //   date: '27. november',
   //   pageUrl: '/docs/os',
   // },
-  {
-    id: 5,
-    name: 'Berge Gard & Gartneri',
-    imageUrl: '/images/thumbnails/Berge_Gard_og_Gartneri.webp',
-    date: '28. november',
-    pageUrl: '/docs/torvikbygd',
-  },
+  // {
+  //   id: 5,
+  //   name: 'Berge Gard & Gartneri',
+  //   imageUrl: '/images/thumbnails/Berge_Gard_og_Gartneri.webp',
+  //   date: '28. november',
+  //   pageUrl: '/docs/torvikbygd',
+  // },
   {
     id: 6,
     name: 'Ullensaker Kulturhus',
