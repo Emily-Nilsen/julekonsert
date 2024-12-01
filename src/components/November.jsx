@@ -18,20 +18,20 @@ const concerts = [
   //   date: '28. november',
   //   pageUrl: '/docs/torvikbygd',
   // },
-  {
-    id: 6,
-    name: 'Ullensaker Kulturhus',
-    imageUrl: '/images/thumbnails/Ullensaker_Kulturhus.webp',
-    date: '29. november',
-    pageUrl: '/docs/ullensaker',
-  },
-  {
-    id: 7,
-    name: 'Askim Kulturhus',
-    imageUrl: '/images/thumbnails/Askim_Kulturhus.webp',
-    date: '30. november',
-    pageUrl: '/docs/askim',
-  },
+  // {
+  //   id: 6,
+  //   name: 'Ullensaker Kulturhus',
+  //   imageUrl: '/images/thumbnails/Ullensaker_Kulturhus.webp',
+  //   date: '29. november',
+  //   pageUrl: '/docs/ullensaker',
+  // },
+  // {
+  //   id: 7,
+  //   name: 'Askim Kulturhus',
+  //   imageUrl: '/images/thumbnails/Askim_Kulturhus.webp',
+  //   date: '30. november',
+  //   pageUrl: '/docs/askim',
+  // },
 ]
 
 function classNames(...classes) {
