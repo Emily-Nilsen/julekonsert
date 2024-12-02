@@ -10,13 +10,13 @@ const days = Array.from({ length: 31 }, (_, i) => ({
 }))
 
 const concerts = [
-  {
-    id: 1,
-    name: 'Moss Kulturhus',
-    imageUrl: '/images/thumbnails/Moss_Kulturhus_thumbnail.webp',
-    date: '1. desember',
-    pageUrl: '/docs/moss',
-  },
+  // {
+  //   id: 1,
+  //   name: 'Moss Kulturhus',
+  //   imageUrl: '/images/thumbnails/Moss_Kulturhus_thumbnail.webp',
+  //   date: '1. desember',
+  //   pageUrl: '/docs/moss',
+  // },
   {
     id: 2,
     name: 'Bærum Kulturhus, Sandvika',

@@ -129,10 +129,10 @@ export const navigation = [
       //   href: '/docs/kongsberg',
       // },
       // { title: 'Lillestrøm', href: '/docs/lillestroem' },
-      {
-        title: 'Moss',
-        href: '/docs/moss',
-      },
+      // {
+      //   title: 'Moss',
+      //   href: '/docs/moss',
+      // },
 
       // { title: 'Ullensaker', href: '/docs/ullensaker' },
     ],
