@@ -17,13 +17,13 @@ const concerts = [
   //   date: '1. desember',
   //   pageUrl: '/docs/moss',
   // },
-  {
-    id: 2,
-    name: 'Bærum Kulturhus, Sandvika',
-    imageUrl: '/images/thumbnails/Bærum_kulturhus_thumb.webp',
-    date: '2. desember',
-    pageUrl: '/docs/sandvika',
-  },
+  // {
+  //   id: 2,
+  //   name: 'Bærum Kulturhus, Sandvika',
+  //   imageUrl: '/images/thumbnails/Bærum_kulturhus_thumb.webp',
+  //   date: '2. desember',
+  //   pageUrl: '/docs/sandvika',
+  // },
   {
     id: 3,
     name: 'Blå Grotte, Fredrikstad',
@@ -177,19 +177,19 @@ export function Desember() {
         <ol className="mt-4 space-y-1 text-sm leading-6 text-gray-500">
           {concerts.map((concert) => (
             <Link key={concert.id} href={concert.pageUrl}>
-              <li className="group flex items-center space-x-4 rounded-xl border border-transparent px-4 py-0 transition duration-300 ease-in-out focus-within:bg-gray-50 hover:border hover:border-amber-400/5 hover:bg-gray-50 dark:hover:bg-gray-800/60">
+              <li className="flex items-center px-4 py-0 space-x-4 transition duration-300 ease-in-out border border-transparent group rounded-xl focus-within:bg-gray-50 hover:border hover:border-amber-400/5 hover:bg-gray-50 dark:hover:bg-gray-800/60">
                 <Image
                   src={concert.imageUrl}
                   alt={concert.name}
                   width={50}
                   height={50}
-                  className="h-14 w-14 flex-none rounded-full border border-amber-400/50"
+                  className="flex-none border rounded-full h-14 w-14 border-amber-400/50"
                 />
                 <div className="flex-auto font-normal">
                   <p className="text-lg font-medium text-gray-900 dark:text-white">
                     {concert.name}
                   </p>
-                  <p className="-mt-5 flex gap-x-3">
+                  <p className="flex -mt-5 gap-x-3">
                     <span className="font-bold text-gray-900 dark:text-white">
                       {concert.date}
                     </span>
@@ -199,7 +199,7 @@ export function Desember() {
                 <div>
                   <div className="-m-2 flex items-center rounded-full p-1.5 text-gray-500 hover:text-gray-600 dark:text-amber-400">
                     <EllipsisVerticalIcon
-                      className="h-6 w-6"
+                      className="w-6 h-6"
                       aria-hidden="true"
                     />
                   </div>
