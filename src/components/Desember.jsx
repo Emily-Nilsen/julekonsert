@@ -31,13 +31,13 @@ const concerts = [
   //   date: '3. desember',
   //   pageUrl: '/docs/fredrikstad',
   // },
-  {
-    id: 4,
-    name: 'Nøtterøy Kulturhus',
-    imageUrl: '/images/thumbnails/Nøtterøy_kulturhus_thumb.webp',
-    date: '4. desember',
-    pageUrl: '/docs/noetteroey',
-  },
+  // {
+  //   id: 4,
+  //   name: 'Nøtterøy Kulturhus',
+  //   imageUrl: '/images/thumbnails/Nøtterøy_kulturhus_thumb.webp',
+  //   date: '4. desember',
+  //   pageUrl: '/docs/noetteroey',
+  // },
   {
     id: 5,
     name: 'Bølgen Kulturhus, Larvik',
