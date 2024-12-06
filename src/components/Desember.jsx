@@ -38,13 +38,13 @@ const concerts = [
   //   date: '4. desember',
   //   pageUrl: '/docs/noetteroey',
   // },
-  {
-    id: 5,
-    name: 'Bølgen Kulturhus, Larvik',
-    imageUrl: '/images/thumbnails/Bølgen_kulturhus_thumb.webp',
-    date: '5. desember',
-    pageUrl: '/docs/larvik',
-  },
+  // {
+  //   id: 5,
+  //   name: 'Bølgen Kulturhus, Larvik',
+  //   imageUrl: '/images/thumbnails/Bølgen_kulturhus_thumb.webp',
+  //   date: '5. desember',
+  //   pageUrl: '/docs/larvik',
+  // },
   {
     id: 6,
     name: 'Asker Kulturhus',

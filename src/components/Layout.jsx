@@ -96,7 +96,7 @@ export const navigation = [
     links: [
       { title: 'Holmestrand', href: '/docs/holmestrand' },
       // { title: 'Horten', href: '/docs/horten' },
-      { title: 'Larvik', href: '/docs/larvik' },
+      // { title: 'Larvik', href: '/docs/larvik' },
       // { title: 'Nøtterøy', href: '/docs/noetteroey' },
       // { title: 'Sandefjord', href: '/docs/sandefjord' },
     ],
