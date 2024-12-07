@@ -45,13 +45,13 @@ const concerts = [
   //   date: '5. desember',
   //   pageUrl: '/docs/larvik',
   // },
-  {
-    id: 6,
-    name: 'Asker Kulturhus',
-    imageUrl: '/images/thumbnails/Asker_kulturhus_thumb.webp',
-    date: '6. desember',
-    pageUrl: '/docs/asker',
-  },
+  // {
+  //   id: 6,
+  //   name: 'Asker Kulturhus',
+  //   imageUrl: '/images/thumbnails/Asker_kulturhus_thumb.webp',
+  //   date: '6. desember',
+  //   pageUrl: '/docs/asker',
+  // },
   {
     id: 7,
     name: 'Biorama, Holmestrand',

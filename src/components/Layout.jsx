@@ -34,13 +34,13 @@ export const navigation = [
       // { title: 'Mandal', href: '/docs/mandal' },
     ],
   },
-  {
-    title: 'Akershus',
-    links: [
-      { title: 'Asker', href: '/docs/asker' },
-      // { title: 'Sandvika', href: '/docs/sandvika' },
-    ],
-  },
+  // {
+  //   title: 'Akershus',
+  //   links: [
+  //     { title: 'Asker', href: '/docs/asker' },
+
+  //   ],
+  // },
   {
     title: 'Innlandet',
     links: [
