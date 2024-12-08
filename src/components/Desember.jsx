@@ -52,13 +52,13 @@ const concerts = [
   //   date: '6. desember',
   //   pageUrl: '/docs/asker',
   // },
-  {
-    id: 7,
-    name: 'Biorama, Holmestrand',
-    imageUrl: '/images/thumbnails/Biorama_thumb.webp',
-    date: '7. desember',
-    pageUrl: '/docs/holmestrand',
-  },
+  // {
+  //   id: 7,
+  //   name: 'Biorama, Holmestrand',
+  //   imageUrl: '/images/thumbnails/Biorama_thumb.webp',
+  //   date: '7. desember',
+  //   pageUrl: '/docs/holmestrand',
+  // },
   {
     id: 8,
     name: 'Hadeland Kultursal',

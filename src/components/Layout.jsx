@@ -91,16 +91,7 @@ export const navigation = [
       { title: 'Trondheim', href: '/docs/trondheim' },
     ],
   },
-  {
-    title: 'Vestfold og Telemark',
-    links: [
-      { title: 'Holmestrand', href: '/docs/holmestrand' },
-      // { title: 'Horten', href: '/docs/horten' },
-      // { title: 'Larvik', href: '/docs/larvik' },
-      // { title: 'Nøtterøy', href: '/docs/noetteroey' },
-      // { title: 'Sandefjord', href: '/docs/sandefjord' },
-    ],
-  },
+
   {
     title: 'Vestland',
     links: [
