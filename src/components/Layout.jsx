@@ -46,7 +46,7 @@ export const navigation = [
     links: [
       // { title: 'Elverum', href: '/docs/elverum' },
       // { title: 'Hamar', href: '/docs/hamar' },
-      { title: 'Hadeland', href: '/docs/hadeland' },
+      // { title: 'Hadeland', href: '/docs/hadeland' },
       {
         title: 'Lillehammer',
         href: '/docs/lillehammer',

@@ -59,13 +59,13 @@ const concerts = [
   //   date: '7. desember',
   //   pageUrl: '/docs/holmestrand',
   // },
-  {
-    id: 8,
-    name: 'Hadeland Kultursal',
-    imageUrl: '/images/thumbnails/Hadeland_Kultursal_thumb.webp',
-    date: '8. desember',
-    pageUrl: '/docs/hadeland',
-  },
+  // {
+  //   id: 8,
+  //   name: 'Hadeland Kultursal',
+  //   imageUrl: '/images/thumbnails/Hadeland_Kultursal_thumb.webp',
+  //   date: '8. desember',
+  //   pageUrl: '/docs/hadeland',
+  // },
   {
     id: 9,
     name: 'Oslo Konserthus',
