@@ -41,18 +41,7 @@ export const navigation = [
 
   //   ],
   // },
-  {
-    title: 'Innlandet',
-    links: [
-      // { title: 'Elverum', href: '/docs/elverum' },
-      // { title: 'Hamar', href: '/docs/hamar' },
-      // { title: 'Hadeland', href: '/docs/hadeland' },
-      {
-        title: 'Lillehammer',
-        href: '/docs/lillehammer',
-      },
-    ],
-  },
+
   // {
   //   title: 'Møre og Romsdal',
   //   links: [
@@ -64,10 +53,10 @@ export const navigation = [
     title: 'Nordland',
     links: [{ title: 'Bodø', href: '/docs/bodoe' }],
   },
-  {
-    title: 'Oslo',
-    links: [{ title: 'Oslo', href: '/docs/oslo' }],
-  },
+  // {
+  //   title: 'Oslo',
+  //   links: [{ title: 'Oslo', href: '/docs/oslo' }],
+  // },
   {
     title: 'Rogaland',
     links: [
