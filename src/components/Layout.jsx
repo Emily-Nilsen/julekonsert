@@ -28,9 +28,9 @@ export const navigation = [
   {
     title: 'Agder',
     links: [
-      { title: 'Arendal', href: '/docs/arendal' },
+      // { title: 'Arendal', href: '/docs/arendal' },
       { title: 'Flekkefjord', href: '/docs/flekkefjord' },
-      { title: 'Kristiansand', href: '/docs/kristiansand' },
+      // { title: 'Kristiansand', href: '/docs/kristiansand' },
       // { title: 'Mandal', href: '/docs/mandal' },
     ],
   },
