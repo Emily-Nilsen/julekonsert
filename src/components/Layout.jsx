@@ -25,15 +25,7 @@ export const navigation = [
       { title: 'Kontakt oss', href: '/docs/kontakt' },
     ],
   },
-  {
-    title: 'Agder',
-    links: [
-      // { title: 'Arendal', href: '/docs/arendal' },
-      { title: 'Flekkefjord', href: '/docs/flekkefjord' },
-      // { title: 'Kristiansand', href: '/docs/kristiansand' },
-      // { title: 'Mandal', href: '/docs/mandal' },
-    ],
-  },
+
   // {
   //   title: 'Akershus',
   //   links: [

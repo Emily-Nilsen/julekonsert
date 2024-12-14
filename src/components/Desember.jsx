@@ -94,13 +94,13 @@ const concerts = [
   //   date: '12. desember',
   //   pageUrl: '/docs/kristiansand',
   // },
-  {
-    id: 13,
-    name: 'Flekkefjord Kulturhus Spira',
-    imageUrl: '/images/thumbnails/Flekkefjord_thumb.webp',
-    date: '13. desember',
-    pageUrl: '/docs/flekkefjord',
-  },
+  // {
+  //   id: 13,
+  //   name: 'Flekkefjord Kulturhus Spira',
+  //   imageUrl: '/images/thumbnails/Flekkefjord_thumb.webp',
+  //   date: '13. desember',
+  //   pageUrl: '/docs/flekkefjord',
+  // },
   {
     id: 14,
     name: 'Sandnes Kulturhus',
