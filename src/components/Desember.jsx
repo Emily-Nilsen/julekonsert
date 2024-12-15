@@ -101,13 +101,13 @@ const concerts = [
   //   date: '13. desember',
   //   pageUrl: '/docs/flekkefjord',
   // },
-  {
-    id: 14,
-    name: 'Sandnes Kulturhus',
-    imageUrl: '/images/thumbnails/Sandnes_kulturhus_thumb.webp',
-    date: '14. desember',
-    pageUrl: '/docs/sandnes',
-  },
+  // {
+  //   id: 14,
+  //   name: 'Sandnes Kulturhus',
+  //   imageUrl: '/images/thumbnails/Sandnes_kulturhus_thumb.webp',
+  //   date: '14. desember',
+  //   pageUrl: '/docs/sandnes',
+  // },
   {
     id: 15,
     name: 'Stavanger Konserthus',

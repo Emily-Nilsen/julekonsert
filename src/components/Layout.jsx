@@ -53,10 +53,10 @@ export const navigation = [
     title: 'Rogaland',
     links: [
       { title: 'Haugesund', href: '/docs/haugesund' },
-      {
-        title: 'Sandnes',
-        href: '/docs/sandnes',
-      },
+      // {
+      //   title: 'Sandnes',
+      //   href: '/docs/sandnes',
+      // },
       { title: 'Stavanger', href: '/docs/stavanger' },
     ],
   },
