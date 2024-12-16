@@ -108,13 +108,13 @@ const concerts = [
   //   date: '14. desember',
   //   pageUrl: '/docs/sandnes',
   // },
-  {
-    id: 15,
-    name: 'Stavanger Konserthus',
-    imageUrl: '/images/thumbnails/Stavanger_konserthus_thumb.webp',
-    date: '15. desember',
-    pageUrl: '/docs/stavanger',
-  },
+  // {
+  //   id: 15,
+  //   name: 'Stavanger Konserthus',
+  //   imageUrl: '/images/thumbnails/Stavanger_konserthus_thumb.webp',
+  //   date: '15. desember',
+  //   pageUrl: '/docs/stavanger',
+  // },
   {
     id: 16,
     name: 'Festiviteten, Haugesund',
