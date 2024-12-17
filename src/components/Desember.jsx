@@ -115,13 +115,13 @@ const concerts = [
   //   date: '15. desember',
   //   pageUrl: '/docs/stavanger',
   // },
-  {
-    id: 16,
-    name: 'Festiviteten, Haugesund',
-    imageUrl: '/images/thumbnails/Festiviteten_Haugesund_thumb.webp',
-    date: '16. desember',
-    pageUrl: '/docs/haugesund',
-  },
+  // {
+  //   id: 16,
+  //   name: 'Festiviteten, Haugesund',
+  //   imageUrl: '/images/thumbnails/Festiviteten_Haugesund_thumb.webp',
+  //   date: '16. desember',
+  //   pageUrl: '/docs/haugesund',
+  // },
   {
     id: 17,
     name: 'Grieghallen, Bergen',

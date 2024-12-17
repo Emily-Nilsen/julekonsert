@@ -49,17 +49,7 @@ export const navigation = [
   //   title: 'Oslo',
   //   links: [{ title: 'Oslo', href: '/docs/oslo' }],
   // },
-  {
-    title: 'Rogaland',
-    links: [
-      { title: 'Haugesund', href: '/docs/haugesund' },
-      // {
-      //   title: 'Sandnes',
-      //   href: '/docs/sandnes',
-      // },
-      { title: 'Stavanger', href: '/docs/stavanger' },
-    ],
-  },
+
   {
     title: 'Troms og Finnmark',
     links: [{ title: 'Tromsø', href: '/docs/tromsoe' }],
