@@ -122,13 +122,13 @@ const concerts = [
   //   date: '16. desember',
   //   pageUrl: '/docs/haugesund',
   // },
-  {
-    id: 17,
-    name: 'Grieghallen, Bergen',
-    imageUrl: '/images/thumbnails/Grieghallen_Bergen_thumb.webp',
-    date: '17. desember',
-    pageUrl: '/docs/bergen',
-  },
+  // {
+  //   id: 17,
+  //   name: 'Grieghallen, Bergen',
+  //   imageUrl: '/images/thumbnails/Grieghallen_Bergen_thumb.webp',
+  //   date: '17. desember',
+  //   pageUrl: '/docs/bergen',
+  // },
   {
     id: 18,
     name: 'Olavshallen, Trondheim',

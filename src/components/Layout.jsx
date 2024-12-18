@@ -64,19 +64,6 @@ export const navigation = [
   },
 
   {
-    title: 'Vestland',
-    links: [
-      { title: 'Bergen', href: '/docs/bergen' },
-      // { title: 'Os', href: '/docs/os' },
-      // { title: 'Tørvikbygd', href: '/docs/torvikbygd' },
-      // { title: 'Voss', href: '/docs/voss' },
-      // {
-      //   title: 'Nordfjord',
-      //   href: '/docs/nordfjord',
-      // },
-    ],
-  },
-  {
     title: 'Viken',
     links: [
       // { title: 'Askim', href: '/docs/askim' },
