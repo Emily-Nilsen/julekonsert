@@ -129,13 +129,13 @@ const concerts = [
   //   date: '17. desember',
   //   pageUrl: '/docs/bergen',
   // },
-  {
-    id: 18,
-    name: 'Olavshallen, Trondheim',
-    imageUrl: '/images/thumbnails/Olavshallen_thumb.webp',
-    date: '18. desember',
-    pageUrl: '/docs/trondheim',
-  },
+  // {
+  //   id: 18,
+  //   name: 'Olavshallen, Trondheim',
+  //   imageUrl: '/images/thumbnails/Olavshallen_thumb.webp',
+  //   date: '18. desember',
+  //   pageUrl: '/docs/trondheim',
+  // },
   {
     id: 19,
     name: 'Kulturhuset i Tromsø',

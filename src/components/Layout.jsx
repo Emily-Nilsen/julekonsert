@@ -59,7 +59,7 @@ export const navigation = [
     links: [
       // { title: 'Grong', href: '/docs/grong' },
       { title: 'Stjørdal', href: '/docs/stjoerdal' },
-      { title: 'Trondheim', href: '/docs/trondheim' },
+      // { title: 'Trondheim', href: '/docs/trondheim' },
     ],
   },
 
