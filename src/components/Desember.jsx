@@ -136,13 +136,13 @@ const concerts = [
   //   date: '18. desember',
   //   pageUrl: '/docs/trondheim',
   // },
-  {
-    id: 19,
-    name: 'Kulturhuset i Tromsø',
-    imageUrl: '/images/thumbnails/Kulturhuset_tromsø_thumb.webp',
-    date: '19. desember',
-    pageUrl: '/docs/tromsoe',
-  },
+  // {
+  //   id: 19,
+  //   name: 'Kulturhuset i Tromsø',
+  //   imageUrl: '/images/thumbnails/Kulturhuset_tromsø_thumb.webp',
+  //   date: '19. desember',
+  //   pageUrl: '/docs/tromsoe',
+  // },
   {
     id: 20,
     name: 'Stormen, Bodø',

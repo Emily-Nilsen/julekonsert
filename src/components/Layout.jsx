@@ -50,10 +50,10 @@ export const navigation = [
   //   links: [{ title: 'Oslo', href: '/docs/oslo' }],
   // },
 
-  {
-    title: 'Troms og Finnmark',
-    links: [{ title: 'Tromsø', href: '/docs/tromsoe' }],
-  },
+  // {
+  //   title: 'Troms og Finnmark',
+  //   links: [{ title: 'Tromsø', href: '/docs/tromsoe' }],
+  // },
   {
     title: 'Trøndelag',
     links: [
