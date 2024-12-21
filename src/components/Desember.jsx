@@ -143,13 +143,13 @@ const concerts = [
   //   date: '19. desember',
   //   pageUrl: '/docs/tromsoe',
   // },
-  {
-    id: 20,
-    name: 'Stormen, Bodø',
-    imageUrl: '/images/thumbnails/Stormen_thumb.webp',
-    date: '20. desember',
-    pageUrl: '/docs/bodoe',
-  },
+  // {
+  //   id: 20,
+  //   name: 'Stormen, Bodø',
+  //   imageUrl: '/images/thumbnails/Stormen_thumb.webp',
+  //   date: '20. desember',
+  //   pageUrl: '/docs/bodoe',
+  // },
   {
     id: 21,
     name: 'Kimen, Stjørdal',

@@ -41,10 +41,10 @@ export const navigation = [
   //     { title: 'Ålesund', href: '/docs/aalesund' },
   //   ],
   // },
-  {
-    title: 'Nordland',
-    links: [{ title: 'Bodø', href: '/docs/bodoe' }],
-  },
+  // {
+  //   title: 'Nordland',
+  //   links: [{ title: 'Bodø', href: '/docs/bodoe' }],
+  // },
   // {
   //   title: 'Oslo',
   //   links: [{ title: 'Oslo', href: '/docs/oslo' }],
